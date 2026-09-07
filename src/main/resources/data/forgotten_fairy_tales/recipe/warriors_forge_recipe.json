@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cdc",
+    "e e"
+  ],
+  "key": {
+    "a": "minecraft:writable_book",
+    "b": "minecraft:red_carpet",
+    "c": "minecraft:stripped_oak_wood",
+    "d": "minecraft:oak_slab",
+    "e": "minecraft:oak_log"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:warriors_forge",
+    "count": 1
+  }
+}

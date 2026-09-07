@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond_sword",
+    "minecraft:stone_sword",
+    "minecraft:trident",
+    "minecraft:netherite_sword",
+    "minecraft:wooden_sword",
+    "minecraft:golden_sword",
+    "minecraft:iron_sword",
+    "forgotten_fairy_tales:swordvoin",
+    "forgotten_fairy_tales:undead_hunter_sword"
+  ]
+}

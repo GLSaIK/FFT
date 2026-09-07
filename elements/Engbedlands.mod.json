@@ -1,0 +1,50 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "engredsand2",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.JIGSAW"
+      }
+    ],
+    "spacing": 14,
+    "separation": 6,
+    "restrictionBiomes": [
+      {
+        "value": "badlands"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "main",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "engsand3",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.JIGSAW"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

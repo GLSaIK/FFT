@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:egg",
+    "minecraft:beef",
+    "minecraft:salmon"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:tartar",
+    "count": 1
+  }
+}

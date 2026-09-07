@@ -1,0 +1,67 @@
+{
+  "model": {
+    "type": "forgotten_fairy_tales:legacy_overrides",
+    "overrides": [
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "forgotten_fairy_tales:cursed_magic_launcher/cml"
+            },
+            "value": 0
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "forgotten_fairy_tales:item/cursed_magic_launcher_0"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "forgotten_fairy_tales:cursed_magic_launcher/cml"
+            },
+            "value": 0.01
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "forgotten_fairy_tales:item/cursed_magic_launcher_1"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "forgotten_fairy_tales:cursed_magic_launcher/cml"
+            },
+            "value": 0.5
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "forgotten_fairy_tales:item/cursed_magic_launcher_2"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "forgotten_fairy_tales:cursed_magic_launcher/cml"
+            },
+            "value": 0.9
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "forgotten_fairy_tales:item/cursed_magic_launcher_3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "forgotten_fairy_tales:item/cursed_magic_launcher"
+    }
+  }
+}

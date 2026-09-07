@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 5,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "forgotten_fairy_tales:pyrite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_iron_ore"
+          }
+        },
+        "state": {
+          "Name": "forgotten_fairy_tales:pyrite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:tuff"
+          }
+        },
+        "state": {
+          "Name": "forgotten_fairy_tales:pyrite"
+        }
+      }
+    ]
+  }
+}

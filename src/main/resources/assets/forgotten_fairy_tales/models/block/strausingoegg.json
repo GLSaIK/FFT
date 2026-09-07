@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/egg",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/egg",
+    "particle": "forgotten_fairy_tales:block/egg",
+    "0": "forgotten_fairy_tales:block/egg"
+  },
+  "render_type": "solid"
+}

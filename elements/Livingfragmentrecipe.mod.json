@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Drop"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONEBRICK#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONEBRICK#0"
+      },
+      {
+        "value": "CUSTOM:Drop"
+      },
+      {
+        "value": "Blocks.STONEBRICK#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONEBRICK#0"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LIvingFragment"
+    },
+    "name": "living_fragment_recipe",
+    "namespace": "mod"
+  }
+}

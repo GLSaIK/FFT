@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": "#minecraft:mushrooms",
+    "b": "minecraft:milk_bucket"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:milkwithenzymes",
+    "count": 1
+  }
+}

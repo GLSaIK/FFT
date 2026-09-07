@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forgotten_fairy_tales:snow",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 13,
+    "separation": 5,
+    "salt": 966766763
+  }
+}

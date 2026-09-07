@@ -1,0 +1,14 @@
+{
+  "parent": "forgotten_fairy_tales:custom/cheeseincauldron",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/cheese",
+    "particle": "minecraft:block/cauldron_side",
+    "4": "forgotten_fairy_tales:block/cheeseincauldronepng",
+    "5": "minecraft:block/cauldron_bottom",
+    "6": "minecraft:block/cauldron_inner",
+    "7": "minecraft:block/cauldron_side",
+    "8": "minecraft:block/cauldron_top",
+    "missing": "forgotten_fairy_tales:block/"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "forgotten_fairy_tales:magd_main5",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "forgotten_fairy_tales:magdlib",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:CursedFireballItem"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "item.firecharge.use"
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 2.0,
+    "damage": 1.0,
+    "knockback": 1,
+    "entityModel": "Default",
+    "customModelTexture": "cursedfireball.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsEntity": {
+      "name": "CursedFireballKoghdaSnariadPopadaietVSushchnost"
+    }
+  }
+}

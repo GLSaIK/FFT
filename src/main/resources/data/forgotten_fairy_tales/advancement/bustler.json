@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "forgotten_fairy_tales:warriordrink"
+    },
+    "title": {
+      "translate": "advancements.bustler.title"
+    },
+    "description": {
+      "translate": "advancements.bustler.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bustler_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 13
+  },
+  "parent": "forgotten_fairy_tales:warrior_achieve"
+}

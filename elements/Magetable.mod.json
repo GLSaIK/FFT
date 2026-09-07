@@ -1,0 +1,532 @@
+{
+  "_fv": 79,
+  "_type": "block",
+  "definition": {
+    "texture": "magetablenew",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "magetablenew:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "animations": [],
+    "itemTexture": "",
+    "particleTexture": "",
+    "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 2.0,
+        "My": 13.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 14.0,
+        "my": 0.0,
+        "mz": -16.0,
+        "Mx": 16.0,
+        "My": 13.0,
+        "Mz": -14.0,
+        "subtract": false
+      },
+      {
+        "mx": 14.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 13.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": -16.0,
+        "Mx": 2.0,
+        "My": 13.0,
+        "Mz": -14.0,
+        "subtract": false
+      },
+      {
+        "mx": 30.0,
+        "my": 0.0,
+        "mz": 14.0,
+        "Mx": 32.0,
+        "My": 13.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 30.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 32.0,
+        "My": 13.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 14.0,
+        "Mx": 2.0,
+        "My": 13.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 7.0,
+        "mz": 14.0,
+        "Mx": 30.0,
+        "My": 9.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 7.0,
+        "mz": 2.0,
+        "Mx": 2.0,
+        "My": 9.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 7.0,
+        "mz": -14.0,
+        "Mx": 2.0,
+        "My": 9.0,
+        "Mz": 0.0,
+        "subtract": false
+      },
+      {
+        "mx": 16.0,
+        "my": 7.0,
+        "mz": 0.0,
+        "Mx": 30.0,
+        "My": 9.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 7.0,
+        "mz": -16.0,
+        "Mx": 14.0,
+        "My": 9.0,
+        "Mz": -14.0,
+        "subtract": false
+      },
+      {
+        "mx": 14.0,
+        "my": 7.0,
+        "mz": -14.0,
+        "Mx": 16.0,
+        "My": 9.0,
+        "Mz": 0.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 13.0,
+        "mz": 0.0,
+        "Mx": 32.0,
+        "My": 14.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 30.0,
+        "my": 7.0,
+        "mz": 2.0,
+        "Mx": 32.0,
+        "My": 9.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 13.0,
+        "mz": -16.0,
+        "Mx": 16.0,
+        "My": 14.0,
+        "Mz": 0.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 14.0,
+        "mz": 15.0,
+        "Mx": 16.0,
+        "My": 27.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 14.0,
+        "mz": 0.0,
+        "Mx": 1.0,
+        "My": 27.0,
+        "Mz": 15.0,
+        "subtract": false
+      },
+      {
+        "mx": 22.0,
+        "my": 14.0,
+        "mz": 12.7,
+        "Mx": 25.0,
+        "My": 15.0,
+        "Mz": 15.7,
+        "subtract": false
+      },
+      {
+        "mx": 22.0,
+        "my": 20.5,
+        "mz": 11.1,
+        "Mx": 25.0,
+        "My": 20.9,
+        "Mz": 14.1,
+        "subtract": false
+      },
+      {
+        "mx": 23.0,
+        "my": 24.39106,
+        "mz": 12.25761,
+        "Mx": 24.0,
+        "My": 25.39106,
+        "Mz": 15.25761,
+        "subtract": false
+      },
+      {
+        "mx": 23.0,
+        "my": 15.0,
+        "mz": 13.7,
+        "Mx": 24.0,
+        "My": 20.0,
+        "Mz": 14.7,
+        "subtract": false
+      },
+      {
+        "mx": 23.0,
+        "my": 20.6,
+        "mz": 12.1,
+        "Mx": 24.0,
+        "My": 22.6,
+        "Mz": 13.1,
+        "subtract": false
+      },
+      {
+        "mx": 19.5,
+        "my": 22.6,
+        "mz": 12.1,
+        "Mx": 20.5,
+        "My": 23.6,
+        "Mz": 12.1,
+        "subtract": false
+      },
+      {
+        "mx": 23.33631,
+        "my": 22.6,
+        "mz": 11.79858,
+        "Mx": 24.33631,
+        "My": 23.6,
+        "Mz": 11.79858,
+        "subtract": false
+      },
+      {
+        "mx": 23.0,
+        "my": 22.70396,
+        "mz": 14.5446,
+        "Mx": 24.0,
+        "My": 24.70396,
+        "Mz": 15.5446,
+        "subtract": false
+      },
+      {
+        "mx": 23.0,
+        "my": 19.47324,
+        "mz": 11.90835,
+        "Mx": 24.0,
+        "My": 20.47324,
+        "Mz": 14.90835,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 14.0,
+        "mz": 2.0,
+        "Mx": 9.0,
+        "My": 16.0,
+        "Mz": 4.0,
+        "subtract": false
+      },
+      {
+        "mx": 11.0,
+        "my": 14.0,
+        "mz": 6.0,
+        "Mx": 13.0,
+        "My": 16.0,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 11.0,
+        "my": 14.0,
+        "mz": 10.0,
+        "Mx": 12.0,
+        "My": 17.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 4.0,
+        "my": 14.0,
+        "mz": 3.0,
+        "Mx": 5.0,
+        "My": 16.0,
+        "Mz": 4.0,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 14.0,
+        "mz": 10.0,
+        "Mx": 9.0,
+        "My": 17.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 4.0,
+        "my": 14.0,
+        "mz": 10.0,
+        "Mx": 5.0,
+        "My": 17.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 14.0,
+        "mz": 6.0,
+        "Mx": 5.0,
+        "My": 17.0,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 20.0,
+        "my": 16.0,
+        "mz": 3.0,
+        "Mx": 28.0,
+        "My": 17.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 21.0,
+        "my": 15.0,
+        "mz": 4.0,
+        "Mx": 27.0,
+        "My": 16.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 20.0,
+        "my": 14.0,
+        "mz": 3.0,
+        "Mx": 28.0,
+        "My": 15.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 12.0,
+        "my": 14.0,
+        "mz": -10.0,
+        "Mx": 13.0,
+        "My": 15.0,
+        "Mz": -4.0,
+        "subtract": false
+      },
+      {
+        "mx": 12.0,
+        "my": 15.0,
+        "mz": -10.0,
+        "Mx": 13.0,
+        "My": 15.3,
+        "Mz": -8.0,
+        "subtract": false
+      },
+      {
+        "mx": 12.0,
+        "my": 15.0,
+        "mz": -11.0,
+        "Mx": 13.0,
+        "My": 15.0,
+        "Mz": -10.0,
+        "subtract": false
+      },
+      {
+        "mx": 23.0,
+        "my": 20.01828,
+        "mz": 14.27608,
+        "Mx": 24.0,
+        "My": 23.01828,
+        "Mz": 15.27608,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Magetable",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Mage"
+      }
+    ],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "tickRate": 2,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "harp",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "IGNORE",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "WOOD"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
+    "hasInventory": true,
+    "guiBoundTo": "Magetableui",
+    "openGUIOnRightClick": false,
+    "inventorySize": 15,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [
+      1
+    ],
+    "inventoryInSlotIDs": [
+      0
+    ],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "MagetablePriShchielchkiePKMPoBloku"
+    },
+    "onBlockAdded": {
+      "name": "MagetablePriDobavlieniiBloka"
+    },
+    "onTickUpdate": {
+      "name": "MagetablePriObnovlieniiTika"
+    },
+    "onDestroyedByPlayer": {
+      "name": "MagetablePriRazrushieniiBlokaIghrokom"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

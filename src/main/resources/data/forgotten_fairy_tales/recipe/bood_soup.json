@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:wheat",
+    "#minecraft:meat",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:blood_soup",
+    "count": 1
+  }
+}

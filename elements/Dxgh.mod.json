@@ -1,0 +1,29 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Сломанная броня",
+    "icon": "razbitaia_bronia",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "ARMOR"
+        },
+        "amount": -5.0,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

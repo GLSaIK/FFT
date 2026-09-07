@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Drop"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.RAW_IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:Drop"
+      },
+      {
+        "value": "Blocks.RAW_IRON_BLOCK"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:Ironrod"
+      },
+      {
+        "value": "CUSTOM:ReinforcedRope"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ironrod"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Newagepickaxe"
+    },
+    "name": "new_age_pickaxe_recipe",
+    "namespace": "mod"
+  }
+}

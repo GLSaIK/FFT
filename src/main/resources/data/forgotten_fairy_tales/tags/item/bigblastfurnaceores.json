@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:raw_gold",
+    "forgotten_fairy_tales:raw_pyrite_block",
+    "minecraft:raw_iron_block",
+    "minecraft:raw_iron",
+    "minecraft:raw_copper",
+    "forgotten_fairy_tales:pyrite_ore",
+    "minecraft:raw_gold_block",
+    "minecraft:raw_copper_block"
+  ]
+}

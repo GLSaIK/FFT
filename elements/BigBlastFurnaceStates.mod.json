@@ -1,0 +1,32 @@
+{
+  "_fv": 79,
+  "_type": "blockstates",
+  "definition": {
+    "block": "BigBlastFurnace",
+    "blockstateList": [
+      {
+        "texture": "fireclayfurnaceside",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "fireclayfurnaceside",
+        "renderType": 2,
+        "customModelName": "fireclayfurnacelit:default",
+        "luminance": 2,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": -16.0,
+            "mz": 0.0,
+            "Mx": 32.0,
+            "My": 16.0,
+            "Mz": 32.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

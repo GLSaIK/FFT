@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "forgotten_fairy_tales:block/warriordrinkblock",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "forgotten_fairy_tales:block/warriordrinkblock"
+    },
+    "axis=z": {
+      "model": "forgotten_fairy_tales:block/warriordrinkblock",
+      "x": 90
+    }
+  }
+}

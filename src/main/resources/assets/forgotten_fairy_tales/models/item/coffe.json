@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/coffee",
+  "textures": {
+    "8": "forgotten_fairy_tales:block/coffe",
+    "particle": "forgotten_fairy_tales:item/coffett"
+  }
+}

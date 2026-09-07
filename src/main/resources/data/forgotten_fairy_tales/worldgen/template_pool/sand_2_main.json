@@ -1,0 +1,17 @@
+{
+  "name": "forgotten_fairy_tales:sand_2_main",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "forgotten_fairy_tales:sand2d",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

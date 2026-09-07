@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "forgotten_fairy_tales:strausingoegg"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:egg_shard",
+    "count": 4
+  }
+}

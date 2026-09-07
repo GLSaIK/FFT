@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "forgotten_fairy_tales:blocks/colomntr",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:empty"
+        }
+      ]
+    }
+  ]
+}

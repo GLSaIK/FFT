@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "forgotten_fairy_tales:school",
+  "size": 8,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "underground_structures",
+  "terrain_adaptation": "encapsulate",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -45
+    },
+    "max_inclusive": {
+      "absolute": 30
+    }
+  },
+  "biomes": "#minecraft:is_overworld",
+  "use_expansion_hack": false
+}

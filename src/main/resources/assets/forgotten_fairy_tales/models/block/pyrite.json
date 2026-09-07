@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/pyriteore",
+    "particle": "forgotten_fairy_tales:block/pyriteore"
+  },
+  "render_type": "solid"
+}

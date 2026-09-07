@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "net.saik.forgottenfairytales.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MouseZoomMixin",
+    "AbstractFurnaceBlockEntityMixin"
+  ],
+  "client": [
+    "PlayerAnimationMixin",
+    "PlayerAnimationRendererMixin",
+    "ItemInHandLayerMixin",
+    "CameraAccessor",
+    "EntityRenderDispatcherMixin",
+    "LivingEntityRendererMixin",
+    "ItemInHandRendererMixin",
+    "LevelRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}

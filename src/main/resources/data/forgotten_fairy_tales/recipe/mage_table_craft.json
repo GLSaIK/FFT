@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "f f"
+  ],
+  "key": {
+    "a": "minecraft:black_dye",
+    "b": "minecraft:white_carpet",
+    "c": "minecraft:feather",
+    "d": "minecraft:stripped_oak_wood",
+    "e": "minecraft:crafting_table",
+    "f": "minecraft:stripped_oak_log"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:magetable",
+    "count": 1
+  }
+}

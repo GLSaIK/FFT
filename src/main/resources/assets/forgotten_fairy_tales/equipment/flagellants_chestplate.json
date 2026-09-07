@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "forgotten_fairy_tales:flagellants_chestplate"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "forgotten_fairy_tales:flagellants_chestplate"
+      }
+    ]
+  }
+}

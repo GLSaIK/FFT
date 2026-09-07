@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "forgotten_fairy_tales:block/picnic_basket_block"
+    },
+    "facing=east": {
+      "model": "forgotten_fairy_tales:block/picnic_basket_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "forgotten_fairy_tales:block/picnic_basket_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "forgotten_fairy_tales:block/picnic_basket_block",
+      "y": 270
+    }
+  }
+}

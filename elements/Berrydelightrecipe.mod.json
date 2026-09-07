@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.SWEET_BERRIES"
+      },
+      {
+        "value": "Items.GLOW_BERRIES"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:minecraft:berries"
+      },
+      {
+        "value": "TAG:minecraft:berries"
+      },
+      {
+        "value": "TAG:minecraft:berries"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "TAG:minecraft:milk"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Berrydelight"
+    },
+    "name": "berry_delight_recipe",
+    "namespace": "mod"
+  }
+}

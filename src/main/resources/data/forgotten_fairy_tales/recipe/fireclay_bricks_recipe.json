@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "bcb",
+    " ba"
+  ],
+  "key": {
+    "a": "minecraft:clay_ball",
+    "b": "forgotten_fairy_tales:fireclay_brick",
+    "c": "minecraft:deepslate_bricks"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:fireclay_bricks",
+    "count": 1
+  }
+}

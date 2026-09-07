@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:wheat",
+    "minecraft:sugar",
+    "minecraft:wheat",
+    "#minecraft:meat",
+    "#minecraft:meat",
+    "#minecraft:meat",
+    "minecraft:wheat",
+    "minecraft:sugar",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:nutrientblock",
+    "count": 1
+  }
+}

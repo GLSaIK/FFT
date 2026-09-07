@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "forgotten_fairy_tales:iron_plate",
+    "b": "forgotten_fairy_tales:ironrod"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:iron_plate_block",
+    "count": 1
+  }
+}

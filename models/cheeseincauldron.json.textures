@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "4": "cheeseincauldronepng",
+        "5": "minecraft:cauldron_bottom",
+        "6": "minecraft:cauldron_inner",
+        "7": "minecraft:cauldron_side",
+        "8": "minecraft:cauldron_top",
+        "missing": ""
+      }
+    }
+  }
+}

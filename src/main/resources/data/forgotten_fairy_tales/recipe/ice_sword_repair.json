@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "forgotten_fairy_tales:iceswordbroken",
+    "#minecraft:allglass"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:glass_sword",
+    "count": 1
+  }
+}

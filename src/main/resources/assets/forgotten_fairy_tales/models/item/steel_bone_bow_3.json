@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/bow5",
+  "textures": {
+    "0": "forgotten_fairy_tales:block/lukandstreli",
+    "particle": "minecraft:item/bow_pulling_2"
+  }
+}

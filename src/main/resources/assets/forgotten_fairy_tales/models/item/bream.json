@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/lesh",
+  "textures": {
+    "0": "forgotten_fairy_tales:block/lesha",
+    "particle": "minecraft:item/stone_sword"
+  }
+}

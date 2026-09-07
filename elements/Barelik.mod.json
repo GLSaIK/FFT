@@ -1,0 +1,314 @@
+{
+  "_fv": 79,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Бочонок",
+    "mobLabel": "",
+    "mobModelName": "Modelbarrelik",
+    "mobModelTexture": "barelik.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "barrelik_0.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "Layer2"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "barrelik_1.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BarelikUsloviieVidimosti"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "barrelik_2.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "Barelikhit"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "barrelik_3.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "Bareliknorm"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "barrelik_4.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "Barelik5"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "barrelik_5.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "Barelikbad"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "barrelik_6.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "Barelik6"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "barrelik_7.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "Barelik7"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "barrelik_pbncot.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BarelikPBN"
+        }
+      }
+    ],
+    "animations": [
+      {
+        "animation": {
+          "value": "CUSTOM:barrelikAnimation.walking"
+        },
+        "speed": 1.0,
+        "walking": true,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:barrelikAnimation.afk_block"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "BarelikUsloviieProighryvaniia"
+        },
+        "walking": false,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:barrelikAnimation.appearances_afk_block"
+        },
+        "speed": 1.0,
+        "walking": false,
+        "amplitude": 1.0
+      }
+    ],
+    "modelWidth": 1.0,
+    "modelHeight": 1.0,
+    "modelShadowSize": 1.0,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -3381760,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -10079488,
+      "falpha": 0.0
+    },
+    "spawnEggTexture": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Ffft"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 10,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "guiBoundTo": "Barelickui",
+    "inventorySize": 10,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "ss0",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "name": "ss4",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "pet",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "fed",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "timer",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "whenMobIsHurt": {
+      "name": "BarelikPriRanieniiSushchnosti"
+    },
+    "onRightClickedOn": {
+      "name": "BarelikPriShchielchkiePKMPoSushchnosti"
+    },
+    "onMobTickUpdate": {
+      "name": "BarelikPriObnovlieniiTikaSushchnosti"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">Dfh,Dfh</field><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">10</field><field name=\"max_distance\">2</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">Dfh,Dfh</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">Dfh2,Dfh2</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.COOKIE</field></block></value></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"753\" y=\"223\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

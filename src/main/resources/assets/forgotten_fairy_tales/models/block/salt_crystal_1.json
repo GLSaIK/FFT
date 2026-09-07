@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/crystal_0",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/salt1",
+    "particle": "forgotten_fairy_tales:block/salt1",
+    "0": "forgotten_fairy_tales:block/salt1"
+  },
+  "render_type": "cutout"
+}

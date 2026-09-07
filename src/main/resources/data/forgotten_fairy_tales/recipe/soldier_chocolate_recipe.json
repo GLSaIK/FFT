@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "acd",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:iron_nugget",
+    "b": "minecraft:string",
+    "c": "minecraft:cocoa_beans",
+    "d": "#minecraft:mushrooms"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:soldier_chocolate",
+    "count": 4
+  }
+}

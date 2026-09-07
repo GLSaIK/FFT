@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forgotten_fairy_tales:colomndange",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 64,
+    "salt": 289623087
+  }
+}

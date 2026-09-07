@@ -1,0 +1,380 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_m_1",
+          "text": {
+            "fixedValue": "",
+            "name": "M1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 155,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_klass",
+          "text": {
+            "fixedValue": "klass"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 151,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_m_2",
+          "text": {
+            "fixedValue": "",
+            "name": "M2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 154,
+          "y": 78,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_m_3",
+          "text": {
+            "fixedValue": "",
+            "name": "M3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 155,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_drobovik",
+          "text": {
+            "fixedValue": "дробовик"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 233,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_1",
+          "text": {
+            "fixedValue": "",
+            "name": "D1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 246,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_2",
+          "text": {
+            "fixedValue": "",
+            "name": "D2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 246,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_d_3",
+          "text": {
+            "fixedValue": "",
+            "name": "D3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 246,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hgfd",
+          "text": "rev",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "M22"
+          },
+          "width": 23,
+          "height": 20,
+          "x": 130,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reverse",
+          "text": "rev",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "M12"
+          },
+          "width": 23,
+          "height": 20,
+          "x": 130,
+          "y": 52,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reverse1",
+          "text": "rev",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "M32"
+          },
+          "width": 23,
+          "height": 20,
+          "x": 130,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_poghoda",
+          "text": {
+            "fixedValue": "время"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 146,
+          "y": 144,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dien",
+          "text": "день",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Day"
+          },
+          "width": 28,
+          "height": 20,
+          "x": 130,
+          "y": 155,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_noch",
+          "text": "ночь",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Night"
+          },
+          "width": 28,
+          "height": 20,
+          "x": 158,
+          "y": 155,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_zalochit",
+          "text": "залочить",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Lockday"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 130,
+          "y": 175,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_poghoda1",
+          "text": {
+            "fixedValue": "погода"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 253,
+          "y": 144,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_iasno",
+          "text": "ясно",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Wclear"
+          },
+          "width": 32,
+          "height": 20,
+          "x": 232,
+          "y": 155,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dozhd",
+          "text": "дождь",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Wrain"
+          },
+          "width": 32,
+          "height": 20,
+          "x": 264,
+          "y": 155,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_zalochit1",
+          "text": "залочить",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Wlock"
+          },
+          "width": 64,
+          "height": 20,
+          "x": 232,
+          "y": 175,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reverse2",
+          "text": "rev",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "D11"
+          },
+          "width": 23,
+          "height": 20,
+          "x": 222,
+          "y": 52,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reverse3",
+          "text": "rev",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "D22"
+          },
+          "width": 23,
+          "height": 20,
+          "x": 222,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reverse4",
+          "text": "rev",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "F32"
+          },
+          "width": 23,
+          "height": 20,
+          "x": 222,
+          "y": 92,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

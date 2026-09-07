@@ -1,0 +1,13 @@
+{
+  "parent": "forgotten_fairy_tales:custom/slime_milk",
+  "textures": {
+    "all": "minecraft:block/cauldron_bottom",
+    "particle": "minecraft:block/cauldron_side",
+    "side": "minecraft:block/cauldron_side",
+    "top": "minecraft:block/cauldron_top",
+    "bottom": "minecraft:block/cauldron_bottom",
+    "inside": "minecraft:block/cauldron_inner",
+    "water": "forgotten_fairy_tales:block/milkfb2"
+  },
+  "render_type": "solid"
+}

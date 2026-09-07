@@ -1,0 +1,41 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "poladynia",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Книга первой помощи",
+    "specialInformation": {
+      "fixedValue": [
+        "Простейший справочник, в котором описано 42 способа вправить левую пятку"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Warrior"
+      }
+    ],
+    "efficiency": 0.0,
+    "attackSpeed": 17.0,
+    "enchantability": 1,
+    "damageVsEntity": 0.0,
+    "usageCount": 32,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BookPriShchielchkiePKM"
+    }
+  }
+}

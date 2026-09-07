@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": "minecraft:apple",
+    "b": "minecraft:sugar",
+    "c": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:decanterofapplejuice",
+    "count": 1
+  }
+}

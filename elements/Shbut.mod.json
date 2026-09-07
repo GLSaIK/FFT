@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Bulletshotgun"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 1.0,
+    "damage": 0.6,
+    "knockback": 10,
+    "entityModel": "Modelbullet",
+    "customModelTexture": "pipi.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

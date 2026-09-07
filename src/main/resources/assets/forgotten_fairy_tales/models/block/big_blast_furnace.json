@@ -1,0 +1,11 @@
+{
+  "parent": "forgotten_fairy_tales:custom/fireclayfurnace",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/fireclayfurnaceside",
+    "particle": "forgotten_fairy_tales:block/fireclayfurnaceside",
+    "0": "forgotten_fairy_tales:block/fireclayfurnaceforward",
+    "1": "forgotten_fairy_tales:block/fireclayfurnaceside",
+    "2": "forgotten_fairy_tales:block/fireclayfurnacetop"
+  },
+  "render_type": "solid"
+}

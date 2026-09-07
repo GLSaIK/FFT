@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.MOSS_BLOCK"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.1,
+    "cookingTime": 10,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.MOSS_BLOCK"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.DYE#2"
+    },
+    "name": "green_dye_sea_grass",
+    "namespace": "mod"
+  }
+}

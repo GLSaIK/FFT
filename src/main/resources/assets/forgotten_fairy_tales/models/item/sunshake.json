@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/glowshake",
+  "textures": {
+    "1": "forgotten_fairy_tales:block/glowshaketexture",
+    "particle": "forgotten_fairy_tales:item/glowshaketexture"
+  }
+}

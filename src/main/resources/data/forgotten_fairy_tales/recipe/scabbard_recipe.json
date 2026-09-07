@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "d d"
+  ],
+  "key": {
+    "a": "minecraft:iron_nugget",
+    "b": "forgotten_fairy_tales:iron_plate",
+    "c": "minecraft:iron_ingot",
+    "d": "forgotten_fairy_tales:reinforced_rope"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:scabbard",
+    "count": 1
+  }
+}

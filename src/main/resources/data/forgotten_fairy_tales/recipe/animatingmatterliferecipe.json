@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "bcb",
+    " ba"
+  ],
+  "key": {
+    "a": "minecraft:gold_nugget",
+    "b": "minecraft:resin_clump",
+    "c": "forgotten_fairy_tales:drop"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:animatingmatterlife",
+    "count": 1
+  }
+}

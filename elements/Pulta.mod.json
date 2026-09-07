@@ -1,0 +1,142 @@
+{
+  "_fv": 79,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "erthjdhrf",
+    "customModelName": "Normal",
+    "guiTexture": "",
+    "customProperties": {
+      "pull": {
+        "name": "PultaZnachieniieSvoistva"
+      }
+    },
+    "states": [
+      {
+        "renderType": 1,
+        "texture": "erthjdhrf",
+        "customModelName": "pulta0:default",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:pull",
+              "type": "number"
+            },
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "renderType": 1,
+        "texture": "erthjdhrf",
+        "customModelName": "pulta1:default",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:pull",
+              "type": "number"
+            },
+            "value": 0.01
+          }
+        ]
+      },
+      {
+        "renderType": 1,
+        "texture": "erthjdhrf",
+        "customModelName": "pulta2:default",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:pull",
+              "type": "number"
+            },
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "renderType": 1,
+        "texture": "erthjdhrf",
+        "customModelName": "pulta3:default",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:pull",
+              "type": "number"
+            },
+            "value": 0.9
+          }
+        ]
+      }
+    ],
+    "animations": [],
+    "name": "Запускалка магии",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Mage"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 72000,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "isPiglinCurrency": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onStoppedUsing": {
+      "name": "PultaPriPriekrashchieniiIspolzovaniia"
+    },
+    "everyTickWhileUsing": {
+      "name": "PultaKazhdyiTikPriIspolzovanii"
+    },
+    "enableRanged": true,
+    "shootConstantly": false,
+    "rangedItemChargesPower": true,
+    "projectile": {
+      "value": "CUSTOM:Fireballl"
+    },
+    "projectileDisableAmmoCheck": true,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": []
+  }
+}

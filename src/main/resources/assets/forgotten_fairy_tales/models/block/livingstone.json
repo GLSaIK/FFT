@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/image_2026-01-11_19-26-56",
+    "particle": "forgotten_fairy_tales:block/image_2026-01-11_19-26-56"
+  },
+  "render_type": "solid"
+}

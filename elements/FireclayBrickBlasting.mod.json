@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.CLAY_BALL"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.19999999999999998,
+    "cookingTime": 160,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Items.CLAY_BALL"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:FireclayBrick"
+    },
+    "name": "fireclay_brick_blasting",
+    "namespace": "mod"
+  }
+}

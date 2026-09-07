@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Зелье сломанной брони",
+    "splashName": "Взрывное зелье сломанной брони",
+    "lingeringName": "Туманное зелье сломанной брони",
+    "arrowName": "Стрела сломанной брони",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Dxgh"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

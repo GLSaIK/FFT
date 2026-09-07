@@ -1,0 +1,91 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "magdup",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 30,
+    "separation": 10,
+    "restrictionBiomes": [
+      {
+        "value": "cherry_grove"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 5,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "main",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "magddown",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "main2",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "magddowndown",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "main3",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "magdboss",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "main4",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "magdbed",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "main5",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "magdlib",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

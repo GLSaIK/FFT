@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.BONE"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.4,
+    "cookingTime": 140,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.BONE"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Roastedbone"
+    },
+    "name": "roasted_bone_recipe",
+    "namespace": "mod"
+  }
+}

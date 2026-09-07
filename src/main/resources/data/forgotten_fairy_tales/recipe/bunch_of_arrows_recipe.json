@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:arrow",
+    "b": "forgotten_fairy_tales:reinforced_rope"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:bunch_of_arrows",
+    "count": 2
+  }
+}

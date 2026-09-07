@@ -1,0 +1,67 @@
+{
+  "model": {
+    "type": "forgotten_fairy_tales:legacy_overrides",
+    "overrides": [
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "forgotten_fairy_tales:steel_bone_bow/pulling"
+            },
+            "value": 0
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "forgotten_fairy_tales:item/steel_bone_bow_0"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "forgotten_fairy_tales:steel_bone_bow/pulling"
+            },
+            "value": 0.01
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "forgotten_fairy_tales:item/steel_bone_bow_1"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "forgotten_fairy_tales:steel_bone_bow/pulling"
+            },
+            "value": 0.5
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "forgotten_fairy_tales:item/steel_bone_bow_2"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "forgotten_fairy_tales:steel_bone_bow/pulling"
+            },
+            "value": 1
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "forgotten_fairy_tales:item/steel_bone_bow_3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "forgotten_fairy_tales:item/steel_bone_bow"
+    }
+  }
+}

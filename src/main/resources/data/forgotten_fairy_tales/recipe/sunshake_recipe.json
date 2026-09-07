@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": "minecraft:honeycomb",
+    "b": "minecraft:glow_berries",
+    "c": "#minecraft:milk",
+    "d": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:sunshake",
+    "count": 2
+  }
+}

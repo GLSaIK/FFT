@@ -1,0 +1,67 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "schoolmain",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 53,
+    "separation": 27,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_overworld"
+      }
+    ],
+    "terrainAdaptation": "encapsulate",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "OCEAN_FLOOR_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": -45,
+    "startHeightMax": 30,
+    "size": 8,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "main",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "schoolf2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "main2",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "schoolr2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "main3",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "schooll2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

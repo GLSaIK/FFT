@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "minecraft:iron_sword",
+    "customModelName": "katana:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "§6Странный клинок",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [],
+    "efficiency": 16.0,
+    "attackSpeed": 3.6,
+    "enchantability": 1,
+    "damageVsEntity": 8.0,
+    "usageCount": 3000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "KatanaPriShchielchkiePKM"
+    },
+    "onEntityHitWith": {
+      "name": "Swordhit"
+    },
+    "onItemInInventoryTick": {
+      "name": "KatanaKazhdyiTikVInvientarie2"
+    },
+    "onItemInUseTick": {
+      "name": "Swordslogic"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "d1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.JIGSAW"
+      }
+    ],
+    "spacing": 100,
+    "separation": 64,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_overworld"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "TOP_LAYER_MODIFICATION",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 100,
+    "startHeightMax": 290,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "main",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "d2",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.JIGSAW"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

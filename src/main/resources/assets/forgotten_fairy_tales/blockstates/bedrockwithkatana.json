@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "forgotten_fairy_tales:block/bedrockwithkatana"
+    },
+    "blockstate=1": {
+      "model": "forgotten_fairy_tales:block/katanastates_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "forgotten_fairy_tales:block/katanastates_blockstate_1"
+    }
+  }
+}

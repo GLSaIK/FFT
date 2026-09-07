@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forgotten_fairy_tales:salt_str_3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 59,
+    "separation": 28,
+    "salt": 777484567
+  }
+}

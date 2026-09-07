@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/fireclay_bricks",
+    "particle": "forgotten_fairy_tales:block/fireclay_bricks"
+  },
+  "render_type": "solid"
+}

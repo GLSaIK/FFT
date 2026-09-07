@@ -1,0 +1,17 @@
+{
+  "name": "forgotten_fairy_tales:magd_main4",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "forgotten_fairy_tales:magdbed",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

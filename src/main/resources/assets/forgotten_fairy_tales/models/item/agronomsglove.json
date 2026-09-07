@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/agronomists_glove",
+  "textures": {
+    "0": "forgotten_fairy_tales:block/agranom_glove",
+    "particle": "forgotten_fairy_tales:item/agranom_glove"
+  }
+}

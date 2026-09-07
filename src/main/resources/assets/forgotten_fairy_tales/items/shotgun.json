@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "forgotten_fairy_tales:item/shotgun",
+    "model": {
+      "type": "forgotten_fairy_tales:shotgun"
+    }
+  }
+}

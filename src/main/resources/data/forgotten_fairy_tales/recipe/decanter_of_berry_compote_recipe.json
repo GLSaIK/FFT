@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": "minecraft:sweet_berries",
+    "b": "minecraft:sugar",
+    "c": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:decanterofberrycompote",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/blank",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/blank",
+    "particle": "forgotten_fairy_tales:block/magetablenew",
+    "0": "forgotten_fairy_tales:block/agranom_glove"
+  },
+  "render_type": "cutout_mipped"
+}

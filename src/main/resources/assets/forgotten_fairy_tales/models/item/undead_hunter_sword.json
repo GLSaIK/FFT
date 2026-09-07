@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/undeadhuntersword",
+  "textures": {
+    "0": "forgotten_fairy_tales:block/undeadhuntersword",
+    "particle": "forgotten_fairy_tales:item/ds"
+  }
+}

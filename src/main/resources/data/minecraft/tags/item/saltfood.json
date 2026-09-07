@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cooked_porkchop",
+    "forgotten_fairy_tales:tartar",
+    "minecraft:cooked_chicken",
+    "minecraft:beef",
+    "minecraft:rabbit",
+    "forgotten_fairy_tales:julienne",
+    "minecraft:cooked_rabbit",
+    "minecraft:baked_potato",
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_salmon",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_beef",
+    "minecraft:mutton",
+    "minecraft:chicken",
+    "forgotten_fairy_tales:nutrientblock",
+    "minecraft:bread",
+    "minecraft:porkchop",
+    "minecraft:beetroot"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/cursedmagiclauncher",
+  "textures": {
+    "2": "forgotten_fairy_tales:block/cursedmagiclauncher",
+    "particle": "forgotten_fairy_tales:item/erthjdhrf"
+  }
+}

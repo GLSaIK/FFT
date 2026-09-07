@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/ironplateblock",
+    "particle": "forgotten_fairy_tales:block/ironplateblock"
+  },
+  "render_type": "solid"
+}

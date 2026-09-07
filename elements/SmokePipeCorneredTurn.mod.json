@@ -1,0 +1,122 @@
+{
+  "_fv": 79,
+  "_type": "blockstates",
+  "definition": {
+    "block": "SmokePipeCornered",
+    "blockstateList": [
+      {
+        "texture": "pipetexturenew",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "pipetexturenew",
+        "renderType": 2,
+        "customModelName": "pipecorneredturn:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 3.0,
+            "my": 3.0,
+            "mz": 0.0,
+            "Mx": 13.0,
+            "My": 13.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 4.0,
+            "mz": 4.0,
+            "Mx": 4.0,
+            "My": 12.0,
+            "Mz": 12.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 4.0,
+            "mz": 4.0,
+            "Mx": 12.0,
+            "My": 12.0,
+            "Mz": 12.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 4.0,
+            "mz": 1.0,
+            "Mx": 12.0,
+            "My": 12.0,
+            "Mz": 4.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.0,
+            "my": 4.0,
+            "mz": 1.0,
+            "Mx": 4.0,
+            "My": 12.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 12.0,
+            "my": 4.0,
+            "mz": 1.0,
+            "Mx": 13.0,
+            "My": 12.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.0,
+            "my": 12.0,
+            "mz": 1.0,
+            "Mx": 13.0,
+            "My": 13.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.0,
+            "my": 3.0,
+            "mz": 1.0,
+            "Mx": 13.0,
+            "My": 4.0,
+            "Mz": 2.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 3.0,
+            "mz": 3.0,
+            "Mx": 2.0,
+            "My": 13.0,
+            "Mz": 4.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 3.0,
+            "mz": 3.0,
+            "Mx": 1.0,
+            "My": 13.0,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 3.0,
+            "mz": 12.0,
+            "Mx": 2.0,
+            "My": 13.0,
+            "Mz": 13.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

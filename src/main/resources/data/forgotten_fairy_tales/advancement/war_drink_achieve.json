@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.war_drink_achieve.title"
+    },
+    "description": {
+      "translate": "advancements.war_drink_achieve.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "war_drink_achieve_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 13
+  },
+  "parent": "forgotten_fairy_tales:warrior_achieve"
+}

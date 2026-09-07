@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "bc"
+  ],
+  "key": {
+    "a": "minecraft:coal",
+    "b": "minecraft:string",
+    "c": "minecraft:paper"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:reinforced_rope",
+    "count": 1
+  }
+}

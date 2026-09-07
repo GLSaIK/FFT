@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "cad",
+    "e e"
+  ],
+  "key": {
+    "a": "#minecraft:planks",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:amethyst_shard",
+    "d": "minecraft:iron_block",
+    "e": "forgotten_fairy_tales:ironrod"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:constructor_sworkbench",
+    "count": 1
+  }
+}

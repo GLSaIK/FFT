@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "forgotten_fairy_tales:reinforced_rope",
+    "minecraft:paper",
+    "minecraft:iron_nugget"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:tourniquet",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/katana",
+  "textures": {
+    "0": "forgotten_fairy_tales:block/katana",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

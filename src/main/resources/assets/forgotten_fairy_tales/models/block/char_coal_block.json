@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/charcoal",
+    "particle": "forgotten_fairy_tales:block/charcoal"
+  },
+  "render_type": "solid"
+}

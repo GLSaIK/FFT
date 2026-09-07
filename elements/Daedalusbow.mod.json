@@ -1,0 +1,145 @@
+{
+  "_fv": 79,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "minecraft:bow",
+    "customModelName": "Normal",
+    "guiTexture": "",
+    "customProperties": {
+      "pulling": {
+        "name": "DaedalusbowZnachieniieSvoistva"
+      }
+    },
+    "states": [
+      {
+        "renderType": 1,
+        "texture": "minecraft:bow",
+        "customModelName": "bow1:default",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:pulling",
+              "type": "number"
+            },
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "renderType": 1,
+        "texture": "minecraft:bow_pulling_0",
+        "customModelName": "bow2:default",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:pulling",
+              "type": "number"
+            },
+            "value": 0.01
+          }
+        ]
+      },
+      {
+        "renderType": 1,
+        "texture": "minecraft:bow_pulling_1",
+        "customModelName": "bow3:default",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:pulling",
+              "type": "number"
+            },
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "renderType": 1,
+        "texture": "minecraft:bow_pulling_2",
+        "customModelName": "bow5:default",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:pulling",
+              "type": "number"
+            },
+            "value": 1.0
+          }
+        ]
+      }
+    ],
+    "animations": [],
+    "name": "Лук металлической кости",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Warrior"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 72000,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "isPiglinCurrency": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "DaedalusbowKazhdyiTikVInvientarie"
+    },
+    "onStoppedUsing": {
+      "name": "DaedalusbowPriPriekrashchieniiIspolzovaniia"
+    },
+    "everyTickWhileUsing": {
+      "name": "DaedalusbowKazhdyiTikPriIspolzovanii"
+    },
+    "enableRanged": true,
+    "shootConstantly": false,
+    "rangedItemChargesPower": true,
+    "projectile": {
+      "value": "CUSTOM:Buchofarrows"
+    },
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": []
+  }
+}

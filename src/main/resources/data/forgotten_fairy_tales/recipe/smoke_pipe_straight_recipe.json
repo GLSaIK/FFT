@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "forgotten_fairy_tales:iron_plate"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:smoke_pipe",
+    "count": 2
+  }
+}

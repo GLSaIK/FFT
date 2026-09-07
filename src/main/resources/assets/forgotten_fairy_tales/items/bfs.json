@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "forgotten_fairy_tales:item/bfs",
+    "model": {
+      "type": "forgotten_fairy_tales:bfs"
+    }
+  }
+}

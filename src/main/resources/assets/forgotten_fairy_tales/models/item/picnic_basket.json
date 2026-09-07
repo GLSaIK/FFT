@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/picnicbasket",
+  "textures": {
+    "0": "forgotten_fairy_tales:block/basket",
+    "particle": "minecraft:item/bundle"
+  }
+}

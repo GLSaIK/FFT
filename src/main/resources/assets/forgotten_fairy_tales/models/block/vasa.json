@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/vasa",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/vasa",
+    "particle": "forgotten_fairy_tales:block/vasa",
+    "0": "forgotten_fairy_tales:block/vasa"
+  },
+  "render_type": "solid"
+}

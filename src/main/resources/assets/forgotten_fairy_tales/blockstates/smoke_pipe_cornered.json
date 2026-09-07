@@ -1,0 +1,58 @@
+{
+  "variants": {
+
+    "face=floor,facing=north,blockstate=0": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered"
+    },
+    "face=floor,facing=east,blockstate=0": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered",
+      "y": 90
+    },
+    "face=floor,facing=south,blockstate=0": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered",
+      "y": 180
+    },
+    "face=floor,facing=west,blockstate=0": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered",
+      "y": 270
+    },
+
+    "face=ceiling,facing=north,blockstate=0": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east,blockstate=0": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south,blockstate=0": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered",
+      "x": 180
+    },
+    "face=ceiling,facing=west,blockstate=0": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered",
+      "x": 180,
+      "y": 90
+    },
+
+
+    "face=wall,facing=north,blockstate=1": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered_turn_blockstate_0"
+    },
+    "face=wall,facing=east,blockstate=1": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered_turn_blockstate_0",
+      "y": 90
+    },
+    "face=wall,facing=south,blockstate=1": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered_turn_blockstate_0",
+      "y": 180
+    },
+    "face=wall,facing=west,blockstate=1": {
+      "model": "forgotten_fairy_tales:block/smoke_pipe_cornered_turn_blockstate_0",
+      "y": 270
+    }
+
+  }
+}

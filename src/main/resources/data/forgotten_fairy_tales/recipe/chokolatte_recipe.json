@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:sugar",
+    "b": "minecraft:cocoa_beans",
+    "c": "#minecraft:milk"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:chokolatte",
+    "count": 1
+  }
+}

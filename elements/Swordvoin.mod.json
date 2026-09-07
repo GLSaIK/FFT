@@ -1,0 +1,42 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "ds",
+    "customModelName": "sword:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Меч Воина",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Warrior"
+      }
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 0.9,
+    "enchantability": 14,
+    "damageVsEntity": 5.0,
+    "usageCount": 0,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SwordvoinPriUdariePoSushchnostiInstrumientom"
+    },
+    "onItemInInventoryTick": {
+      "name": "SwordvoinKazhdyiTikVInvientarie"
+    }
+  }
+}

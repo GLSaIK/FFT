@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/blank",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/engtable3",
+    "particle": "forgotten_fairy_tales:block/engtable",
+    "0": "forgotten_fairy_tales:block/agranom_glove"
+  },
+  "render_type": "solid"
+}

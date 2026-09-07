@@ -1,0 +1,17 @@
+{
+  "name": "forgotten_fairy_tales:school_main2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "forgotten_fairy_tales:schoolr2",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

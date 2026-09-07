@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "bb"
+  ],
+  "key": {
+    "a": "minecraft:milk_bucket",
+    "b": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:milkbottle",
+    "count": 3
+  }
+}

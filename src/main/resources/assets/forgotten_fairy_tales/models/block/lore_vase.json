@@ -1,0 +1,10 @@
+{
+  "parent": "forgotten_fairy_tales:custom/lorevase",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/lorevase1",
+    "particle": "forgotten_fairy_tales:block/lorevase1",
+    "1": "forgotten_fairy_tales:block/lorevase1",
+    "2": "forgotten_fairy_tales:block/lorevase2t"
+  },
+  "render_type": "cutout_mipped"
+}

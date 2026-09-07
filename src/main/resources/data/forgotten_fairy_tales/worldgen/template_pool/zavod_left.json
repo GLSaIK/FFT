@@ -1,0 +1,17 @@
+{
+  "name": "forgotten_fairy_tales:zavod_left",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "forgotten_fairy_tales:zavodleft1",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/magetablenew",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/magetablenew",
+    "particle": "forgotten_fairy_tales:block/magetablenew",
+    "1": "forgotten_fairy_tales:block/magetablenew"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Zoom",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "ZoomPriNazhatiiKlavishi"
+    },
+    "onKeyReleased": {
+      "name": "ZoomOnKeyReleased"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "forgotten_fairy_tales:cheese",
+    "minecraft:brown_mushroom",
+    "minecraft:bread"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:julienne",
+    "count": 1
+  }
+}

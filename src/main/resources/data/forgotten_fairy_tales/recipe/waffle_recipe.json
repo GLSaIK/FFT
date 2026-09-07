@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:sugar",
+    "b": "minecraft:wheat",
+    "c": "#minecraft:milk"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:waffle",
+    "count": 3
+  }
+}

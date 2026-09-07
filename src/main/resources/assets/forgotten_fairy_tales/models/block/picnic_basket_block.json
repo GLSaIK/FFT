@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/picnicbasket",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/basket",
+    "particle": "forgotten_fairy_tales:block/basket",
+    "0": "forgotten_fairy_tales:block/basket"
+  },
+  "render_type": "cutout"
+}

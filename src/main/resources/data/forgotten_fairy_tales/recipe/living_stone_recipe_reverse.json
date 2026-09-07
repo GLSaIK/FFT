@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "forgotten_fairy_tales:livingstone"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:drop",
+    "count": 9
+  }
+}

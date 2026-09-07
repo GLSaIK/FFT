@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "forgotten_fairy_tales:block/fireclay_bricks"
+    },
+    "blockstate=1": {
+      "model": "forgotten_fairy_tales:block/fireclay_bricks_states_blockstate_0"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "laser2": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:laser-gun",
+        "stream": false
+      }
+    ]
+  },
+  "dry": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:shotgun-12-gauge-single-shot-dry_mk632svd",
+        "stream": false
+      }
+    ]
+  },
+  "load": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:shotgun-movements_zkpxbcv_",
+        "stream": false
+      }
+    ]
+  },
+  "tpt": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:teleporter_saundv3",
+        "stream": false
+      }
+    ]
+  },
+  "book": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:knighaiebaaaa",
+        "stream": false
+      }
+    ]
+  },
+  "blocksw2": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:22281_mp3cut.net_10",
+        "stream": false
+      }
+    ]
+  },
+  "wrench": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:rhexe_dehxe_pfgenfnm_jxe",
+        "stream": false
+      }
+    ]
+  },
+  "salt": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:353778-carton-salt-shake-001_0dwk8dc7",
+        "stream": false
+      }
+    ]
+  },
+  "salt2": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:353778-carton-salt-shake-001_0dwk8dc7",
+        "stream": false
+      }
+    ]
+  },
+  "salt3": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:353778-carton-salt-shake-001_0dwk8dc7",
+        "stream": false
+      }
+    ]
+  },
+  "shot": {
+    "sounds": [
+      {
+        "name": "forgotten_fairy_tales:shot",
+        "stream": false
+      }
+    ]
+  }
+}

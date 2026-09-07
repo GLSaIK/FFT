@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "forgotten_fairy_tales:blocks/salt_block_pressed",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "forgotten_fairy_tales:salt_block_pressed"
+        }
+      ]
+    }
+  ]
+}

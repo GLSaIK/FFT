@@ -1,0 +1,10 @@
+{
+  "parent": "forgotten_fairy_tales:custom/katana2",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/ktexture",
+    "particle": "minecraft:block/bedrock",
+    "0": "forgotten_fairy_tales:block/ktexture",
+    "1": "forgotten_fairy_tales:block/bedrockbr1"
+  },
+  "render_type": "solid"
+}

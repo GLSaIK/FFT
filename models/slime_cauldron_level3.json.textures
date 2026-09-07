@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "minecraft:cauldron_side",
+        "top": "minecraft:cauldron_top",
+        "bottom": "minecraft:cauldron_bottom",
+        "inside": "minecraft:cauldron_inner",
+        "water": "cheese16"
+      },
+      "name": "default"
+    }
+  }
+}

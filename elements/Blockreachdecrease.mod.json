@@ -1,0 +1,32 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Blockreachdecrease",
+    "icon": "2a96f28c2952fc94",
+    "color": {
+      "value": -13487566,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "BLOCK_REACH"
+        },
+        "amount": -100.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onActiveTick": {
+      "name": "BlockreachdecreaseKazhdyiTikVoVriemiaEffiekta"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/saltblockdrip",
+    "particle": "forgotten_fairy_tales:block/saltblockdrip"
+  },
+  "render_type": "solid"
+}

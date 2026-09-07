@@ -1,0 +1,81 @@
+package net.saik.forgottenfairytales.client.renderer;
+
+import net.saik.forgottenfairytales.entity.ZgutikEntity;
+import net.saik.forgottenfairytales.client.model.animations.zgutikAnimation;
+import net.saik.forgottenfairytales.client.model.Modelzgutik;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
+import net.minecraft.client.renderer.entity.layers.RenderLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.LivingEntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.animation.KeyframeAnimation;
+
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class ZgutikRenderer extends MobRenderer<ZgutikEntity, LivingEntityRenderState, Modelzgutik> {
+	private ZgutikEntity entity = null;
+
+	public ZgutikRenderer(EntityRendererProvider.Context context) {
+		super(context, new AnimatedModel(context.bakeLayer(Modelzgutik.LAYER_LOCATION)), 1f);
+		this.addLayer(new RenderLayer<>(this) {
+			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("forgotten_fairy_tales:textures/entities/zgutik.png");
+
+			@Override
+			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, LivingEntityRenderState state, float headYaw, float headPitch) {
+				VertexConsumer vertexConsumer = bufferSource.getBuffer(RenderType.entityCutoutNoCull(LAYER_TEXTURE));
+				this.getParentModel().renderToBuffer(poseStack, vertexConsumer, light, LivingEntityRenderer.getOverlayCoords(state, 0));
+			}
+		});
+	}
+
+	@Override
+	public LivingEntityRenderState createRenderState() {
+		return new LivingEntityRenderState();
+	}
+
+	@Override
+	public void extractRenderState(ZgutikEntity entity, LivingEntityRenderState state, float partialTicks) {
+		super.extractRenderState(entity, state, partialTicks);
+		this.entity = entity;
+		if (this.model instanceof AnimatedModel) {
+			((AnimatedModel) this.model).setEntity(entity);
+		}
+	}
+
+	@Override
+	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
+		if (entity != null)
+			return ResourceLocation.parse("forgotten_fairy_tales:textures/entities/" + entity.getTexture() + ".png");
+		return ResourceLocation.parse("forgotten_fairy_tales:textures/entities/zgutik.png");
+	}
+
+	private static final class AnimatedModel extends Modelzgutik {
+		private ZgutikEntity entity = null;
+		private final KeyframeAnimation keyframeAnimation0;
+		private final KeyframeAnimation keyframeAnimation1;
+
+		public AnimatedModel(ModelPart root) {
+			super(root);
+			this.keyframeAnimation0 = zgutikAnimation.zgutikidle.bake(root);
+			this.keyframeAnimation1 = zgutikAnimation.zgutikwalking.bake(root);
+		}
+
+		public void setEntity(ZgutikEntity entity) {
+			this.entity = entity;
+		}
+
+		@Override
+		public void setupAnim(LivingEntityRenderState state) {
+			this.root().getAllParts().forEach(ModelPart::resetPose);
+			this.keyframeAnimation0.apply(entity.animationState0, state.ageInTicks, 1f);
+			this.keyframeAnimation1.applyWalk(state.walkAnimationPos, state.walkAnimationSpeed, 1f, 1f);
+			super.setupAnim(state);
+		}
+	}
+}

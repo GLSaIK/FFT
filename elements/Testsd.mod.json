@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "I",
+    "keyBindingName": "Меню класса",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "KLASSGUI"
+    }
+  }
+}

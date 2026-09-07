@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="forgotten_fairy_tales"
+version="0.1.7.9.8"
+displayName="Forgotten Fairy Tales"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="SaIK, PBN, Majastik, Senko_san, Kenwq"
+displayTest="IGNORE_SERVER_VERSION"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[mixins]]
+    config = "forgotten_fairy_tales.mixins.json"
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.forgotten_fairy_tales]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.8.31,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.forgotten_fairy_tales]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.8]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

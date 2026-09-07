@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:wheat",
+    "b": "minecraft:sweet_berries"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:berry_bread",
+    "count": 1
+  }
+}

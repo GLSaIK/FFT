@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "TAG:minecraft:meat"
+      },
+      {
+        "value": "TAG:minecraft:meat"
+      },
+      {
+        "value": "TAG:minecraft:meat"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Nutrientblock"
+    },
+    "name": "nutrient_block_recipe",
+    "namespace": "mod"
+  }
+}

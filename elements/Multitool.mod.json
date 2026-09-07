@@ -1,0 +1,43 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "multitool",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Мульти-инструмент",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Mage"
+      }
+    ],
+    "efficiency": 7.0,
+    "attackSpeed": 1.7000000000000002,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 1850,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.RAW_IRON_BLOCK"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "MultitoolPriShchielchkiePKMPoBloku"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "forgotten_fairy_tales:hat_helmet"
+    },
+    "title": {
+      "translate": "advancements.mimic_hat_achieve.title"
+    },
+    "description": {
+      "translate": "advancements.mimic_hat_achieve.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mimic_hat_achieve_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "forgotten_fairy_tales:hat_helmet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 13
+  },
+  "parent": "forgotten_fairy_tales:mage_achieve"
+}

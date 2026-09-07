@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "forgotten_fairy_tales:char_coal_block"
+  ],
+  "result": {
+    "id": "minecraft:charcoal",
+    "count": 9
+  }
+}

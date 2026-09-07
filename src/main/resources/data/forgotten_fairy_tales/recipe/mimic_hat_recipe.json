@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb",
+    "d d"
+  ],
+  "key": {
+    "a": "minecraft:rotten_flesh",
+    "b": "minecraft:gold_nugget",
+    "c": "minecraft:leather",
+    "d": "#minecraft:wool"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:hat_helmet",
+    "count": 1
+  }
+}

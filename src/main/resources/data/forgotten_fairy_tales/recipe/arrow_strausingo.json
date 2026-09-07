@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:flint",
+    "b": "minecraft:stick",
+    "c": "forgotten_fairy_tales:strausingofeather"
+  },
+  "result": {
+    "id": "minecraft:arrow",
+    "count": 4
+  }
+}

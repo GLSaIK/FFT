@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "CUSTOM:ReinforcedRope"
+      },
+      {
+        "value": "Items.BOW"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.BONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Daedalusbow"
+    },
+    "name": "daedalus_bow_recipe",
+    "namespace": "mod"
+  }
+}

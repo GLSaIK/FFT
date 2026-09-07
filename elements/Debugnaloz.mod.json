@@ -1,0 +1,227 @@
+{
+  "_fv": 79,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_klass",
+          "text": {
+            "fixedValue": "klass"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 1,
+          "y": 176,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_voin",
+          "text": {
+            "fixedValue": "voin",
+            "name": "M1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 2,
+          "y": 187,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mag",
+          "text": {
+            "fixedValue": "mag",
+            "name": "M2"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 2,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_eng",
+          "text": {
+            "fixedValue": "eng",
+            "name": "M3"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 2,
+          "y": 208,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hp",
+          "text": {
+            "fixedValue": "HP",
+            "name": "HP"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_CENTER",
+          "x": 208,
+          "y": 13,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty3",
+          "text": {
+            "fixedValue": ""
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 208,
+          "y": 14,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hp1",
+          "text": {
+            "fixedValue": "HP"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_CENTER",
+          "x": 208,
+          "y": 3,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_drobovik",
+          "text": {
+            "fixedValue": "Дробовик"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Dr"
+          },
+          "anchorPoint": "CENTER",
+          "x": 31,
+          "y": 175,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_d1",
+          "text": {
+            "fixedValue": "d1",
+            "name": "D1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Dr"
+          },
+          "anchorPoint": "CENTER",
+          "x": 31,
+          "y": 187,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_d2",
+          "text": {
+            "fixedValue": "d2",
+            "name": "D2"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Dr"
+          },
+          "anchorPoint": "CENTER",
+          "x": 31,
+          "y": 197,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_d3",
+          "text": {
+            "fixedValue": "d3",
+            "name": "D3"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Dr"
+          },
+          "anchorPoint": "CENTER",
+          "x": 31,
+          "y": 207,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "Deb2"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

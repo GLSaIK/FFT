@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "forgotten_fairy_tales:block/sunshakeblock"
+    },
+    "facing=east": {
+      "model": "forgotten_fairy_tales:block/sunshakeblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "forgotten_fairy_tales:block/sunshakeblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "forgotten_fairy_tales:block/sunshakeblock",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:smithing_table",
+    "minecraft:smoker",
+    "minecraft:blast_furnace",
+    "minecraft:furnace",
+    "minecraft:barrel",
+    "minecraft:lectern",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:fletching_table",
+    "minecraft:grindstone",
+    "minecraft:stonecutter",
+    "minecraft:bell",
+    "minecraft:cartography_table",
+    "minecraft:loom"
+  ]
+}

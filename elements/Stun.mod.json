@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Оглушение",
+    "icon": "stun",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onStarted": {
+      "name": "StunPriNalozhieniiEffiekta"
+    },
+    "onActiveTick": {
+      "name": "StunKazhdyiTikVoVriemiaEffiekta"
+    }
+  }
+}

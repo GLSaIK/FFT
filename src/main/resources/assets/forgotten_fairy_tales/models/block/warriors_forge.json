@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/warriorstable2",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/warriorstabletexture",
+    "particle": "forgotten_fairy_tales:block/warriorstabletexture",
+    "0": "forgotten_fairy_tales:block/warriorstabletexture"
+  },
+  "render_type": "cutout_mipped"
+}

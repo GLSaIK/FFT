@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/pulta0",
+  "textures": {
+    "7": "forgotten_fairy_tales:block/pulta",
+    "particle": "forgotten_fairy_tales:item/erthjdhrf"
+  }
+}

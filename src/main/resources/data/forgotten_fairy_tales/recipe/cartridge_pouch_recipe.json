@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": "minecraft:leather",
+    "b": "#minecraft:bundle",
+    "c": "forgotten_fairy_tales:reinforced_rope"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:cartridge_pouch",
+    "count": 1
+  }
+}

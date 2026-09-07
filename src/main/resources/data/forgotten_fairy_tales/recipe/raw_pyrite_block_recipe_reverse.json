@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "forgotten_fairy_tales:raw_pyrite_block"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:pyrite_ore",
+    "count": 9
+  }
+}

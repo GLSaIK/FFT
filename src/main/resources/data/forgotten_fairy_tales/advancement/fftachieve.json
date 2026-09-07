@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:block/stone",
+    "icon": {
+      "id": "forgotten_fairy_tales:prahzero"
+    },
+    "title": {
+      "translate": "advancements.fftachieve.title"
+    },
+    "description": {
+      "translate": "advancements.fftachieve.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fftachieve_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

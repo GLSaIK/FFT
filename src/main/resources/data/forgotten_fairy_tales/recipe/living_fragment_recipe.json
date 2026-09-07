@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:stone_bricks",
+    "b": "forgotten_fairy_tales:drop"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:l_iving_fragment",
+    "count": 1
+  }
+}

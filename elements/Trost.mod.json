@@ -1,0 +1,38 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "pasted",
+    "customModelName": "posoh:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Трость маджастика",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [],
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 1,
+    "damageVsEntity": 2.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "TrostPriUdariePoSushchnostiInstrumientom"
+    },
+    "onItemInUseTick": {
+      "name": "TrostKazhdyiTikVRukie"
+    }
+  }
+}

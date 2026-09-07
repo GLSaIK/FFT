@@ -1,0 +1,28 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:BunchOfArrows"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 0,
+    "entityModel": "ModelBunchOfArrowsR",
+    "customModelTexture": "luk_so_strielami.png",
+    "modelWidth": 0.30000000000000004,
+    "modelHeight": 0.30000000000000004,
+    "onHitsBlock": {
+      "name": "BuchofarrowsKoghdaSnariadPopadaietVBlok"
+    },
+    "onHitsEntity": {
+      "name": "BuchofarrowsKoghdaSnariadPopadaietVSushchnost"
+    }
+  }
+}

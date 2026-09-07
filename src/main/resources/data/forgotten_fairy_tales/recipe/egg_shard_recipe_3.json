@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "id": "forgotten_fairy_tales:egg_shard",
+    "count": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/engtable",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/engtable3",
+    "particle": "forgotten_fairy_tales:block/engtable3",
+    "0": "forgotten_fairy_tales:block/engtable3"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:golden_helmet",
+    "minecraft:iron_helmet",
+    "minecraft:leather_helmet",
+    "minecraft:netherite_helmet",
+    "forgotten_fairy_tales:weldingmask_helmet",
+    "forgotten_fairy_tales:hat_helmet",
+    "minecraft:chainmail_helmet",
+    "minecraft:diamond_helmet"
+  ]
+}

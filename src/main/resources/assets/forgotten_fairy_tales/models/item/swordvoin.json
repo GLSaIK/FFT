@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_fairy_tales:custom/sword",
+  "textures": {
+    "1": "forgotten_fairy_tales:block/sword",
+    "particle": "forgotten_fairy_tales:item/ds"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": "#minecraft:berries",
+    "b": "minecraft:sugar",
+    "c": "#minecraft:milk",
+    "d": "minecraft:egg",
+    "e": "minecraft:bowl"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:berrydelight",
+    "count": 1
+  }
+}

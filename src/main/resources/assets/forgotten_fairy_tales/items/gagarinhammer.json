@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "forgotten_fairy_tales:item/gagarinhammer",
+    "model": {
+      "type": "forgotten_fairy_tales:gagarinhammer"
+    }
+  }
+}

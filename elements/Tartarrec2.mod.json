@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.BEEF"
+      },
+      {
+        "value": "Items.FISH#1"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.BEEF"
+      },
+      {
+        "value": "Items.FISH#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tartar"
+    },
+    "name": "tartar_recipe_2",
+    "namespace": "mod"
+  }
+}

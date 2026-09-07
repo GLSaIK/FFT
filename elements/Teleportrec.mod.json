@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.LIGHTNING_ROD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.LIGHTNING_ROD"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.STONE_BUTTON"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Brokenteleport"
+    },
+    "name": "teleportrec",
+    "namespace": "mod"
+  }
+}

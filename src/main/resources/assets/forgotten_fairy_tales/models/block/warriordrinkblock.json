@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/drinkwar",
+  "textures": {
+    "all": "forgotten_fairy_tales:block/warriordrink",
+    "particle": "forgotten_fairy_tales:block/warriordrink",
+    "0": "forgotten_fairy_tales:block/warriordrink"
+  },
+  "render_type": "translucent"
+}

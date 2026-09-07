@@ -1,0 +1,91 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "prahm",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.JIGSAW"
+      }
+    ],
+    "spacing": 8,
+    "separation": 6,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "mutated_forest"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "main",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "eng",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.JIGSAW"
+              }
+            ]
+          },
+          {
+            "weight": 1,
+            "structure": "voin",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.JIGSAW"
+              }
+            ]
+          },
+          {
+            "weight": 1,
+            "structure": "mag",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.JIGSAW"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

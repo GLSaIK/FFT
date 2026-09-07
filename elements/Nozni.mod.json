@@ -1,0 +1,39 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "minecraft:diamond_sword",
+    "customModelName": "katanaplusnoz:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "§6Меч трёх материй",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [],
+    "efficiency": 12.0,
+    "attackSpeed": 3.0,
+    "enchantability": 1,
+    "damageVsEntity": 8.0,
+    "usageCount": 3000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.NETHER_STAR"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "NozniKazhdyiTikVInvientarie2"
+    }
+  }
+}

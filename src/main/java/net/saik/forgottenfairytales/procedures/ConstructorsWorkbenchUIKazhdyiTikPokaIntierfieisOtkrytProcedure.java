@@ -1,0 +1,35 @@
+package net.saik.forgottenfairytales.procedures;
+
+import net.saik.forgottenfairytales.init.ForgottenFairyTalesModMenus;
+import net.saik.forgottenfairytales.init.ForgottenFairyTalesModItems;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+
+public class ConstructorsWorkbenchUIKazhdyiTikPokaIntierfieisOtkrytProcedure {
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
+		if (CWcraftExample1Procedure.execute(entity)) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof ForgottenFairyTalesModMenus.MenuAccessor _menu) {
+				ItemStack _setstack0 = new ItemStack(ForgottenFairyTalesModItems.BROKENTELEPORT.get()).copy();
+				_setstack0.setCount(1);
+				_menu.getSlots().get(22).set(_setstack0);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else if (CWcraftbinocularsProcedure.execute(entity)) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof ForgottenFairyTalesModMenus.MenuAccessor _menu) {
+				ItemStack _setstack1 = new ItemStack(ForgottenFairyTalesModItems.BINOCULARS.get()).copy();
+				_setstack1.setCount(1);
+				_menu.getSlots().get(22).set(_setstack1);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else {
+			if (entity instanceof Player _player && _player.containerMenu instanceof ForgottenFairyTalesModMenus.MenuAccessor _menu) {
+				_menu.getSlots().get(22).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
+	}
+}

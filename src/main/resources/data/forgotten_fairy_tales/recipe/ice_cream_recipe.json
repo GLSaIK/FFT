@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcd",
+    " a "
+  ],
+  "key": {
+    "a": "forgotten_fairy_tales:waffle",
+    "b": "minecraft:ice",
+    "c": "#minecraft:milk",
+    "d": "minecraft:sugar"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:icecream",
+    "count": 1
+  }
+}

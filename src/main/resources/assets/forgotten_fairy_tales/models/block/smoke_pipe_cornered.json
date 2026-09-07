@@ -1,0 +1,9 @@
+{
+  "parent": "forgotten_fairy_tales:custom/pipecornered",
+  "textures": {
+    "all": "minecraft:block/vault_top_ejecting_ominous",
+    "particle": "minecraft:block/vault_top_ejecting_ominous",
+    "0": "forgotten_fairy_tales:block/pipetexturenew"
+  },
+  "render_type": "solid"
+}

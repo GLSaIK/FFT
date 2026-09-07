@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "forgotten_fairy_tales:char_coal_block",
+    "minecraft:coal_block",
+    "minecraft:coal",
+    "minecraft:lava_bucket",
+    "minecraft:charcoal"
+  ]
+}
