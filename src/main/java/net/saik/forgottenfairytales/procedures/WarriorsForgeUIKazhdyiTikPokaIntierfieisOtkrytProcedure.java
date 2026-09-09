@@ -32,6 +32,13 @@ public class WarriorsForgeUIKazhdyiTikPokaIntierfieisOtkrytProcedure {
 				_menu.getSlots().get(11).set(_setstack2);
 				_player.containerMenu.broadcastChanges();
 			}
+		} else if (WarriorTableCraftBookProcedure.execute(entity)) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof ForgottenFairyTalesModMenus.MenuAccessor _menu) {
+				ItemStack _setstack3 = new ItemStack(ForgottenFairyTalesModItems.BOOK.get()).copy();
+				_setstack3.setCount(1);
+				_menu.getSlots().get(11).set(_setstack3);
+				_player.containerMenu.broadcastChanges();
+			}
 		} else {
 			if (entity instanceof Player _player && _player.containerMenu instanceof ForgottenFairyTalesModMenus.MenuAccessor _menu) {
 				_menu.getSlots().get(11).set(ItemStack.EMPTY);

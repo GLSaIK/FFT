@@ -3,12 +3,14 @@
   "category": "equipment",
   "pattern": [
     " a ",
-    "bcb"
+    "bcb",
+    "ddd"
   ],
   "key": {
     "a": "forgotten_fairy_tales:drop",
     "b": "minecraft:iron_nugget",
-    "c": "minecraft:honey_bottle"
+    "c": "minecraft:honey_bottle",
+    "d": "forgotten_fairy_tales:iron_plate"
   },
   "result": {
     "id": "forgotten_fairy_tales:warriordrink",

@@ -11,7 +11,7 @@ public class ConstructorsWorkbenchUIKazhdyiTikPokaIntierfieisOtkrytProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (CWcraftExample1Procedure.execute(entity)) {
+		if (CWcraftTeleporterProcedure.execute(entity)) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof ForgottenFairyTalesModMenus.MenuAccessor _menu) {
 				ItemStack _setstack0 = new ItemStack(ForgottenFairyTalesModItems.BROKENTELEPORT.get()).copy();
 				_setstack0.setCount(1);
@@ -23,6 +23,20 @@ public class ConstructorsWorkbenchUIKazhdyiTikPokaIntierfieisOtkrytProcedure {
 				ItemStack _setstack1 = new ItemStack(ForgottenFairyTalesModItems.BINOCULARS.get()).copy();
 				_setstack1.setCount(1);
 				_menu.getSlots().get(22).set(_setstack1);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else if (CWcraftEGagarinhammerProcedure.execute(entity)) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof ForgottenFairyTalesModMenus.MenuAccessor _menu) {
+				ItemStack _setstack2 = new ItemStack(ForgottenFairyTalesModItems.GAGARINHAMMER.get()).copy();
+				_setstack2.setCount(1);
+				_menu.getSlots().get(22).set(_setstack2);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else if (CWcraftWeldingMaskProcedure.execute(entity)) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof ForgottenFairyTalesModMenus.MenuAccessor _menu) {
+				ItemStack _setstack3 = new ItemStack(ForgottenFairyTalesModItems.WELDINGMASK_HELMET.get()).copy();
+				_setstack3.setCount(1);
+				_menu.getSlots().get(22).set(_setstack3);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else {

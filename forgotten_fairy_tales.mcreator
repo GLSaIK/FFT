@@ -665,45 +665,6 @@
       "path": "~/colomn"
     },
     {
-      "name": "Bookrec",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bookrec",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/aid_book.json"
-        ]
-      },
-      "path": "~/Warrior/equipment/book"
-    },
-    {
-      "name": "Teleportrec",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "teleportrec",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/teleportrec.json"
-        ]
-      },
-      "path": "~/Engineer/tools"
-    },
-    {
-      "name": "Hatrec",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hatrec",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/mimic_hat_recipe.json"
-        ]
-      },
-      "path": "~/Mage/equipment/hat"
-    },
-    {
       "name": "Hatgui",
       "type": "gui",
       "compiles": true,
@@ -2090,8 +2051,8 @@
       "registry_name": "warriordrinkrecipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/revitalizing_decoction.json",
-          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/warriordrinkrecipe.json"
+          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/warriordrinkrecipe.json",
+          "src/main/resources/data/forgotten_fairy_tales/recipe/revitalizing_decoction.json"
         ]
       },
       "path": "~/Warrior/warrior_drink"
@@ -2771,19 +2732,6 @@
       "path": "~/klassmisc"
     },
     {
-      "name": "DaedalusBowRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "daedalus_bow_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/daedalus_bow_recipe.json"
-        ]
-      },
-      "path": "~/Warrior/weapons/Bow"
-    },
-    {
       "name": "BunchOfArrows",
       "type": "item",
       "compiles": true,
@@ -2806,6 +2754,7 @@
       "registry_name": "bunch_of_arrows_recipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/bunch_of_arrows_recipe.json",
           "src/main/resources/data/forgotten_fairy_tales/recipe/bunch_of_arrows_recipe.json"
         ]
       },
@@ -4173,19 +4122,6 @@
       "path": "~/Engineer/weapons/hammer"
     },
     {
-      "name": "Gagarinhammerrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gagarinhammerrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/gagarinhammerrecipe.json"
-        ]
-      },
-      "path": "~/Engineer/weapons/hammer"
-    },
-    {
       "name": "Ironrod",
       "type": "item",
       "compiles": true,
@@ -5352,19 +5288,6 @@
       "path": "~/Warrior/weapons/Bow"
     },
     {
-      "name": "Weldingmaskrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "weldingmaskrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/welding_mask_recipe.json"
-        ]
-      },
-      "path": "~/Engineer/equipment"
-    },
-    {
       "name": "Welddrob3",
       "type": "procedure",
       "compiles": true,
@@ -5532,19 +5455,6 @@
         ]
       },
       "path": "~/Mage/table"
-    },
-    {
-      "name": "Warriorbookrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "warriorbookrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/warrior_book_recipe.json"
-        ]
-      },
-      "path": "~/Warrior/equipment/book"
     },
     {
       "name": "Roastedbonerecipe",
@@ -5805,8 +5715,8 @@
       "registry_name": "constructors_workbench_ui",
       "metadata": {
         "files": [
-          "src/main/java/net/saik/forgottenfairytales/client/gui/ConstructorsWorkbenchUIScreen.java",
           "src/main/java/net/saik/forgottenfairytales/network/ConstructorsWorkbenchUISlotMessage.java",
+          "src/main/java/net/saik/forgottenfairytales/client/gui/ConstructorsWorkbenchUIScreen.java",
           "src/main/java/net/saik/forgottenfairytales/world/inventory/ConstructorsWorkbenchUIMenu.java"
         ]
       },
@@ -10499,6 +10409,86 @@
         ]
       },
       "path": "~/Engineer/equipment"
+    },
+    {
+      "name": "WarriorTableCraftBook",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warrior_table_craft_book",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/procedures/WarriorTableCraftBookProcedure.java"
+        ]
+      },
+      "path": "~/Warrior/table/crafts"
+    },
+    {
+      "name": "CWcraftTeleporter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_wcraft_teleporter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/procedures/CWcraftTeleporterProcedure.java"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "CWcraftEGagarinhammer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_wcraft_e_gagarinhammer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/procedures/CWcraftEGagarinhammerProcedure.java"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "CWcraftWeldingMask",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_wcraft_welding_mask",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/procedures/CWcraftWeldingMaskProcedure.java"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
     }
   ],
   "variable_elements": [
@@ -11781,9 +11771,9 @@
     "files": [
       "src/main/resources/data/neoforge/loot_modifiers/global_loot_modifiers.json",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModPotions.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModScreens.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModMenus.java",
       "src/main/java/net/saik/forgottenfairytales/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModScreens.java",
       "src/main/java/net/saik/forgottenfairytales/client/renderer/item/LegacyOverrideSelectItemModel.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModKeyMappings.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
@@ -11793,30 +11783,30 @@
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModBlocks.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModBlockEntities.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModItems.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntities.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntityRenderers.java",
-      "src/main/java/net/saik/forgottenfairytales/network/PlayPlayerAnimationMessage.java",
-      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesModPlayerAnimationAPI.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/EntityRenderDispatcherMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandRendererMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModTabs.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntities.java",
       "src/main/java/net/saik/forgottenfairytales/mixin/LevelRendererMixin.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationRendererMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesMod.java",
-      "src/main/java/net/saik/forgottenfairytales/network/ForgottenFairyTalesModVariables.java",
-      "src/main/java/net/saik/forgottenfairytales/client/ItemArms.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRenderStateModifiers.java",
-      "src/main/resources/forgotten_fairy_tales.mixins.json",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/forgotten_fairy_tales/sounds.json",
-      "src/main/java/net/saik/forgottenfairytales/mixin/LivingEntityRendererMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandLayerMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/CameraAccessor.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/network/PlayPlayerAnimationMessage.java",
       "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModModels.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandLayerMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/client/ItemArms.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModTabs.java",
+      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesModPlayerAnimationAPI.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/saik/forgottenfairytales/network/ForgottenFairyTalesModVariables.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModSounds.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRenderStateModifiers.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/resources/forgotten_fairy_tales.mixins.json",
+      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/CameraAccessor.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesMod.java",
+      "src/main/resources/assets/forgotten_fairy_tales/sounds.json",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModModels.java"
     ],
     "betteranimations_models": {
       "Gagarinhammer": "gagarinshammernew:default",
