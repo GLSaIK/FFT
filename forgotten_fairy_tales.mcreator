@@ -2044,20 +2044,6 @@
       "path": "~/Warrior/warrior_drink"
     },
     {
-      "name": "Warriordrinkrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "warriordrinkrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/warriordrinkrecipe.json",
-          "src/main/resources/data/forgotten_fairy_tales/recipe/revitalizing_decoction.json"
-        ]
-      },
-      "path": "~/Warrior/warrior_drink"
-    },
-    {
       "name": "WarriordrinkPriZaviershieniiIspolzovaniia",
       "type": "procedure",
       "compiles": true,
@@ -2754,8 +2740,8 @@
       "registry_name": "bunch_of_arrows_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/bunch_of_arrows_recipe.json",
-          "src/main/resources/data/forgotten_fairy_tales/recipe/bunch_of_arrows_recipe.json"
+          "src/main/resources/data/forgotten_fairy_tales/recipe/bunch_of_arrows_recipe.json",
+          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/bunch_of_arrows_recipe.json"
         ]
       },
       "path": "~/Warrior/weapons/Bow"
@@ -5715,8 +5701,8 @@
       "registry_name": "constructors_workbench_ui",
       "metadata": {
         "files": [
-          "src/main/java/net/saik/forgottenfairytales/network/ConstructorsWorkbenchUISlotMessage.java",
           "src/main/java/net/saik/forgottenfairytales/client/gui/ConstructorsWorkbenchUIScreen.java",
+          "src/main/java/net/saik/forgottenfairytales/network/ConstructorsWorkbenchUISlotMessage.java",
           "src/main/java/net/saik/forgottenfairytales/world/inventory/ConstructorsWorkbenchUIMenu.java"
         ]
       },
@@ -6114,7 +6100,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/saik/forgottenfairytales/client/gui/WarriorsForgeUIScreen.java",
-          "src/main/java/net/saik/forgottenfairytales/world/inventory/WarriorsForgeUIMenu.java"
+          "src/main/java/net/saik/forgottenfairytales/world/inventory/WarriorsForgeUIMenu.java",
+          "src/main/java/net/saik/forgottenfairytales/network/WarriorsForgeUISlotMessage.java"
         ]
       },
       "path": "~/Warrior/table"
@@ -7229,7 +7216,7 @@
           "src/main/java/net/saik/forgottenfairytales/procedures/MagetableuiPriZakrytiiIntierfieisaProcedure.java"
         ]
       },
-      "path": "~/Mage/table/crafts"
+      "path": "~/Mage/table"
     },
     {
       "name": "MageTableCraft",
@@ -10489,6 +10476,243 @@
         ]
       },
       "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "WarriorTableJEI",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warrior_table_jei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/jei_recipes/WarriorTableJEIRecipe.java",
+          "src/main/java/net/saik/forgottenfairytales/jei_recipes/WarriorTableJEIRecipeCategory.java"
+        ]
+      },
+      "path": "~/Warrior/table"
+    },
+    {
+      "name": "WarriorTableBookJEI",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warrior_table_book_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/warrior_table_book_jei.json"
+        ]
+      },
+      "path": "~/Warrior/table/crafts"
+    },
+    {
+      "name": "WarriorTableBowJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warrior_table_bow_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/warrior_table_bow_jei.json"
+        ]
+      },
+      "path": "~/Warrior/table/crafts"
+    },
+    {
+      "name": "WarriorTableDrinkJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warrior_table_drink_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/warrior_table_drink_jei.json"
+        ]
+      },
+      "path": "~/Warrior/table/crafts"
+    },
+    {
+      "name": "WarriorTableSwordJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warrior_table_sword_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/warrior_table_sword_jei.json"
+        ]
+      },
+      "path": "~/Warrior/table/crafts"
+    },
+    {
+      "name": "ConstructorsWorkbenchJei",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constructors_workbench_jei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/jei_recipes/ConstructorsWorkbenchJeiRecipe.java",
+          "src/main/java/net/saik/forgottenfairytales/jei_recipes/ConstructorsWorkbenchJeiRecipeCategory.java"
+        ]
+      },
+      "path": "~/Engineer/table"
+    },
+    {
+      "name": "CWBinocularsJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cw_binoculars_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/cw_binoculars_jei.json"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "CWTeleporterJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cw_teleporter_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/cw_teleporter_jei.json"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "CWHammerJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cw_hammer_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/cw_hammer_jei.json"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "CWMaskJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cw_mask_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/cw_mask_jei.json"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "MageTableJei",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mage_table_jei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/jei_recipes/MageTableJeiRecipe.java",
+          "src/main/java/net/saik/forgottenfairytales/jei_recipes/MageTableJeiRecipeCategory.java"
+        ]
+      },
+      "path": "~/Mage/table"
+    },
+    {
+      "name": "MageTableHatJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mage_table_hat_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/mage_table_hat_jei.json"
+        ]
+      },
+      "path": "~/Mage/table/crafts"
+    },
+    {
+      "name": "MageTableSwordJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mage_table_sword_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/mage_table_sword_jei.json"
+        ]
+      },
+      "path": "~/Mage/table/crafts"
+    },
+    {
+      "name": "MageTableMultitoolJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mage_table_multitool_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/mage_table_multitool_jei.json"
+        ]
+      },
+      "path": "~/Mage/table/crafts"
+    },
+    {
+      "name": "MageTableBarelikJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mage_table_barelik_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/mage_table_barelik_jei.json"
+        ]
+      },
+      "path": "~/Mage/table/crafts"
+    },
+    {
+      "name": "MageTableRuneJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mage_table_rune_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/mage_table_rune_jei.json"
+        ]
+      },
+      "path": "~/Mage/table/crafts"
+    },
+    {
+      "name": "MageTableKnifeJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mage_table_knife_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/mage_table_knife_jei.json"
+        ]
+      },
+      "path": "~/Mage/table/crafts"
+    },
+    {
+      "name": "MageTableOrangeJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mage_table_orange_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/mage_table_orange_jei.json"
+        ]
+      },
+      "path": "~/Mage/table/crafts"
     }
   ],
   "variable_elements": [
@@ -10789,7 +11013,6 @@
       "~CUSTOM:CharCoalBlock",
       "~CUSTOM:BigBlastFurnace",
       "~CUSTOM:FireclayBricks",
-      "~CUSTOM:SmokePipeCornered",
       "~CUSTOM:Pyrite",
       "~CUSTOM:SmokePipe",
       "~CUSTOM:IronPlateBlock",
@@ -11207,7 +11430,6 @@
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:RawPyriteBlock",
-      "~CUSTOM:SmokePipeCornered",
       "~CUSTOM:Pyrite",
       "~CUSTOM:SmokePipe",
       "~CUSTOM:IronPlateBlock"
@@ -11769,13 +11991,18 @@
   },
   "metadata": {
     "files": [
+      "src/main/resources/data/forgotten_fairy_tales/tags/item/jei_empty_tag.json",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRecipeTypes.java",
+      "src/main/java/net/saik/forgottenfairytales/jei_recipes/EmptyIngredient.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModJeiPlugin.java",
       "src/main/resources/data/neoforge/loot_modifiers/global_loot_modifiers.json",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModPotions.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModScreens.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModMenus.java",
       "src/main/java/net/saik/forgottenfairytales/network/MenuStateUpdateMessage.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModScreens.java",
       "src/main/java/net/saik/forgottenfairytales/client/renderer/item/LegacyOverrideSelectItemModel.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModKeyMappings.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModBrewingRecipes.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModParticles.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModParticleTypes.java",
@@ -11783,30 +12010,30 @@
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModBlocks.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModBlockEntities.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModItems.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntityRenderers.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntities.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/LevelRendererMixin.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntityRenderers.java",
       "src/main/java/net/saik/forgottenfairytales/network/PlayPlayerAnimationMessage.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationMixin.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandLayerMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/client/ItemArms.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModTabs.java",
       "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesModPlayerAnimationAPI.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/saik/forgottenfairytales/network/ForgottenFairyTalesModVariables.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModSounds.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRenderStateModifiers.java",
       "src/main/java/net/saik/forgottenfairytales/mixin/EntityRenderDispatcherMixin.java",
-      "src/main/resources/forgotten_fairy_tales.mixins.json",
+      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModTabs.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/LevelRendererMixin.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationRendererMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/CameraAccessor.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/LivingEntityRendererMixin.java",
       "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesMod.java",
+      "src/main/java/net/saik/forgottenfairytales/network/ForgottenFairyTalesModVariables.java",
+      "src/main/java/net/saik/forgottenfairytales/client/ItemArms.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRenderStateModifiers.java",
+      "src/main/resources/forgotten_fairy_tales.mixins.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/assets/forgotten_fairy_tales/sounds.json",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModModels.java"
+      "src/main/java/net/saik/forgottenfairytales/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandLayerMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/CameraAccessor.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModModels.java",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModSounds.java",
+      "src/main/resources/pack.mcmeta"
     ],
     "betteranimations_models": {
       "Gagarinhammer": "gagarinshammernew:default",
@@ -12071,15 +12298,19 @@
   "workspaceSettings": {
     "modid": "forgotten_fairy_tales",
     "modName": "Forgotten Fairy Tales",
-    "version": "0.1.7.9.8",
+    "version": "0.1.8",
     "author": "SaIK, PBN, Majastik, Senko_san, Kenwq",
+    "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "serverSideOnly": true,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
     "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.saik.forgottenfairytales"
   },
   "mcreatorVersion": 202500345720

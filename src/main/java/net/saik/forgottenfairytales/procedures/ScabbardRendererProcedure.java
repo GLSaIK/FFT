@@ -27,9 +27,6 @@ import net.saik.forgottenfairytales.network.ForgottenFairyTalesModVariables;
 public class ScabbardRendererProcedure
         extends RenderLayer<PlayerRenderState, PlayerModel> {
 
-    private final ItemStackRenderState itemRenderState =
-            new ItemStackRenderState();
-
 
     public ScabbardRendererProcedure(
             RenderLayerParent<PlayerRenderState, PlayerModel> parent) {
@@ -131,12 +128,14 @@ public class ScabbardRendererProcedure
          * ItemModelResolver сам определяет модель
          * конкретного предмета.
          */
-        minecraft.getItemModelResolver().updateForLiving(
-                itemRenderState,
-                stack,
-                ItemDisplayContext.THIRD_PERSON_RIGHT_HAND,
-                player
-        );
+		ItemStackRenderState itemRenderState = new ItemStackRenderState();
+		
+		minecraft.getItemModelResolver().updateForLiving(
+		        itemRenderState,
+		        stack,
+		        ItemDisplayContext.THIRD_PERSON_RIGHT_HAND,
+		        player
+		);
 
 
         /*
@@ -144,13 +143,13 @@ public class ScabbardRendererProcedure
          * РЕНДЕР
          * ---------------------------------------------------------
          */
-
-        itemRenderState.render(
-                poseStack,
-                bufferSource,
-                packedLight,
-                0
-        );
+		
+		itemRenderState.render(
+		        poseStack,
+		        bufferSource,
+		        packedLight,
+		        0
+		);
 
 
         poseStack.popPose();

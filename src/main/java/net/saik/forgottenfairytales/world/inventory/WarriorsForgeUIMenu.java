@@ -2,6 +2,7 @@ package net.saik.forgottenfairytales.world.inventory;
 
 import net.saik.forgottenfairytales.procedures.WarriorsForgeUIPriZakrytiiIntierfieisaProcedure;
 import net.saik.forgottenfairytales.procedures.WarriorsForgeUIKazhdyiTikPokaIntierfieisOtkrytProcedure;
+import net.saik.forgottenfairytales.network.WarriorsForgeUISlotMessage;
 import net.saik.forgottenfairytales.init.ForgottenFairyTalesModMenus;
 
 import net.neoforged.neoforge.items.wrapper.InvWrapper;
@@ -10,6 +11,7 @@ import net.neoforged.neoforge.items.ItemStackHandler;
 import net.neoforged.neoforge.items.IItemHandlerModifiable;
 import net.neoforged.neoforge.items.IItemHandler;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
+import net.neoforged.neoforge.client.network.ClientPacketDistributor;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -156,6 +158,12 @@ public class WarriorsForgeUIMenu extends AbstractContainerMenu implements Forgot
 			private int y = WarriorsForgeUIMenu.this.y;
 
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(11, 1, stack.getCount());
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
@@ -291,6 +299,13 @@ public class WarriorsForgeUIMenu extends AbstractContainerMenu implements Forgot
 						ihm.setStackInSlot(i, ItemStack.EMPTY);
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			ClientPacketDistributor.sendToServer(new WarriorsForgeUISlotMessage(slotid, x, y, z, ctype, meta));
+			WarriorsForgeUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

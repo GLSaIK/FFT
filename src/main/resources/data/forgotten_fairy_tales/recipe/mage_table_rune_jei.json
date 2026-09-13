@@ -1,0 +1,25 @@
+{
+  "type": "forgotten_fairy_tales:mage_table_jei",
+  "ingredients": [
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:smooth_stone",
+    "minecraft:smooth_stone",
+    "minecraft:cobblestone",
+    "minecraft:smooth_stone",
+    "minecraft:gold_nugget",
+    "minecraft:gold_block",
+    "minecraft:gold_nugget",
+    "minecraft:cobblestone",
+    "minecraft:smooth_stone",
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:rune_of_protection",
+      "count": 1
+    }
+  ]
+}

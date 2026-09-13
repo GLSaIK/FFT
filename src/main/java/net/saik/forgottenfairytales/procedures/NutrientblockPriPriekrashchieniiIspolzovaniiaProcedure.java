@@ -13,7 +13,7 @@ public class NutrientblockPriPriekrashchieniiIspolzovaniiaProcedure {
 			return;
 		if (entity.getData(ForgottenFairyTalesModVariables.PLAYER_VARIABLES).eng == true) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 70, 0, false, true));
+				_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 10, 0, false, true));
 		} else {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.NAUSEA, 600, 0, false, true));

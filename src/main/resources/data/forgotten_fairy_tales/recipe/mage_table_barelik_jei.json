@@ -1,0 +1,25 @@
+{
+  "type": "forgotten_fairy_tales:mage_table_jei",
+  "ingredients": [
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:stripped_oak_log",
+    "forgotten_fairy_tales:reinforced_rope",
+    "minecraft:oak_fence",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:oak_slab",
+    "minecraft:rotten_flesh",
+    "minecraft:oak_slab",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:oak_fence",
+    "forgotten_fairy_tales:reinforced_rope",
+    "minecraft:stripped_oak_log",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:barelik_spawn_egg",
+      "count": 1
+    }
+  ]
+}

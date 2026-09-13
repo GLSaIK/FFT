@@ -1,0 +1,61 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "mage_table_jei",
+    "ingredients": [
+      {
+        "value": "Items.ROTTEN_FLESH"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Items.SPIDER_EYE"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Blocks.CARPET#0"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.CARPET#0"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "MageTableJei",
+    "results": [
+      {
+        "value": "CUSTOM:Hat.helmet"
+      }
+    ],
+    "resultCounts": [],
+    "count": 0
+  }
+}

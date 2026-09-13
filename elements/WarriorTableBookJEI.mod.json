@@ -1,0 +1,54 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "warrior_table_jei",
+    "ingredients": [
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.BOOK"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "WarriorTableJEI",
+    "results": [
+      {
+        "value": "CUSTOM:Book"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

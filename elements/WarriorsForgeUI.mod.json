@@ -227,6 +227,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "WarriorTableClear"
+          },
           "x": 277,
           "y": 73,
           "locked": false

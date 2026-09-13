@@ -1,0 +1,22 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:golden_apple",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:lapis_lazuli",
+    "minecraft:book",
+    "minecraft:lapis_lazuli",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:lapis_lazuli",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:book",
+      "count": 1
+    }
+  ]
+}

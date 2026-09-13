@@ -1,0 +1,170 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "constructors_workbench_ui_jei.png",
+    "width": 176,
+    "height": 105,
+    "icon": {
+      "value": "CUSTOM:ConstructorSworkbench"
+    },
+    "craftingtables": [
+      {
+        "value": "CUSTOM:ConstructorSworkbench"
+      }
+    ],
+    "enableCraftingtable": true,
+    "enableIntList": false,
+    "enableStringList": false,
+    "disableJeiBorder": true,
+    "title": "Constructors Workbench Jei",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 43,
+        "y": 9,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 61,
+        "y": 9,
+        "slotid": 1
+      },
+      {
+        "type": "INPUT",
+        "x": 97,
+        "y": 9,
+        "slotid": 2
+      },
+      {
+        "type": "INPUT",
+        "x": 115,
+        "y": 9,
+        "slotid": 3
+      },
+      {
+        "type": "INPUT",
+        "x": 43,
+        "y": 27,
+        "slotid": 4
+      },
+      {
+        "type": "INPUT",
+        "x": 61,
+        "y": 27,
+        "slotid": 5
+      },
+      {
+        "type": "INPUT",
+        "x": 79,
+        "y": 27,
+        "slotid": 6
+      },
+      {
+        "type": "INPUT",
+        "x": 97,
+        "y": 27,
+        "slotid": 7
+      },
+      {
+        "type": "INPUT",
+        "x": 115,
+        "y": 27,
+        "slotid": 8
+      },
+      {
+        "type": "INPUT",
+        "x": 61,
+        "y": 45,
+        "slotid": 9
+      },
+      {
+        "type": "INPUT",
+        "x": 79,
+        "y": 45,
+        "slotid": 10
+      },
+      {
+        "type": "INPUT",
+        "x": 97,
+        "y": 45,
+        "slotid": 11
+      },
+      {
+        "type": "INPUT",
+        "x": 43,
+        "y": 63,
+        "slotid": 12
+      },
+      {
+        "type": "INPUT",
+        "x": 61,
+        "y": 63,
+        "slotid": 13
+      },
+      {
+        "type": "INPUT",
+        "x": 79,
+        "y": 63,
+        "slotid": 14
+      },
+      {
+        "type": "INPUT",
+        "x": 97,
+        "y": 63,
+        "slotid": 15
+      },
+      {
+        "type": "INPUT",
+        "x": 115,
+        "y": 63,
+        "slotid": 16
+      },
+      {
+        "type": "INPUT",
+        "x": 43,
+        "y": 81,
+        "slotid": 17
+      },
+      {
+        "type": "INPUT",
+        "x": 61,
+        "y": 81,
+        "slotid": 18
+      },
+      {
+        "type": "INPUT",
+        "x": 97,
+        "y": 81,
+        "slotid": 19
+      },
+      {
+        "type": "INPUT",
+        "x": 115,
+        "y": 81,
+        "slotid": 20
+      },
+      {
+        "type": "INPUT",
+        "x": 7,
+        "y": 45,
+        "slotid": 21
+      },
+      {
+        "type": "OUTPUT",
+        "x": 151,
+        "y": 45,
+        "slotid": 0
+      }
+    ],
+    "components": [],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

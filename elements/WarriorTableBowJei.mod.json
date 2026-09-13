@@ -1,0 +1,54 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "warrior_table_jei",
+    "ingredients": [
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "CUSTOM:Ironrod"
+      },
+      {
+        "value": "CUSTOM:Roastedbone"
+      },
+      {
+        "value": "CUSTOM:Ironrod"
+      },
+      {
+        "value": "CUSTOM:Daedalusbow"
+      },
+      {
+        "value": "CUSTOM:ReinforcedRope"
+      },
+      {
+        "value": "CUSTOM:Roastedbone"
+      },
+      {
+        "value": "CUSTOM:ReinforcedRope"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "WarriorTableJEI",
+    "results": [
+      {
+        "value": "CUSTOM:Daedalusbow"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

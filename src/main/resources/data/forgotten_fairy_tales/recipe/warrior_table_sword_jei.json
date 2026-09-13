@@ -1,0 +1,22 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "forgotten_fairy_tales:iron_plate",
+    "forgotten_fairy_tales:iron_plate",
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:dark_oak_planks",
+    "minecraft:stone_sword",
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:stick",
+    "minecraft:lead",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:swordvoin",
+      "count": 1
+    }
+  ]
+}

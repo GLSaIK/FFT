@@ -1,0 +1,61 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "mage_table_jei",
+    "ingredients": [
+      {
+        "value": "Blocks.RESIN_CLUMP"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Blocks.RESIN_CLUMP"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "CUSTOM:Drop"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.RESIN_CLUMP"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Blocks.RESIN_CLUMP"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "MageTableJei",
+    "results": [
+      {
+        "value": "CUSTOM:Animatingmatterlife"
+      }
+    ],
+    "resultCounts": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "mage_table_jei",
+    "ingredients": [
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "CUSTOM:Ironrod"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.BREEZE_ROD"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "MageTableJei",
+    "results": [
+      {
+        "value": "CUSTOM:RitualKnife"
+      }
+    ],
+    "resultCounts": [],
+    "count": 0
+  }
+}

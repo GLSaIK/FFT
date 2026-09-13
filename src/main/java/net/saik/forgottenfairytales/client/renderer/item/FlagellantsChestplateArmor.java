@@ -1,7 +1,7 @@
 package net.saik.forgottenfairytales.client.renderer.item;
 
 import net.saik.forgottenfairytales.init.ForgottenFairyTalesModItems;
-import net.saik.forgottenfairytales.client.model.ModelFlagellantsChestplate;
+import net.saik.forgottenfairytales.client.model.ModelFlagellantsbreastplate;
 
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
@@ -30,9 +30,9 @@ public class FlagellantsChestplateArmor {
 			@Override
 			public HumanoidModel getHumanoidArmorModel(ItemStack itemStack, EquipmentClientInfo.LayerType layerType, Model original) {
 				if (armorModel == null) {
-					ModelFlagellantsChestplate model = new ModelFlagellantsChestplate(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlagellantsChestplate.LAYER_LOCATION));
+					ModelFlagellantsbreastplate model = new ModelFlagellantsbreastplate(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlagellantsbreastplate.LAYER_LOCATION));
 					armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("body", model.body, "left_arm", model.larm, "right_arm", model.larm2, "head", new ModelPart(Collections.emptyList(), Map.of("hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()))), "right_leg",
+							Map.of("body", model.bone, "left_arm", model.bone3, "right_arm", model.bone2, "head", new ModelPart(Collections.emptyList(), Map.of("hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()))), "right_leg",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 				}
 				return armorModel;
@@ -40,7 +40,7 @@ public class FlagellantsChestplateArmor {
 
 			@Override
 			public ResourceLocation getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, ResourceLocation _default) {
-				return ResourceLocation.parse("forgotten_fairy_tales:textures/entities/flaggelantschestplate.png");
+				return ResourceLocation.parse("forgotten_fairy_tales:textures/entities/flag.png");
 			}
 		}, ForgottenFairyTalesModItems.FLAGELLANTS_CHESTPLATE_CHESTPLATE.get());
 	}

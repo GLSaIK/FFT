@@ -18,6 +18,7 @@ public class ForgottenFairyTalesModModels {
 		event.registerLayerDefinition(Modelbeam.LAYER_LOCATION, Modelbeam::createBodyLayer);
 		event.registerLayerDefinition(Modelbarrelik.LAYER_LOCATION, Modelbarrelik::createBodyLayer);
 		event.registerLayerDefinition(ModelSwerh.LAYER_LOCATION, ModelSwerh::createBodyLayer);
+		event.registerLayerDefinition(ModelFlagellantsbreastplate.LAYER_LOCATION, ModelFlagellantsbreastplate::createBodyLayer);
 		event.registerLayerDefinition(ModelBunchOfArrowsR.LAYER_LOCATION, ModelBunchOfArrowsR::createBodyLayer);
 		event.registerLayerDefinition(Modelshotgunnew.LAYER_LOCATION, Modelshotgunnew::createBodyLayer);
 		event.registerLayerDefinition(Modelmaska_Converted.LAYER_LOCATION, Modelmaska_Converted::createBodyLayer);

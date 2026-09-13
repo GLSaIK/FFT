@@ -1,0 +1,33 @@
+{
+  "type": "forgotten_fairy_tales:constructors_workbench_jei",
+  "ingredients": [
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:lightning_rod",
+    "minecraft:lightning_rod",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_nugget",
+    "forgotten_fairy_tales:smoke_pipe",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "forgotten_fairy_tales:smoke_pipe",
+    "minecraft:iron_nugget",
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:glass",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_ingot",
+    "minecraft:amethyst_shard",
+    "minecraft:iron_ingot",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:brokenteleport",
+      "count": 1
+    }
+  ]
+}

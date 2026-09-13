@@ -1,0 +1,25 @@
+{
+  "type": "forgotten_fairy_tales:mage_table_jei",
+  "ingredients": [
+    "minecraft:rotten_flesh",
+    "minecraft:gold_nugget",
+    "minecraft:spider_eye",
+    "minecraft:gold_nugget",
+    "minecraft:white_carpet",
+    "minecraft:stick",
+    "minecraft:leather",
+    "minecraft:stick",
+    "minecraft:white_carpet",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:hat_helmet",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "warrior_table_jei",
+    "ingredients": [
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "CUSTOM:Drop"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.HONEY_BOTTLE"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "WarriorTableJEI",
+    "results": [
+      {
+        "value": "CUSTOM:Warriordrink"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

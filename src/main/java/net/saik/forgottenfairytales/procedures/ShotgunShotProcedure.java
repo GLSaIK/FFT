@@ -36,7 +36,7 @@ public class ShotgunShotProcedure {
 				Projectile _entityToSpawn = initArrowProjectile(new ShbutEntity(ForgottenFairyTalesModEntities.SHBUT.get(), 0, 0, 0, projectileLevel, createArrowWeaponItemStack(projectileLevel, 2, (byte) 1)), entity, 1, true, false, false,
 						AbstractArrow.Pickup.DISALLOWED);
 				_entityToSpawn.setPos((entity.getX()), (entity.getY() + 1.5), (entity.getZ()));
-				_entityToSpawn.shoot((entity.getLookAngle().x), (entity.getLookAngle().y), (entity.getLookAngle().z), 10, 4);
+				_entityToSpawn.shoot((entity.getLookAngle().x), (entity.getLookAngle().y), (entity.getLookAngle().z), 10, 2);
 				projectileLevel.addFreshEntity(_entityToSpawn);
 			}
 			{
@@ -59,6 +59,7 @@ public class ShotgunShotProcedure {
 					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("forgotten_fairy_tales:dry")), SoundSource.PLAYERS, (float) 0.7, 1, false);
 				}
 			}
+			ReloadPriNazhatiiKlavishiProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

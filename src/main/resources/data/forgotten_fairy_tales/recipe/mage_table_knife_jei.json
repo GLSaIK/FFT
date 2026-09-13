@@ -1,0 +1,25 @@
+{
+  "type": "forgotten_fairy_tales:mage_table_jei",
+  "ingredients": [
+    "minecraft:flint",
+    "minecraft:iron_nugget",
+    "minecraft:iron_ingot",
+    "minecraft:black_dye",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "forgotten_fairy_tales:ironrod",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:string",
+    "minecraft:breeze_rod",
+    "minecraft:string",
+    "minecraft:stick",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:ritual_knife",
+      "count": 1
+    }
+  ]
+}

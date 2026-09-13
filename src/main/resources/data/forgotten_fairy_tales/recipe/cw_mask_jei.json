@@ -1,0 +1,33 @@
+{
+  "type": "forgotten_fairy_tales:constructors_workbench_jei",
+  "ingredients": [
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "forgotten_fairy_tales:reinforced_rope",
+    "minecraft:tripwire_hook",
+    "minecraft:iron_nugget",
+    "minecraft:tripwire_hook",
+    "forgotten_fairy_tales:reinforced_rope",
+    "minecraft:iron_nugget",
+    "minecraft:tinted_glass",
+    "minecraft:iron_nugget",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:iron_nugget",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:weldingmask_helmet",
+      "count": 1
+    }
+  ]
+}

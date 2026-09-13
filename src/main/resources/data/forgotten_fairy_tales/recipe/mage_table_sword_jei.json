@@ -1,0 +1,25 @@
+{
+  "type": "forgotten_fairy_tales:mage_table_jei",
+  "ingredients": [
+    "minecraft:glass_pane",
+    "minecraft:glass",
+    "minecraft:tinted_glass",
+    "minecraft:glass",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:glass_pane",
+    "minecraft:lapis_lazuli",
+    "minecraft:glass_pane",
+    "minecraft:glass_pane",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:tinted_glass",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:glass_pane",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:glass_sword",
+      "count": 1
+    }
+  ]
+}

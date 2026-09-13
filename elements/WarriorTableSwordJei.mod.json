@@ -1,0 +1,54 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "warrior_table_jei",
+    "ingredients": [
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "Blocks.PLANKS#5"
+      },
+      {
+        "value": "Items.STONE_SWORD"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.LEAD"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "WarriorTableJEI",
+    "results": [
+      {
+        "value": "CUSTOM:Swordvoin"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

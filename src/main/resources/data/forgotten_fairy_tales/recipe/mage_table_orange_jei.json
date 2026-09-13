@@ -1,0 +1,25 @@
+{
+  "type": "forgotten_fairy_tales:mage_table_jei",
+  "ingredients": [
+    "minecraft:resin_clump",
+    "minecraft:gold_nugget",
+    "minecraft:gold_ingot",
+    "minecraft:resin_clump",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:gold_nugget",
+    "forgotten_fairy_tales:drop",
+    "minecraft:gold_nugget",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:resin_clump",
+    "minecraft:gold_ingot",
+    "minecraft:gold_nugget",
+    "minecraft:resin_clump",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:animatingmatterlife",
+      "count": 1
+    }
+  ]
+}

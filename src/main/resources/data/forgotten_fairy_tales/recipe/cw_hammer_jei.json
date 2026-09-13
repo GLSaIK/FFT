@@ -1,0 +1,33 @@
+{
+  "type": "forgotten_fairy_tales:constructors_workbench_jei",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_block",
+    "minecraft:iron_nugget",
+    "minecraft:iron_ingot",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:green_dye",
+    "forgotten_fairy_tales:ironrod",
+    "forgotten_fairy_tales:reinforced_rope",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_nugget",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:gagarinhammer",
+      "count": 1
+    }
+  ]
+}
