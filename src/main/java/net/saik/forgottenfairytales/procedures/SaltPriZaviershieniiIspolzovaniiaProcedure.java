@@ -20,19 +20,42 @@ public class SaltPriZaviershieniiIspolzovaniiaProcedure {
 		ItemStack n = ItemStack.EMPTY;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ForgottenFairyTalesModItems.SALT.get()
 				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("minecraft:saltfood")))) {
-			n = (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).copy();
-			{
-				final String _tagName = "salted";
-				final boolean _tagValue = true;
-				CustomData.update(DataComponents.CUSTOM_DATA, n, tag -> tag.putBoolean(_tagName, _tagValue));
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr("salted", false) != true
+					&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr("oversalted", false) != true) {
+				n = (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).copy();
+				{
+					final String _tagName = "salted";
+					final boolean _tagValue = true;
+					CustomData.update(DataComponents.CUSTOM_DATA, n, tag -> tag.putBoolean(_tagName, _tagValue));
+				}
+				if (entity instanceof Player _player) {
+					ItemStack _setstack = n.copy();
+					_setstack.setCount(1);
+					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+				}
+				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+				(entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).shrink(1);
+			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr("salted", false) == true
+					&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr("oversalted", false) != true) {
+				n = (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).copy();
+				{
+					final String _tagName = "salted";
+					final boolean _tagValue = false;
+					CustomData.update(DataComponents.CUSTOM_DATA, n, tag -> tag.putBoolean(_tagName, _tagValue));
+				}
+				{
+					final String _tagName = "oversalted";
+					final boolean _tagValue = true;
+					CustomData.update(DataComponents.CUSTOM_DATA, n, tag -> tag.putBoolean(_tagName, _tagValue));
+				}
+				if (entity instanceof Player _player) {
+					ItemStack _setstack = n.copy();
+					_setstack.setCount(1);
+					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+				}
+				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+				(entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).shrink(1);
 			}
-			if (entity instanceof Player _player) {
-				ItemStack _setstack = n.copy();
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-			}
-			(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
-			(entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).shrink(1);
 		}
 	}
 }

@@ -34,6 +34,7 @@ public class ForgottenFairyTalesModTabs {
 				tabData.accept(ForgottenFairyTalesModItems.BREAM.get());
 				tabData.accept(ForgottenFairyTalesModItems.FLAGELLANTS_CHESTPLATE_CHESTPLATE.get());
 				tabData.accept(ForgottenFairyTalesModItems.SCABBARD.get());
+				tabData.accept(ForgottenFairyTalesModItems.GOLDEN_SADDLE.get());
 			}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MAGE = REGISTRY.register("mage",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forgotten_fairy_tales.mage")).icon(() -> new ItemStack(ForgottenFairyTalesModItems.PRAHMAG.get())).displayItems((parameters, tabData) -> {

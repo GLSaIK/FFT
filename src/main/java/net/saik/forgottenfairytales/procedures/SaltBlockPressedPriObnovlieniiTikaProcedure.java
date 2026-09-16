@@ -5,6 +5,7 @@ import org.checkerframework.checker.units.qual.t;
 import net.saik.forgottenfairytales.init.ForgottenFairyTalesModBlocks;
 
 import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Blocks;
@@ -19,7 +20,9 @@ public class SaltBlockPressedPriObnovlieniiTikaProcedure {
 		boolean n = false;
 		t = 2;
 		for (int index0 = 0; index0 < 10; index0++) {
-			if (!((world.getBlockState(BlockPos.containing(x, y + t, z))).getBlock() == Blocks.POINTED_DRIPSTONE && (world.getBlockState(BlockPos.containing(x, y + t + 2, z))).getBlock() == Blocks.WATER)) {
+			if (!((world.getBlockState(BlockPos.containing(x, y + t, z))).getBlock() == Blocks.POINTED_DRIPSTONE && ((world.getBlockState(BlockPos.containing(x, y + t + 2, z))).getBlock() == Blocks.WATER
+					|| ((world.getBlockState(BlockPos.containing(x, y + t + 2, z))).getBlock().getStateDefinition().getProperty("waterlogged") instanceof BooleanProperty _getbp5
+							&& (world.getBlockState(BlockPos.containing(x, y + t + 2, z))).getValue(_getbp5)) == true))) {
 				t = t + 1;
 			} else {
 				n = true;

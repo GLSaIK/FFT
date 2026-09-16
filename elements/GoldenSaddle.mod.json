@@ -3,17 +3,17 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "binocle",
+    "texture": "minecraft:saddle",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Бинокль",
+    "name": "Золотое седло",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Engineer"
+        "value": "CUSTOM:Warrior"
       }
     ],
     "stackSize": 64,
@@ -32,18 +32,13 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их"
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false
     },
     "inventorySize": 9,
     "inventoryStackSize": 99,
-    "onRightClickedInAir": {
-      "name": "BinocularsPriShchielchkiePKM"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

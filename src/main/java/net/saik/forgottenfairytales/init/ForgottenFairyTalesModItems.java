@@ -135,6 +135,7 @@ public class ForgottenFairyTalesModItems {
 	public static final DeferredItem<Item> SCABBARD;
 	public static final DeferredItem<Item> RITUAL_KNIFE;
 	public static final DeferredItem<Item> BINOCULARS;
+	public static final DeferredItem<Item> GOLDEN_SADDLE;
 	static {
 		PRAHVOIN = register("prahvoin", PrahvoinItem::new);
 		PRAHMAG = register("prahmag", PrahmagItem::new);
@@ -242,6 +243,7 @@ public class ForgottenFairyTalesModItems {
 		SCABBARD = register("scabbard", ScabbardItem::new);
 		RITUAL_KNIFE = register("ritual_knife", RitualKnifeItem::new);
 		BINOCULARS = register("binoculars", BinocularsItem::new);
+		GOLDEN_SADDLE = register("golden_saddle", GoldenSaddleItem::new);
 	}
 
 	// Start of user code block custom items

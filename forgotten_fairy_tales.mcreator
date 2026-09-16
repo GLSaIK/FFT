@@ -5380,13 +5380,13 @@
       "registry_name": "magetable",
       "metadata": {
         "files": [
-          "src/main/java/net/saik/forgottenfairytales/block/entity/MagetableBlockEntity.java",
+          "src/main/resources/assets/forgotten_fairy_tales/blockstates/magetable.json",
           "src/main/resources/assets/forgotten_fairy_tales/models/block/magetable.json",
-          "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/magetable.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/magetable.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/magetable.json",
           "src/main/java/net/saik/forgottenfairytales/block/MagetableBlock.java",
-          "src/main/resources/assets/forgotten_fairy_tales/blockstates/magetable.json"
+          "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/magetable.json",
+          "src/main/java/net/saik/forgottenfairytales/block/entity/MagetableBlockEntity.java",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/magetable.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/magetable.json"
         ]
       },
       "path": "~/Mage/table"
@@ -5810,8 +5810,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/saik/forgottenfairytales/network/MagetableuiSlotMessage.java",
-          "src/main/java/net/saik/forgottenfairytales/world/inventory/MagetableuiMenu.java",
-          "src/main/java/net/saik/forgottenfairytales/client/gui/MagetableuiScreen.java"
+          "src/main/java/net/saik/forgottenfairytales/client/gui/MagetableuiScreen.java",
+          "src/main/java/net/saik/forgottenfairytales/world/inventory/MagetableuiMenu.java"
         ]
       },
       "path": "~/Mage/table"
@@ -7626,6 +7626,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -10328,8 +10332,8 @@
       "registry_name": "binoculars",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/items/binoculars.json",
           "src/main/java/net/saik/forgottenfairytales/item/BinocularsItem.java",
+          "src/main/resources/assets/forgotten_fairy_tales/items/binoculars.json",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/binoculars.json"
         ]
       },
@@ -10713,6 +10717,40 @@
         ]
       },
       "path": "~/Mage/table/crafts"
+    },
+    {
+      "name": "GoldenSaddle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "golden_saddle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/item/GoldenSaddleItem.java",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/golden_saddle.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/golden_saddle.json"
+        ]
+      },
+      "path": "~/Warrior/equipment/GoldenSaddle"
+    },
+    {
+      "name": "GoldenSaddleEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "golden_saddle_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/procedures/GoldenSaddleEffectProcedure.java"
+        ]
+      },
+      "path": "~/Warrior/equipment/GoldenSaddle"
     }
   ],
   "variable_elements": [
@@ -11739,7 +11777,8 @@
       "item.forgotten_fairy_tales.scabbard": "Scabbard",
       "item.forgotten_fairy_tales.ritual_knife": "Ritual Knife",
       "item.forgotten_fairy_tales.binoculars": "Бинокль",
-      "item.forgotten_fairy_tales.binoculars.description_0": "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их"
+      "item.forgotten_fairy_tales.binoculars.description_0": "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их",
+      "item.forgotten_fairy_tales.golden_saddle": "Золотое седло"
     },
     "ru_ru": {
       "gui.forgotten_fairy_tales.debugnaloz.label_d3": "d3",
@@ -11986,20 +12025,21 @@
       "item.forgotten_fairy_tales.scabbard": "Scabbard",
       "item.forgotten_fairy_tales.ritual_knife": "Ritual Knife",
       "item.forgotten_fairy_tales.binoculars": "Бинокль",
-      "item.forgotten_fairy_tales.binoculars.description_0": "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их"
+      "item.forgotten_fairy_tales.binoculars.description_0": "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их",
+      "item.forgotten_fairy_tales.golden_saddle": "Золотое седло"
     }
   },
   "metadata": {
     "files": [
       "src/main/resources/data/forgotten_fairy_tales/tags/item/jei_empty_tag.json",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModJeiPlugin.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRecipeTypes.java",
       "src/main/java/net/saik/forgottenfairytales/jei_recipes/EmptyIngredient.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModJeiPlugin.java",
       "src/main/resources/data/neoforge/loot_modifiers/global_loot_modifiers.json",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModPotions.java",
+      "src/main/java/net/saik/forgottenfairytales/network/MenuStateUpdateMessage.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModScreens.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModMenus.java",
-      "src/main/java/net/saik/forgottenfairytales/network/MenuStateUpdateMessage.java",
       "src/main/java/net/saik/forgottenfairytales/client/renderer/item/LegacyOverrideSelectItemModel.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModKeyMappings.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModBrewingRecipes.java",
@@ -12012,28 +12052,28 @@
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModItems.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntities.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntityRenderers.java",
-      "src/main/java/net/saik/forgottenfairytales/network/PlayPlayerAnimationMessage.java",
-      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesModPlayerAnimationAPI.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesMod.java",
+      "src/main/java/net/saik/forgottenfairytales/network/ForgottenFairyTalesModVariables.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModModels.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandLayerMixin.java",
       "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/CameraAccessor.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/resources/assets/forgotten_fairy_tales/sounds.json",
+      "src/main/java/net/saik/forgottenfairytales/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesModPlayerAnimationAPI.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModTabs.java",
       "src/main/java/net/saik/forgottenfairytales/mixin/LevelRendererMixin.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationRendererMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesMod.java",
-      "src/main/java/net/saik/forgottenfairytales/network/ForgottenFairyTalesModVariables.java",
-      "src/main/java/net/saik/forgottenfairytales/client/ItemArms.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRenderStateModifiers.java",
-      "src/main/resources/forgotten_fairy_tales.mixins.json",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/forgotten_fairy_tales/sounds.json",
-      "src/main/java/net/saik/forgottenfairytales/mixin/LivingEntityRendererMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandLayerMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/CameraAccessor.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModModels.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModSounds.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/saik/forgottenfairytales/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/saik/forgottenfairytales/client/ItemArms.java",
+      "src/main/resources/forgotten_fairy_tales.mixins.json",
+      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationMixin.java"
     ],
     "betteranimations_models": {
       "Gagarinhammer": "gagarinshammernew:default",
@@ -12210,6 +12250,10 @@
               },
               {
                 "name": "scabbard",
+                "children": []
+              },
+              {
+                "name": "GoldenSaddle",
                 "children": []
               }
             ]

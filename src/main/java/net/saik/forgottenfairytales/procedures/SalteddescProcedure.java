@@ -31,6 +31,8 @@ public class SalteddescProcedure {
 			return;
 		if (itemstack.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr("salted", false) == true) {
 			tooltip.add(1, Component.literal((Component.translatable("salted").getString())));
+		} else if (itemstack.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr("oversalted", false) == true) {
+			tooltip.add(1, Component.literal("GTHT"));
 		}
 	}
 }
