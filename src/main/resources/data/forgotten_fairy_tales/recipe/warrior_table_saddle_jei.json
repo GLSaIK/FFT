@@ -1,0 +1,22 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "minecraft:gold_nugget",
+    "minecraft:gold_nugget",
+    "minecraft:gold_nugget",
+    "minecraft:gold_ingot",
+    "minecraft:saddle",
+    "minecraft:gold_ingot",
+    "minecraft:tripwire_hook",
+    "forgotten_fairy_tales:reinforced_rope",
+    "minecraft:tripwire_hook",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:golden_saddle",
+      "count": 1
+    }
+  ]
+}
