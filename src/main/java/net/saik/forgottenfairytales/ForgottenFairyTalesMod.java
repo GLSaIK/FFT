@@ -5,7 +5,6 @@ import org.apache.logging.log4j.LogManager;
 
 import net.saik.forgottenfairytales.network.ForgottenFairyTalesModVariables;
 import net.saik.forgottenfairytales.init.*;
-import net.saik.forgottenfairytales.client.ShotgunClientRegistration;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
@@ -68,10 +67,6 @@ public class ForgottenFairyTalesMod {
 		ForgottenFairyTalesModMenus.REGISTRY.register(modEventBus);
 		ForgottenFairyTalesModParticleTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
-		if (FMLEnvironment.dist.isClient()) {
-			modEventBus.addListener(ShotgunClientRegistration::register);
-		}
-		CWRecipeTypes.register(modEventBus);
 		// End of user code block mod init
 	}
 

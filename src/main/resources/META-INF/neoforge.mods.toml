@@ -19,29 +19,27 @@ displayTest="IGNORE_SERVER_VERSION"
 # End of user code block custom mixins
 
 [[dependencies.forgotten_fairy_tales]]
-modId="neoforge"
-type="required"
-versionRange="[21.8.31,)"
-ordering="AFTER"
-side="BOTH"
+    modId="neoforge"
+    type="required"
+    versionRange="[21.8.31,)"
+    ordering="AFTER"
+    side="BOTH"
 
 [[dependencies.forgotten_fairy_tales]]
-modId="minecraft"
-type="required"
-versionRange="[1.21.8]"
-ordering="AFTER"
-side="BOTH"
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.8]"
+    ordering="AFTER"
+    side="BOTH"
 
 
 [[dependencies.forgotten_fairy_tales]]
-modId="jei"
-type="optional"
-versionRange="[0,)"
-ordering="NONE"
-side="BOTH"
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
-[[mixins]]
-config="forgotten_fairy_tales.mixins.json"
 # End of user code block dependencies configuration
