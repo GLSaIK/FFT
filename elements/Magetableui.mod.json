@@ -296,9 +296,6 @@
     "onTick": {
       "name": "MagetableuiKazhdyiTikPokaIntierfieisOtkryt"
     },
-    "onClosed": {
-      "name": "MagetableuiPriZakrytiiIntierfieisa"
-    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

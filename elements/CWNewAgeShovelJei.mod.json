@@ -1,0 +1,85 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "constructors_workbench_jei",
+    "ingredients": [
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "Blocks.RAW_IRON_BLOCK"
+      },
+      {
+        "value": "Blocks.RAW_IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:Drop"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:ReinforcedRope"
+      },
+      {
+        "value": "Blocks.RAW_IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:ReinforcedRope"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:Ironrod"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "ConstructorsWorkbenchJei",
+    "results": [
+      {
+        "value": "CUSTOM:Newageshovel"
+      }
+    ],
+    "resultCounts": [],
+    "count": 0
+  }
+}

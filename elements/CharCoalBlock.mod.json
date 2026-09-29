@@ -53,7 +53,7 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "CUSTOM:Ffft"
       }
     ],
     "destroyTool": "pickaxe",

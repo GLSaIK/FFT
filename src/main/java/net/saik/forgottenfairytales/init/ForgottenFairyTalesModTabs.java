@@ -111,12 +111,13 @@ public class ForgottenFairyTalesModTabs {
 				tabData.accept(ForgottenFairyTalesModBlocks.PYRITE.get().asItem());
 				tabData.accept(ForgottenFairyTalesModItems.PYRITE_ORE.get());
 				tabData.accept(ForgottenFairyTalesModBlocks.SMOKE_PIPE_CORNERED.get().asItem());
+				tabData.accept(ForgottenFairyTalesModBlocks.CHAR_COAL_BLOCK.get().asItem());
+				tabData.accept(ForgottenFairyTalesModBlocks.CHANGE_TABLE.get().asItem());
 			}).withTabsBefore(FOOD.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(ForgottenFairyTalesModBlocks.CHAR_COAL_BLOCK.get().asItem());
 			tabData.accept(ForgottenFairyTalesModBlocks.RAW_PYRITE_BLOCK.get().asItem());
 		}
 	}

@@ -244,5 +244,7 @@
   "item.forgotten_fairy_tales.ritual_knife": "Ritual Knife",
   "item.forgotten_fairy_tales.binoculars": "Бинокль",
   "item.forgotten_fairy_tales.binoculars.description_0": "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их",
-  "item.forgotten_fairy_tales.golden_saddle": "Золотое седло"
+  "item.forgotten_fairy_tales.golden_saddle": "Золотое седло",
+  "gui.forgotten_fairy_tales.change_table_gui.button_change": "",
+  "item.forgotten_fairy_tales.change_table": "Change Table"
 }

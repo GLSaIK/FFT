@@ -49,6 +49,7 @@ public class ForgottenFairyTalesModBlocks {
 	public static final DeferredBlock<Block> BIG_BLAST_FURNACE;
 	public static final DeferredBlock<Block> CHAR_COAL_BLOCK;
 	public static final DeferredBlock<Block> RAW_PYRITE_BLOCK;
+	public static final DeferredBlock<Block> CHANGE_TABLE;
 	static {
 		COLOMNTR = register("colomntr", ColomntrBlock::new);
 		VASA = register("vasa", VasaBlock::new);
@@ -83,6 +84,7 @@ public class ForgottenFairyTalesModBlocks {
 		BIG_BLAST_FURNACE = register("big_blast_furnace", BigBlastFurnaceBlock::new);
 		CHAR_COAL_BLOCK = register("char_coal_block", CharCoalBlockBlock::new);
 		RAW_PYRITE_BLOCK = register("raw_pyrite_block", RawPyriteBlockBlock::new);
+		CHANGE_TABLE = register("change_table", ChangeTableBlock::new);
 	}
 
 	// Start of user code block custom blocks

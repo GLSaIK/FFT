@@ -3932,62 +3932,6 @@
       "path": "~/Engineer/tools"
     },
     {
-      "name": "Multitoolrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "multitoolrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/multitoolrecipe.json",
-          "src/main/resources/data/forgotten_fairy_tales/recipe/multitool_recipe.json"
-        ]
-      },
-      "path": "~/Mage/tools"
-    },
-    {
-      "name": "Newagepickaxerecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "newagepickaxerecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/newagepickaxerecipe.json",
-          "src/main/resources/data/forgotten_fairy_tales/recipe/new_age_pickaxe_recipe.json"
-        ]
-      },
-      "path": "~/Engineer/tools"
-    },
-    {
-      "name": "Newageaxerecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "newageaxerecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/newageaxerecipe.json",
-          "src/main/resources/data/forgotten_fairy_tales/recipe/new_age_axe_recipe.json"
-        ]
-      },
-      "path": "~/Engineer/tools"
-    },
-    {
-      "name": "Newageshovelrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "newageshovelrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/new_age_shovel_recipe.json",
-          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/newageshovelrecipe.json"
-        ]
-      },
-      "path": "~/Engineer/tools"
-    },
-    {
       "name": "Speedbust",
       "type": "potioneffect",
       "compiles": true,
@@ -4577,20 +4521,6 @@
         ],
         "files": [
           "src/main/java/net/saik/forgottenfairytales/procedures/EffectanimatingmatterlifedeathProcedure.java"
-        ]
-      },
-      "path": "~/mobs/barelik"
-    },
-    {
-      "name": "Animatingmatterliferecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "animatingmatterliferecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/animatingmatterliferecipe.json",
-          "src/main/resources/data/forgotten_fairy_tales/recipe/animatingmatterliferecipe.json"
         ]
       },
       "path": "~/mobs/barelik"
@@ -5360,19 +5290,6 @@
       "path": "~/Mage/weapons/glass_sword"
     },
     {
-      "name": "Iceswordrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iceswordrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/iceswordrecipe.json"
-        ]
-      },
-      "path": "~/Mage/weapons/glass_sword"
-    },
-    {
       "name": "Magetable",
       "type": "block",
       "compiles": true,
@@ -5766,7 +5683,7 @@
       "name": "ConstructorsWorkbenchUIKazhdyiTikPokaIntierfieisOtkryt",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "constructors_workbench_ui_kazhdyi_tik_poka_intierfieis_otkryt",
       "metadata": {
         "dependencies": [
@@ -5782,26 +5699,6 @@
       "path": "~/Engineer/table"
     },
     {
-      "name": "CWcraftExample1",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_wcraft_example_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/CWcraftExample1Procedure.java"
-        ]
-      },
-      "path": "~/Engineer/table/crafts"
-    },
-    {
       "name": "Magetableui",
       "type": "gui",
       "compiles": true,
@@ -5810,8 +5707,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/saik/forgottenfairytales/network/MagetableuiSlotMessage.java",
-          "src/main/java/net/saik/forgottenfairytales/client/gui/MagetableuiScreen.java",
-          "src/main/java/net/saik/forgottenfairytales/world/inventory/MagetableuiMenu.java"
+          "src/main/java/net/saik/forgottenfairytales/world/inventory/MagetableuiMenu.java",
+          "src/main/java/net/saik/forgottenfairytales/client/gui/MagetableuiScreen.java"
         ]
       },
       "path": "~/Mage/table"
@@ -5840,30 +5737,10 @@
       "path": "~/Mage/table"
     },
     {
-      "name": "Magetablecraftsexample1",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magetablecraftsexample_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/Magetablecraftsexample1Procedure.java"
-        ]
-      },
-      "path": "~/Mage/table/crafts"
-    },
-    {
       "name": "MagetableuiKazhdyiTikPokaIntierfieisOtkryt",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "magetableui_kazhdyi_tik_poka_intierfieis_otkryt",
       "metadata": {
         "dependencies": [
@@ -7085,140 +6962,6 @@
       "path": "~/achivments"
     },
     {
-      "name": "MageTableCraftHat",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mage_table_craft_hat",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/MageTableCraftHatProcedure.java"
-        ]
-      },
-      "path": "~/Mage/table/crafts"
-    },
-    {
-      "name": "MageTableCraftPulta",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mage_table_craft_pulta",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/MageTableCraftPultaProcedure.java"
-        ]
-      },
-      "path": "~/Mage/table/crafts"
-    },
-    {
-      "name": "MageTableCraftSword",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mage_table_craft_sword",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/MageTableCraftSwordProcedure.java"
-        ]
-      },
-      "path": "~/Mage/table/crafts"
-    },
-    {
-      "name": "MageTableCraftOrange",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mage_table_craft_orange",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/MageTableCraftOrangeProcedure.java"
-        ]
-      },
-      "path": "~/Mage/table/crafts"
-    },
-    {
-      "name": "MageTableCraftMultiTool",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mage_table_craft_multi_tool",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/MageTableCraftMultiToolProcedure.java"
-        ]
-      },
-      "path": "~/Mage/table/crafts"
-    },
-    {
-      "name": "MageTableCraftBarelik",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mage_table_craft_barelik",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/MageTableCraftBarelikProcedure.java"
-        ]
-      },
-      "path": "~/Mage/table/crafts"
-    },
-    {
-      "name": "MagetableuiPriZakrytiiIntierfieisa",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magetableui_pri_zakrytii_intierfieisa",
-      "metadata": {
-        "dependencies": [],
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/MagetableuiPriZakrytiiIntierfieisaProcedure.java"
-        ]
-      },
-      "path": "~/Mage/table"
-    },
-    {
       "name": "MageTableCraft",
       "type": "recipe",
       "compiles": true,
@@ -7246,90 +6989,10 @@
       "path": "~/Warrior/table"
     },
     {
-      "name": "WarriorTableCraftExample",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "warrior_table_craft_example",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/WarriorTableCraftExampleProcedure.java"
-        ]
-      },
-      "path": "~/Warrior/table/crafts"
-    },
-    {
-      "name": "WarriorTableCraftDrink",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "warrior_table_craft_drink",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/WarriorTableCraftDrinkProcedure.java"
-        ]
-      },
-      "path": "~/Warrior/table/crafts"
-    },
-    {
-      "name": "WarriorTableCraftSword",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "warrior_table_craft_sword",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/WarriorTableCraftSwordProcedure.java"
-        ]
-      },
-      "path": "~/Warrior/table/crafts"
-    },
-    {
-      "name": "WarriorTableCraftBow",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "warrior_table_craft_bow",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/WarriorTableCraftBowProcedure.java"
-        ]
-      },
-      "path": "~/Warrior/table/crafts"
-    },
-    {
       "name": "WarriorsForgeUIKazhdyiTikPokaIntierfieisOtkryt",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "warriors_forge_ui_kazhdyi_tik_poka_intierfieis_otkryt",
       "metadata": {
         "dependencies": [
@@ -8557,19 +8220,6 @@
       "path": "~/Warrior/equipment/flagellantsChestplate"
     },
     {
-      "name": "FlagellantsChestplateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flagellants_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/flagellants_chestplate_recipe.json"
-        ]
-      },
-      "path": "~/Warrior/equipment/flagellantsChestplate"
-    },
-    {
       "name": "StructureVoidCleaner",
       "type": "tool",
       "compiles": true,
@@ -9021,19 +8671,6 @@
       "path": "~/Engineer/equipment"
     },
     {
-      "name": "MouseZoom",
-      "type": "mixin",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "mouse_zoom",
-      "metadata": {
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/mixin/MouseZoomMixin.java"
-        ]
-      },
-      "path": "~/Engineer/equipment"
-    },
-    {
       "name": "WeldingmaskKazhdyiTikDliaShliema",
       "type": "procedure",
       "compiles": true,
@@ -9130,26 +8767,6 @@
         ]
       },
       "path": "~/Engineer/equipment"
-    },
-    {
-      "name": "MagetablecraftRune",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magetablecraft_rune",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/MagetablecraftRuneProcedure.java"
-        ]
-      },
-      "path": "~/Mage/table/crafts"
     },
     {
       "name": "Weldingmaskoverlay2",
@@ -9420,19 +9037,6 @@
           "src/main/resources/assets/forgotten_fairy_tales/models/block/smoke_pipe.json",
           "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/smoke_pipe.json",
           "src/main/resources/assets/forgotten_fairy_tales/blockstates/smoke_pipe.json"
-        ]
-      },
-      "path": "~/brown smoke"
-    },
-    {
-      "name": "AbstractFurnaceBlockEntity",
-      "type": "mixin",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "abstract_furnace_block_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/mixin/AbstractFurnaceBlockEntityMixin.java"
         ]
       },
       "path": "~/brown smoke"
@@ -10291,26 +9895,6 @@
       "path": "~/Mage/equipment"
     },
     {
-      "name": "MageTableCraftKnife",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mage_table_craft_knife",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/MageTableCraftKnifeProcedure.java"
-        ]
-      },
-      "path": "~/Mage/table/crafts"
-    },
-    {
       "name": "ArrowStrausingo",
       "type": "recipe",
       "compiles": true,
@@ -10338,26 +9922,6 @@
         ]
       },
       "path": "~/Engineer/equipment"
-    },
-    {
-      "name": "CWcraftbinoculars",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_wcraftbinoculars",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/CWcraftbinocularsProcedure.java"
-        ]
-      },
-      "path": "~/Engineer/table/crafts"
     },
     {
       "name": "BinocularsPriShchielchkiePKM",
@@ -10402,90 +9966,10 @@
       "path": "~/Engineer/equipment"
     },
     {
-      "name": "WarriorTableCraftBook",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "warrior_table_craft_book",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/WarriorTableCraftBookProcedure.java"
-        ]
-      },
-      "path": "~/Warrior/table/crafts"
-    },
-    {
-      "name": "CWcraftTeleporter",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_wcraft_teleporter",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/CWcraftTeleporterProcedure.java"
-        ]
-      },
-      "path": "~/Engineer/table/crafts"
-    },
-    {
-      "name": "CWcraftEGagarinhammer",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_wcraft_e_gagarinhammer",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/CWcraftEGagarinhammerProcedure.java"
-        ]
-      },
-      "path": "~/Engineer/table/crafts"
-    },
-    {
-      "name": "CWcraftWeldingMask",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c_wcraft_welding_mask",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/CWcraftWeldingMaskProcedure.java"
-        ]
-      },
-      "path": "~/Engineer/table/crafts"
-    },
-    {
       "name": "WarriorTableJEI",
       "type": "jeirecipetype",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "warrior_table_jei",
       "metadata": {
         "files": [
@@ -10551,7 +10035,7 @@
       "name": "ConstructorsWorkbenchJei",
       "type": "jeirecipetype",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "constructors_workbench_jei",
       "metadata": {
         "files": [
@@ -10617,7 +10101,7 @@
       "name": "MageTableJei",
       "type": "jeirecipetype",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "mage_table_jei",
       "metadata": {
         "files": [
@@ -10753,26 +10237,6 @@
       "path": "~/Warrior/equipment/GoldenSaddle"
     },
     {
-      "name": "WarriorTableCraftSaddle",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "warrior_table_craft_saddle",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/WarriorTableCraftSaddleProcedure.java"
-        ]
-      },
-      "path": "~/Warrior/table/crafts"
-    },
-    {
       "name": "WarriorTableSaddleJei",
       "type": "jeirecipe",
       "compiles": true,
@@ -10784,6 +10248,203 @@
         ]
       },
       "path": "~/Warrior/table/crafts"
+    },
+    {
+      "name": "CWRecipeInput",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cw_recipe_input",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/CWRecipeInput.java"
+        ]
+      },
+      "path": "~/Engineer/table"
+    },
+    {
+      "name": "CWRecipeT",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cw_recipe_t",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/CWRecipeT.java"
+        ]
+      },
+      "path": "~/Engineer/table"
+    },
+    {
+      "name": "CWRecipeSerializer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cw_recipe_serializer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/CWRecipeSerializer.java"
+        ]
+      },
+      "path": "~/Engineer/table"
+    },
+    {
+      "name": "CWRecipeTypes",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cw_recipe_types",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/CWRecipeTypes.java"
+        ]
+      },
+      "path": "~/Engineer/table"
+    },
+    {
+      "name": "ChangeTableGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/client/gui/ChangeTableGuiScreen.java",
+          "src/main/java/net/saik/forgottenfairytales/network/ChangeTableGuiButtonMessage.java",
+          "src/main/java/net/saik/forgottenfairytales/world/inventory/ChangeTableGuiMenu.java"
+        ]
+      },
+      "path": "~/klassmisc"
+    },
+    {
+      "name": "ChangeTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/block/ChangeTableBlock.java",
+          "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/change_table.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/change_table.json",
+          "src/main/resources/assets/forgotten_fairy_tales/blockstates/change_table.json",
+          "src/main/java/net/saik/forgottenfairytales/block/entity/ChangeTableBlockEntity.java",
+          "src/main/resources/assets/forgotten_fairy_tales/models/block/change_table.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/change_table.json"
+        ]
+      },
+      "path": "~/klassmisc"
+    },
+    {
+      "name": "ChangeTableGuiButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_table_gui_button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/procedures/ChangeTableGuiButtonProcedure.java"
+        ]
+      },
+      "path": "~/klassmisc"
+    },
+    {
+      "name": "WarriorTableChestplateJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warrior_table_chestplate_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/warrior_table_chestplate_jei.json"
+        ]
+      },
+      "path": "~/Warrior/table/crafts"
+    },
+    {
+      "name": "CWNewAgePickaxeJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cw_new_age_pickaxe_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/cw_new_age_pickaxe_jei.json"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "CWNewAgeShovelJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cw_new_age_shovel_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/cw_new_age_shovel_jei.json"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "CWNewAgeAxeJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cw_new_age_axe_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/cw_new_age_axe_jei.json"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "CWShotgunJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cw_shotgun_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/cw_shotgun_jei.json"
+        ]
+      },
+      "path": "~/Engineer/table/crafts"
+    },
+    {
+      "name": "MageTablePultaJei",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mage_table_pulta_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/recipe/mage_table_pulta_jei.json"
+        ]
+      },
+      "path": "~/Mage/table/crafts"
+    },
+    {
+      "name": "ChangeTableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/change_table_recipe.json",
+          "src/main/resources/data/forgotten_fairy_tales/recipe/change_table_recipe.json"
+        ]
+      },
+      "path": "~/klassmisc"
     }
   ],
   "variable_elements": [
@@ -11512,6 +11173,7 @@
       "~Blocks.CHAIN"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:ChangeTable",
       "~CUSTOM:WarriorsForge"
     ],
     "ITEMS:minecraft:coal": [
@@ -11559,6 +11221,10 @@
       "Blocks.WOOL#13",
       "Blocks.WOOL#14",
       "Blocks.WOOL#15"
+    ],
+    "ITEMS:minecraft:warriorbook": [
+      "Items.GOLDEN_APPLE#0",
+      "Items.SPECKLED_MELON"
     ]
   },
   "tab_element_order": {
@@ -11785,7 +11451,7 @@
       "item.forgotten_fairy_tales.iron_plate_block": "Блок листового железа",
       "item.forgotten_fairy_tales.flagellants_chestplate_chestplate": "Нагрудник флагеллянта",
       "item.forgotten_fairy_tales.structure_void_cleaner": "Structure Void Cleaner",
-      "effect.forgotten_fairy_tales.rune_of_protection_effect": "МАгический барьер",
+      "effect.forgotten_fairy_tales.rune_of_protection_effect": "Магический барьер",
       "item.forgotten_fairy_tales.soldier_chocolate": "Солдатская шоколадка",
       "item.forgotten_fairy_tales.soldier_chocolate_opened": "Солдатская шоколадка",
       "key.forgotten_fairy_tales.zoomkey": "Zoom",
@@ -11811,7 +11477,9 @@
       "item.forgotten_fairy_tales.ritual_knife": "Ritual Knife",
       "item.forgotten_fairy_tales.binoculars": "Бинокль",
       "item.forgotten_fairy_tales.binoculars.description_0": "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их",
-      "item.forgotten_fairy_tales.golden_saddle": "Золотое седло"
+      "item.forgotten_fairy_tales.golden_saddle": "Золотое седло",
+      "gui.forgotten_fairy_tales.change_table_gui.button_change": "",
+      "item.forgotten_fairy_tales.change_table": "Стол преобразований"
     },
     "ru_ru": {
       "gui.forgotten_fairy_tales.debugnaloz.label_d3": "d3",
@@ -12059,7 +11727,9 @@
       "item.forgotten_fairy_tales.ritual_knife": "Ritual Knife",
       "item.forgotten_fairy_tales.binoculars": "Бинокль",
       "item.forgotten_fairy_tales.binoculars.description_0": "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их",
-      "item.forgotten_fairy_tales.golden_saddle": "Золотое седло"
+      "item.forgotten_fairy_tales.golden_saddle": "Золотое седло",
+      "gui.forgotten_fairy_tales.change_table_gui.button_change": "",
+      "item.forgotten_fairy_tales.change_table": "Change Table"
     }
   },
   "metadata": {
@@ -12097,7 +11767,6 @@
       "src/main/java/net/saik/forgottenfairytales/network/ForgottenFairyTalesModVariables.java",
       "src/main/java/net/saik/forgottenfairytales/client/ItemArms.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRenderStateModifiers.java",
-      "src/main/resources/forgotten_fairy_tales.mixins.json",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/assets/forgotten_fairy_tales/sounds.json",
       "src/main/java/net/saik/forgottenfairytales/mixin/LivingEntityRendererMixin.java",
@@ -12375,7 +12044,7 @@
   "workspaceSettings": {
     "modid": "forgotten_fairy_tales",
     "modName": "Forgotten Fairy Tales",
-    "version": "0.1.8",
+    "version": "0.1.8.7.2",
     "author": "SaIK, PBN, Majastik, Senko_san, Kenwq",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",

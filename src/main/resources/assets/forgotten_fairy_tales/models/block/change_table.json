@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forgotten_fairy_tales:block/changetablebottom",
+    "up": "forgotten_fairy_tales:block/changetabletop",
+    "north": "forgotten_fairy_tales:block/changetable",
+    "east": "forgotten_fairy_tales:block/changetable",
+    "south": "forgotten_fairy_tales:block/changetable",
+    "west": "forgotten_fairy_tales:block/changetable",
+    "particle": "forgotten_fairy_tales:block/changetablebottom"
+  },
+  "render_type": "solid"
+}

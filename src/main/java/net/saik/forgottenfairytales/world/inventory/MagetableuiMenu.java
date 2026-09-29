@@ -1,6 +1,5 @@
 package net.saik.forgottenfairytales.world.inventory;
 
-import net.saik.forgottenfairytales.procedures.MagetableuiPriZakrytiiIntierfieisaProcedure;
 import net.saik.forgottenfairytales.procedures.MagetableuiKazhdyiTikPokaIntierfieisOtkrytProcedure;
 import net.saik.forgottenfairytales.network.MagetableuiSlotMessage;
 import net.saik.forgottenfairytales.init.ForgottenFairyTalesModMenus;
@@ -299,7 +298,6 @@ public class MagetableuiMenu extends AbstractContainerMenu implements ForgottenF
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
-		MagetableuiPriZakrytiiIntierfieisaProcedure.execute();
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {

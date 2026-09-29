@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "forgotten_fairy_tales:change_table",
     "forgotten_fairy_tales:warriors_forge"
   ]
 }

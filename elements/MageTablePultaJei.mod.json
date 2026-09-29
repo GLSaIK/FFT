@@ -1,0 +1,61 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "mage_table_jei",
+    "ingredients": [
+      {
+        "value": "Blocks.STRIPPED_OAK_WOOD"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.FIRE_CHARGE"
+      },
+      {
+        "value": "CUSTOM:ReinforcedRope"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.STRIPPED_OAK_WOOD"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:ReinforcedRope"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "MageTableJei",
+    "results": [
+      {
+        "value": "CUSTOM:Pulta"
+      }
+    ],
+    "resultCounts": [],
+    "count": 0
+  }
+}

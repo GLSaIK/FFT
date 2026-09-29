@@ -1,0 +1,25 @@
+{
+  "type": "forgotten_fairy_tales:mage_table_jei",
+  "ingredients": [
+    "minecraft:stripped_oak_wood",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:fire_charge",
+    "forgotten_fairy_tales:reinforced_rope",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:stripped_oak_wood",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:leather",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:stick",
+    "forgotten_fairy_tales:reinforced_rope",
+    "minecraft:stick",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:pulta",
+      "count": 1
+    }
+  ]
+}

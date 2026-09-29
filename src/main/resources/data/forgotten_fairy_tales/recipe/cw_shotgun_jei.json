@@ -1,0 +1,33 @@
+{
+  "type": "forgotten_fairy_tales:constructors_workbench_jei",
+  "ingredients": [
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "forgotten_fairy_tales:smoke_pipe",
+    "forgotten_fairy_tales:smoke_pipe",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:oak_slab",
+    "forgotten_fairy_tales:smoke_pipe",
+    "minecraft:iron_nugget",
+    "forgotten_fairy_tales:smoke_pipe",
+    "minecraft:oak_slab",
+    "minecraft:iron_ingot",
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:iron_ingot",
+    "minecraft:oak_slab",
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:tripwire_hook",
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:oak_slab",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:oak_slab",
+    "minecraft:oak_slab",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:shotgun",
+      "count": 1
+    }
+  ]
+}

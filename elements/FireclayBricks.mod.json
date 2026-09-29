@@ -139,9 +139,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "FireclayBricksPriShchielchkiePKMPoBloku"
-    },
     "onTickUpdate": {
       "name": "FireclayBricksPriObnovlieniiTika"
     },

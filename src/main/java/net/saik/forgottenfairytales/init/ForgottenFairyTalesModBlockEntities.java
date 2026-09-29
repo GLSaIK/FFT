@@ -36,6 +36,7 @@ public class ForgottenFairyTalesModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SaltBlockPressedBlockEntity>> SALT_BLOCK_PRESSED = register("salt_block_pressed", ForgottenFairyTalesModBlocks.SALT_BLOCK_PRESSED, SaltBlockPressedBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<FireclayBricksBlockEntity>> FIRECLAY_BRICKS = register("fireclay_bricks", ForgottenFairyTalesModBlocks.FIRECLAY_BRICKS, FireclayBricksBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BigBlastFurnaceBlockEntity>> BIG_BLAST_FURNACE = register("big_blast_furnace", ForgottenFairyTalesModBlocks.BIG_BLAST_FURNACE, BigBlastFurnaceBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ChangeTableBlockEntity>> CHANGE_TABLE = register("change_table", ForgottenFairyTalesModBlocks.CHANGE_TABLE, ChangeTableBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -57,5 +58,6 @@ public class ForgottenFairyTalesModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, SALT_BLOCK_PRESSED.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, FIRECLAY_BRICKS.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BIG_BLAST_FURNACE.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CHANGE_TABLE.get(), SidedInvWrapper::new);
 	}
 }

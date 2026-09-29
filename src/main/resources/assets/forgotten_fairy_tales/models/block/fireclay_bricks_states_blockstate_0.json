@@ -1,9 +1,9 @@
 {
-  "parent": "forgotten_fairy_tales:custom/blank",
+  "parent": "forgotten_fairy_tales:custom/blank2",
   "textures": {
     "all": "forgotten_fairy_tales:block/fireclayfurnaceside",
     "particle": "forgotten_fairy_tales:block/fireclayfurnaceside",
-    "0": "forgotten_fairy_tales:block/agranom_glove"
+    "missing": "forgotten_fairy_tales:block/cheeseincauldronepng"
   },
   "render_type": "solid"
 }

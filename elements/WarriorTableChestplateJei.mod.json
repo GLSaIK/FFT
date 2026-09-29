@@ -1,0 +1,52 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "warrior_table_jei",
+    "ingredients": [
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "WarriorTableJEI",
+    "results": [
+      {
+        "value": "CUSTOM:FlagellantsChestplate.body"
+      }
+    ],
+    "resultCounts": [],
+    "count": 0
+  }
+}

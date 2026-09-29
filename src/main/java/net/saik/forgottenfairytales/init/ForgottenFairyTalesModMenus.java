@@ -37,6 +37,7 @@ public class ForgottenFairyTalesModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<BasketUIMenu>> BASKET_UI = REGISTRY.register("basket_ui", () -> IMenuTypeExtension.create(BasketUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<CartridgePouchUIMenu>> CARTRIDGE_POUCH_UI = REGISTRY.register("cartridge_pouch_ui", () -> IMenuTypeExtension.create(CartridgePouchUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<BigBlastFurnaceGUIMenu>> BIG_BLAST_FURNACE_GUI = REGISTRY.register("big_blast_furnace_gui", () -> IMenuTypeExtension.create(BigBlastFurnaceGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ChangeTableGuiMenu>> CHANGE_TABLE_GUI = REGISTRY.register("change_table_gui", () -> IMenuTypeExtension.create(ChangeTableGuiMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

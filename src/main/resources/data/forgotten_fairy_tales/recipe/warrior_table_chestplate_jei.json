@@ -1,0 +1,22 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "minecraft:iron_sword",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_sword",
+    "minecraft:iron_sword",
+    "minecraft:chain",
+    "minecraft:iron_sword",
+    "minecraft:iron_ingot",
+    "minecraft:leather",
+    "minecraft:iron_ingot",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:flagellants_chestplate_chestplate",
+      "count": 1
+    }
+  ]
+}

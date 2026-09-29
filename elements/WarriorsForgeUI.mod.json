@@ -24,8 +24,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 187,
-          "y": 56,
+          "x": 142,
+          "y": 72,
           "locked": false
         }
       },
@@ -43,7 +43,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 205,
+          "x": 187,
           "y": 56,
           "locked": false
         }
@@ -62,7 +62,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 223,
+          "x": 205,
           "y": 56,
           "locked": false
         }
@@ -81,8 +81,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 187,
-          "y": 74,
+          "x": 223,
+          "y": 56,
           "locked": false
         }
       },
@@ -100,7 +100,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 205,
+          "x": 187,
           "y": 74,
           "locked": false
         }
@@ -119,7 +119,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 223,
+          "x": 205,
           "y": 74,
           "locked": false
         }
@@ -138,8 +138,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 187,
-          "y": 92,
+          "x": 223,
+          "y": 74,
           "locked": false
         }
       },
@@ -157,7 +157,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 205,
+          "x": 187,
           "y": 92,
           "locked": false
         }
@@ -176,7 +176,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 223,
+          "x": 205,
           "y": 92,
           "locked": false
         }
@@ -195,8 +195,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 142,
-          "y": 74,
+          "x": 223,
+          "y": 92,
           "locked": false
         }
       },

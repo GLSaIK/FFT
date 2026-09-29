@@ -97,52 +97,52 @@ public class WarriorsForgeUIMenu extends AbstractContainerMenu implements Forgot
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 62, 20) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 17, 36) {
 			private final int slot = 0;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 80, 20) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 62, 20) {
 			private final int slot = 1;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 98, 20) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 80, 20) {
 			private final int slot = 2;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 62, 38) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 98, 20) {
 			private final int slot = 3;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 80, 38) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 62, 38) {
 			private final int slot = 4;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 98, 38) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 80, 38) {
 			private final int slot = 5;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 62, 56) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 98, 38) {
 			private final int slot = 6;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;
 		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 80, 56) {
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 62, 56) {
 			private final int slot = 7;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;
 		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 98, 56) {
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 80, 56) {
 			private final int slot = 8;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;
 		}));
-		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 17, 38) {
+		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 98, 56) {
 			private final int slot = 9;
 			private int x = WarriorsForgeUIMenu.this.x;
 			private int y = WarriorsForgeUIMenu.this.y;

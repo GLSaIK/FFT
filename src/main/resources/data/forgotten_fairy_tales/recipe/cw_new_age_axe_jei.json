@@ -1,0 +1,33 @@
+{
+  "type": "forgotten_fairy_tales:constructors_workbench_jei",
+  "ingredients": [
+    "minecraft:raw_iron_block",
+    "minecraft:iron_nugget",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_nugget",
+    "forgotten_fairy_tales:iron_plate",
+    "forgotten_fairy_tales:drop",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "forgotten_fairy_tales:reinforced_rope",
+    "minecraft:raw_iron_block",
+    "forgotten_fairy_tales:reinforced_rope",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_nugget",
+    "forgotten_fairy_tales:ironrod",
+    "minecraft:iron_nugget",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "forgotten_fairy_tales:newageaxe",
+      "count": 1
+    }
+  ]
+}

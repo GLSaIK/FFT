@@ -27,6 +27,7 @@ public class ForgottenFairyTalesModScreens {
 		event.register(ForgottenFairyTalesModMenus.BASKET_UI.get(), BasketUIScreen::new);
 		event.register(ForgottenFairyTalesModMenus.CARTRIDGE_POUCH_UI.get(), CartridgePouchUIScreen::new);
 		event.register(ForgottenFairyTalesModMenus.BIG_BLAST_FURNACE_GUI.get(), BigBlastFurnaceGUIScreen::new);
+		event.register(ForgottenFairyTalesModMenus.CHANGE_TABLE_GUI.get(), ChangeTableGuiScreen::new);
 	}
 
 	public interface ScreenAccessor {

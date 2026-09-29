@@ -218,7 +218,7 @@
   "item.forgotten_fairy_tales.iron_plate_block": "Блок листового железа",
   "item.forgotten_fairy_tales.flagellants_chestplate_chestplate": "Нагрудник флагеллянта",
   "item.forgotten_fairy_tales.structure_void_cleaner": "Structure Void Cleaner",
-  "effect.forgotten_fairy_tales.rune_of_protection_effect": "МАгический барьер",
+  "effect.forgotten_fairy_tales.rune_of_protection_effect": "Магический барьер",
   "item.forgotten_fairy_tales.soldier_chocolate": "Солдатская шоколадка",
   "item.forgotten_fairy_tales.soldier_chocolate_opened": "Солдатская шоколадка",
   "key.forgotten_fairy_tales.zoomkey": "Zoom",
@@ -244,5 +244,7 @@
   "item.forgotten_fairy_tales.ritual_knife": "Ritual Knife",
   "item.forgotten_fairy_tales.binoculars": "Бинокль",
   "item.forgotten_fairy_tales.binoculars.description_0": "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их",
-  "item.forgotten_fairy_tales.golden_saddle": "Золотое седло"
+  "item.forgotten_fairy_tales.golden_saddle": "Золотое седло",
+  "gui.forgotten_fairy_tales.change_table_gui.button_change": "",
+  "item.forgotten_fairy_tales.change_table": "Стол преобразований"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " d "
+  ],
+  "key": {
+    "a": "minecraft:gold_nugget",
+    "b": "minecraft:white_carpet",
+    "c": "#minecraft:wooden_slabs",
+    "d": "minecraft:crafting_table"
+  },
+  "result": {
+    "id": "forgotten_fairy_tales:change_table",
+    "count": 1
+  }
+}
