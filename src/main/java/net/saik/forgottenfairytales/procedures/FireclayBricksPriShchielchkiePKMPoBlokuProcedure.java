@@ -275,7 +275,7 @@ public class FireclayBricksPriShchielchkiePKMPoBlokuProcedure {
 				}
 			}
 		}
-		if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip81 ? blockstate.getValue(_getip81) : -1) == 1) {
+		if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip81 ? blockstate.getValue(_getip81) : -1) == 1 && blockstate.getBlock() == ForgottenFairyTalesModBlocks.BIG_BLAST_FURNACE.get()) {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(getBlockNBTNumber(world, BlockPos.containing(x, y, z), "MasterX"), getBlockNBTNumber(world, BlockPos.containing(x, y, z), "MasterY"),
 						getBlockNBTNumber(world, BlockPos.containing(x, y, z), "MasterZ"));

@@ -25,7 +25,7 @@ import javax.annotation.Nullable;
 import java.util.stream.IntStream;
 
 public class SaltBlockPressedBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.withSize(9, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.withSize(0, ItemStack.EMPTY);
 
 	public SaltBlockPressedBlockEntity(BlockPos position, BlockState state) {
 		super(ForgottenFairyTalesModBlockEntities.SALT_BLOCK_PRESSED.get(), position, state);
