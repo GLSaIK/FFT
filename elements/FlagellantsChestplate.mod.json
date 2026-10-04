@@ -5,7 +5,7 @@
     "enableHelmet": false,
     "textureHelmet": "",
     "enableBody": true,
-    "textureBody": "minecraft:chainmail_chestplate",
+    "textureBody": "flaggelantschestplateicon",
     "enableLeggings": false,
     "textureLeggings": "",
     "enableBoots": false,
