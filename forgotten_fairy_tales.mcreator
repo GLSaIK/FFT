@@ -4870,14 +4870,14 @@
       "registry_name": "weldingmask",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/items/weldingmask_helmet.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/weldingmask_leggings.json",
           "src/main/resources/assets/forgotten_fairy_tales/equipment/weldingmask.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/weldingmask_helmet.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/weldingmask_chestplate.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/weldingmask_helmet.json",
           "src/main/java/net/saik/forgottenfairytales/item/WeldingmaskItem.java",
+          "src/main/java/net/saik/forgottenfairytales/client/renderer/item/WeldingmaskArmor.java",
+          "src/main/resources/assets/forgotten_fairy_tales/items/weldingmask_chestplate.json",
           "src/main/resources/assets/forgotten_fairy_tales/items/weldingmask_boots.json",
-          "src/main/java/net/saik/forgottenfairytales/client/renderer/item/WeldingmaskArmor.java"
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/weldingmask_helmet.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/weldingmask_leggings.json"
         ]
       },
       "path": "~/Engineer/equipment"
@@ -8671,37 +8671,6 @@
       "path": "~/Engineer/equipment"
     },
     {
-      "name": "WeldingmaskKazhdyiTikDliaShliema",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "weldingmask_kazhdyi_tik_dlia_shliema",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/saik/forgottenfairytales/procedures/WeldingmaskKazhdyiTikDliaShliemaProcedure.java"
-        ]
-      },
-      "path": "~/Engineer/equipment"
-    },
-    {
       "name": "BinocularsOverlayUsloviiePokazaNalozhieniia",
       "type": "procedure",
       "compiles": true,
@@ -9772,8 +9741,8 @@
       "registry_name": "raw_pyrite_block_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/forgotten_fairy_tales/recipe/raw_pyrite_block_recipe.json",
-          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/raw_pyrite_block_recipe.json"
+          "src/main/resources/data/forgotten_fairy_tales/advancement/recipes/raw_pyrite_block_recipe.json",
+          "src/main/resources/data/forgotten_fairy_tales/recipe/raw_pyrite_block_recipe.json"
         ]
       },
       "path": "~/Pyrite"
@@ -10445,6 +10414,25 @@
         ]
       },
       "path": "~/klassmisc"
+    },
+    {
+      "name": "PrahzeroPriShchielchkiePKM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prahzero_pri_shchielchkie_pkm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/forgottenfairytales/procedures/PrahzeroPriShchielchkiePKMProcedure.java"
+        ]
+      },
+      "path": "~/vasa"
     }
   ],
   "variable_elements": [
@@ -11400,7 +11388,7 @@
       "advancements.katanastr_achieve.title": "Затерянное место",
       "advancements.war_drink_achieve.title": "День за днём я пью",
       "advancements.war_drink_achieve.descr": "Выпейте целый стак оживляющих отваров",
-      "item.forgotten_fairy_tales.prahzero": "Prahzero",
+      "item.forgotten_fairy_tales.prahzero": "Remains zero",
       "advancements.fftachieve.title": "Забытые сказки",
       "advancements.fftachieve.descr": "Приветвуем вас",
       "advancements.mage_achieve.title": "Ты волшебник, волшебник....",
@@ -11735,14 +11723,14 @@
   "metadata": {
     "files": [
       "src/main/resources/data/forgotten_fairy_tales/tags/item/jei_empty_tag.json",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModJeiPlugin.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRecipeTypes.java",
       "src/main/java/net/saik/forgottenfairytales/jei_recipes/EmptyIngredient.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModJeiPlugin.java",
       "src/main/resources/data/neoforge/loot_modifiers/global_loot_modifiers.json",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModPotions.java",
+      "src/main/java/net/saik/forgottenfairytales/network/MenuStateUpdateMessage.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModScreens.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModMenus.java",
-      "src/main/java/net/saik/forgottenfairytales/network/MenuStateUpdateMessage.java",
       "src/main/java/net/saik/forgottenfairytales/client/renderer/item/LegacyOverrideSelectItemModel.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModKeyMappings.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModBrewingRecipes.java",
@@ -11755,27 +11743,27 @@
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModItems.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntities.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModEntityRenderers.java",
-      "src/main/java/net/saik/forgottenfairytales/network/PlayPlayerAnimationMessage.java",
-      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesModPlayerAnimationAPI.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesMod.java",
+      "src/main/java/net/saik/forgottenfairytales/network/ForgottenFairyTalesModVariables.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModModels.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandLayerMixin.java",
       "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/CameraAccessor.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/resources/assets/forgotten_fairy_tales/sounds.json",
+      "src/main/java/net/saik/forgottenfairytales/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesModPlayerAnimationAPI.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModTabs.java",
       "src/main/java/net/saik/forgottenfairytales/mixin/LevelRendererMixin.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationRendererMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/ForgottenFairyTalesMod.java",
-      "src/main/java/net/saik/forgottenfairytales/network/ForgottenFairyTalesModVariables.java",
-      "src/main/java/net/saik/forgottenfairytales/client/ItemArms.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRenderStateModifiers.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/forgotten_fairy_tales/sounds.json",
-      "src/main/java/net/saik/forgottenfairytales/mixin/LivingEntityRendererMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/ItemInHandLayerMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/CameraAccessor.java",
-      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationMixin.java",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModModels.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModSounds.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/saik/forgottenfairytales/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/saik/forgottenfairytales/client/ItemArms.java",
+      "src/main/java/net/saik/forgottenfairytales/mixin/PlayerAnimationMixin.java"
     ],
     "betteranimations_models": {
       "Gagarinhammer": "gagarinshammernew:default",

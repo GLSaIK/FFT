@@ -9,10 +9,14 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Prahzero",
-    "rarity": "COMMON",
-    "creativeTabs": [],
-    "stackSize": 64,
+    "name": "Remains zero",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Ffft"
+      }
+    ],
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -35,6 +39,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 99,
+    "onRightClickedInAir": {
+      "name": "PrahzeroPriShchielchkiePKM"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

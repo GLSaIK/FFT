@@ -45,7 +45,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Pyrite"
+      "value": "CUSTOM:RawPyriteBlock"
     },
     "name": "raw_pyrite_block_recipe",
     "namespace": "mod"

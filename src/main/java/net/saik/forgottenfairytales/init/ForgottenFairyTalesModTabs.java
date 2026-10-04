@@ -99,6 +99,7 @@ public class ForgottenFairyTalesModTabs {
 				tabData.accept(ForgottenFairyTalesModItems.ANIMATINGMATTERLIFE.get());
 				tabData.accept(ForgottenFairyTalesModItems.IRON_PLATE.get());
 				tabData.accept(ForgottenFairyTalesModBlocks.L_IVING_FRAGMENT.get().asItem());
+				tabData.accept(ForgottenFairyTalesModItems.PRAHZERO.get());
 				tabData.accept(ForgottenFairyTalesModBlocks.SALT_BLOCK.get().asItem());
 				tabData.accept(ForgottenFairyTalesModBlocks.LORE_VASE.get().asItem());
 				tabData.accept(ForgottenFairyTalesModBlocks.STRAUSINGOEGG.get().asItem());
