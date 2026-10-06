@@ -37,7 +37,7 @@ public class PicnicBasketItem extends Item {
 			serverPlayer.openMenu(new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Корзинка для пикника");
+					return Component.literal("Picnic basket");
 				}
 
 				@Override

@@ -9,7 +9,7 @@
     "customModelName": "agronomists_glove:default",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Перчатка Агронома",
+    "name": "Перчатка агронома",
     "specialInformation": {
       "fixedValue": []
     },

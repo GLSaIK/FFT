@@ -5,10 +5,11 @@
     "renderType": 0,
     "texture": "image_2026-01-05_23-59-49",
     "customModelName": "Normal",
+    "guiTexture": "",
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Оживленная материя",
+    "name": "Living matter",
     "rarity": "UNCOMMON",
     "creativeTabs": [
       {

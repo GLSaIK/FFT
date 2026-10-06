@@ -89,7 +89,7 @@ public class ChangeTableBlockEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Стол преобразований");
+		return Component.literal("Convertion table");
 	}
 
 	@Override

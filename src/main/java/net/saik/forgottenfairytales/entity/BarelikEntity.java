@@ -262,7 +262,7 @@ public class BarelikEntity extends TamableAnimal {
 			serverPlayer.openMenu(new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Бочонок");
+					return Component.literal("Barrel");
 				}
 
 				@Override

@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Оживлённая колонна",
+    "mobName": "Living column",
     "mobLabel": "",
     "mobModelName": "Modelcolomnnew",
     "mobModelTexture": "colomntexture.png",

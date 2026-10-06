@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Бочонок",
+    "mobName": "Barrel",
     "mobLabel": "",
     "mobModelName": "Modelbarrelik",
     "mobModelTexture": "barelik.png",

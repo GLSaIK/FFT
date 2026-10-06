@@ -81,7 +81,7 @@ public class StrausingoeggBlockEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Яйцо страусинго");
+		return Component.literal("Strausingo's egg");
 	}
 
 	@Override

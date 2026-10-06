@@ -43,7 +43,7 @@ public class ChangeTableBlock extends Block implements EntityBlock {
 			player.openMenu(new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Стол преобразований");
+					return Component.literal("Convertion table");
 				}
 
 				@Override

@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Ожившие кирпичи",
+    "mobName": "Living bricks",
     "mobLabel": "",
     "mobModelName": "Modelpomoshnick",
     "mobModelTexture": "livingbricks.png",

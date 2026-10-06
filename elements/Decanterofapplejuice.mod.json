@@ -9,7 +9,7 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Графин с яблочным соком",
+    "name": "Decanter of apple juice",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -53,7 +53,7 @@
       "value": "Items.GLASS_BOTTLE"
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "drink",
     "isMusicDisc": false,
     "musicDiscMusic": {

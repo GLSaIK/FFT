@@ -62,7 +62,6 @@ public class ForgottenFairyTalesMod {
 		ForgottenFairyTalesModEntities.REGISTRY.register(modEventBus);
 		ForgottenFairyTalesModTabs.REGISTRY.register(modEventBus);
 		ForgottenFairyTalesModVariables.ATTACHMENT_TYPES.register(modEventBus);
-		ForgottenFairyTalesModPotions.REGISTRY.register(modEventBus);
 		ForgottenFairyTalesModMobEffects.REGISTRY.register(modEventBus);
 		ForgottenFairyTalesModMenus.REGISTRY.register(modEventBus);
 		ForgottenFairyTalesModParticleTypes.REGISTRY.register(modEventBus);

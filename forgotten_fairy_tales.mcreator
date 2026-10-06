@@ -18,9 +18,9 @@
       "registry_name": "prahvoin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/prahvoin.json",
           "src/main/java/net/saik/forgottenfairytales/item/PrahvoinItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/prahvoin.json"
+          "src/main/resources/assets/forgotten_fairy_tales/items/prahvoin.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/prahvoin.json"
         ]
       },
       "path": "~/vasa"
@@ -56,9 +56,9 @@
       "registry_name": "prahmag",
       "metadata": {
         "files": [
+          "src/main/resources/assets/forgotten_fairy_tales/items/prahmag.json",
           "src/main/java/net/saik/forgottenfairytales/item/PrahmagItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/prahmag.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/prahmag.json"
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/prahmag.json"
         ]
       },
       "path": "~/vasa"
@@ -94,8 +94,8 @@
       "registry_name": "praheng",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/praheng.json",
           "src/main/java/net/saik/forgottenfairytales/item/PrahengItem.java",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/praheng.json",
           "src/main/resources/assets/forgotten_fairy_tales/items/praheng.json"
         ]
       },
@@ -228,9 +228,9 @@
       "registry_name": "coffe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/coffe.json",
           "src/main/java/net/saik/forgottenfairytales/item/CoffeItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/coffe.json"
+          "src/main/resources/assets/forgotten_fairy_tales/items/coffe.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/coffe.json"
         ]
       },
       "path": "~/coffeee"
@@ -290,8 +290,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/saik/forgottenfairytales/client/renderer/ColomnRenderer.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/colomn_spawn_egg.json",
-          "src/main/java/net/saik/forgottenfairytales/entity/ColomnEntity.java"
+          "src/main/java/net/saik/forgottenfairytales/entity/ColomnEntity.java",
+          "src/main/resources/assets/forgotten_fairy_tales/items/colomn_spawn_egg.json"
         ]
       },
       "path": "~/colomn"
@@ -1932,9 +1932,9 @@
       "registry_name": "drop",
       "metadata": {
         "files": [
+          "src/main/resources/assets/forgotten_fairy_tales/items/drop.json",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/drop.json",
-          "src/main/java/net/saik/forgottenfairytales/item/DropItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/drop.json"
+          "src/main/java/net/saik/forgottenfairytales/item/DropItem.java"
         ]
       },
       "path": "~/colomn"
@@ -1983,12 +1983,12 @@
       "registry_name": "vasa",
       "metadata": {
         "files": [
-          "src/main/java/net/saik/forgottenfairytales/block/VasaBlock.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/vasa.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/block/vasa.json",
           "src/main/resources/assets/forgotten_fairy_tales/blockstates/vasa.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/block/vasa.json",
+          "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/vasa.json",
+          "src/main/java/net/saik/forgottenfairytales/block/VasaBlock.java",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/vasa.json",
-          "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/vasa.json"
+          "src/main/resources/assets/forgotten_fairy_tales/items/vasa.json"
         ]
       },
       "path": "~/vasa"
@@ -2363,17 +2363,6 @@
         ]
       },
       "path": "~/vasa"
-    },
-    {
-      "name": "Brokenarmor",
-      "type": "potion",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brokenarmor",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/colomn"
     },
     {
       "name": "DaedalusbowPriShchielchkiePKM",
@@ -2971,9 +2960,9 @@
       "registry_name": "berrydelight",
       "metadata": {
         "files": [
+          "src/main/java/net/saik/forgottenfairytales/item/BerrydelightItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/berrydelight.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/berrydelight.json",
-          "src/main/java/net/saik/forgottenfairytales/item/BerrydelightItem.java"
+          "src/main/resources/assets/forgotten_fairy_tales/items/berrydelight.json"
         ]
       },
       "path": "~/food"
@@ -3001,8 +2990,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/saik/forgottenfairytales/item/CheeseItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/cheese.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/cheese.json"
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/cheese.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/cheese.json"
         ]
       },
       "path": "~/food"
@@ -3034,9 +3023,9 @@
       "registry_name": "milkwithenzymes",
       "metadata": {
         "files": [
+          "src/main/resources/assets/forgotten_fairy_tales/items/milkwithenzymes.json",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/milkwithenzymes.json",
-          "src/main/java/net/saik/forgottenfairytales/item/MilkwithenzymesItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/milkwithenzymes.json"
+          "src/main/java/net/saik/forgottenfairytales/item/MilkwithenzymesItem.java"
         ]
       },
       "path": "~/food"
@@ -3340,9 +3329,9 @@
       "registry_name": "agronomsglove",
       "metadata": {
         "files": [
+          "src/main/java/net/saik/forgottenfairytales/item/AgronomsgloveItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/agronomsglove.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/agronomsglove.json",
-          "src/main/java/net/saik/forgottenfairytales/item/AgronomsgloveItem.java"
+          "src/main/resources/assets/forgotten_fairy_tales/items/agronomsglove.json"
         ]
       },
       "path": "~/Dev_weapons/Agronoms_glove"
@@ -3707,9 +3696,9 @@
       "registry_name": "livingbricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/items/livingbricks_spawn_egg.json",
           "src/main/java/net/saik/forgottenfairytales/client/renderer/LivingbricksRenderer.java",
-          "src/main/java/net/saik/forgottenfairytales/entity/LivingbricksEntity.java"
+          "src/main/java/net/saik/forgottenfairytales/entity/LivingbricksEntity.java",
+          "src/main/resources/assets/forgotten_fairy_tales/items/livingbricks_spawn_egg.json"
         ]
       },
       "path": "~/colomn"
@@ -3741,9 +3730,9 @@
       "registry_name": "julienne",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/julienne.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/julienne.json",
           "src/main/java/net/saik/forgottenfairytales/item/JulienneItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/julienne.json"
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/julienne.json"
         ]
       },
       "path": "~/food"
@@ -3780,9 +3769,9 @@
       "registry_name": "sunshake",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/sunshake.json",
           "src/main/java/net/saik/forgottenfairytales/item/SunshakeItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/sunshake.json"
+          "src/main/resources/assets/forgotten_fairy_tales/items/sunshake.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/sunshake.json"
         ]
       },
       "path": "~/food"
@@ -4059,9 +4048,9 @@
       "registry_name": "ironrod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/ironrod.json",
           "src/main/java/net/saik/forgottenfairytales/item/IronrodItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/ironrod.json"
+          "src/main/resources/assets/forgotten_fairy_tales/items/ironrod.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/ironrod.json"
         ]
       },
       "path": "~/klassmisc"
@@ -4141,9 +4130,9 @@
       "registry_name": "icecream",
       "metadata": {
         "files": [
+          "src/main/resources/assets/forgotten_fairy_tales/items/icecream.json",
           "src/main/java/net/saik/forgottenfairytales/item/IcecreamItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/icecream.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/icecream.json"
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/icecream.json"
         ]
       },
       "path": "~/food"
@@ -4223,9 +4212,9 @@
       "registry_name": "milkbottle",
       "metadata": {
         "files": [
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/milkbottle.json",
           "src/main/java/net/saik/forgottenfairytales/item/MilkbottleItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/milkbottle.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/milkbottle.json"
+          "src/main/resources/assets/forgotten_fairy_tales/items/milkbottle.json"
         ]
       },
       "path": "~/food"
@@ -4252,9 +4241,9 @@
       "registry_name": "cacao",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/items/cacao.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/cacao.json",
           "src/main/java/net/saik/forgottenfairytales/item/CacaoItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/cacao.json"
+          "src/main/resources/assets/forgotten_fairy_tales/items/cacao.json"
         ]
       },
       "path": "~/coffeee"
@@ -4447,10 +4436,10 @@
       "registry_name": "barelik",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/barelik_spawn_egg.json",
-          "src/main/java/net/saik/forgottenfairytales/client/renderer/BarelikRenderer.java",
           "src/main/resources/assets/forgotten_fairy_tales/items/barelik_spawn_egg.json",
-          "src/main/java/net/saik/forgottenfairytales/entity/BarelikEntity.java"
+          "src/main/java/net/saik/forgottenfairytales/entity/BarelikEntity.java",
+          "src/main/java/net/saik/forgottenfairytales/client/renderer/BarelikRenderer.java",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/barelik_spawn_egg.json"
         ]
       },
       "path": "~/mobs/barelik"
@@ -4463,8 +4452,8 @@
       "registry_name": "animatingmatterlife",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/items/animatingmatterlife.json",
           "src/main/java/net/saik/forgottenfairytales/item/AnimatingmatterlifeItem.java",
+          "src/main/resources/assets/forgotten_fairy_tales/items/animatingmatterlife.json",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/animatingmatterlife.json"
         ]
       },
@@ -5872,8 +5861,8 @@
       "registry_name": "decanterofapplejuice",
       "metadata": {
         "files": [
-          "src/main/java/net/saik/forgottenfairytales/item/DecanterofapplejuiceItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/items/decanterofapplejuice.json",
+          "src/main/java/net/saik/forgottenfairytales/item/DecanterofapplejuiceItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/decanterofapplejuice.json"
         ]
       },
@@ -6049,9 +6038,9 @@
       "registry_name": "picnic_basket",
       "metadata": {
         "files": [
+          "src/main/java/net/saik/forgottenfairytales/item/PicnicBasketItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/picnic_basket.json",
           "src/main/java/net/saik/forgottenfairytales/item/inventory/PicnicBasketInventoryCapability.java",
-          "src/main/java/net/saik/forgottenfairytales/item/PicnicBasketItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/items/picnic_basket.json"
         ]
       },
@@ -6167,8 +6156,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/forgotten_fairy_tales/models/item/iron_plate.json",
-          "src/main/java/net/saik/forgottenfairytales/item/IronPlateItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/items/iron_plate.json"
+          "src/main/resources/assets/forgotten_fairy_tales/items/iron_plate.json",
+          "src/main/java/net/saik/forgottenfairytales/item/IronPlateItem.java"
         ]
       },
       "path": "~/klassmisc"
@@ -6405,9 +6394,9 @@
       "registry_name": "berry_bread",
       "metadata": {
         "files": [
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/berry_bread.json",
           "src/main/resources/assets/forgotten_fairy_tales/items/berry_bread.json",
-          "src/main/java/net/saik/forgottenfairytales/item/BerryBreadItem.java",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/berry_bread.json"
+          "src/main/java/net/saik/forgottenfairytales/item/BerryBreadItem.java"
         ]
       },
       "path": "~/food"
@@ -6486,9 +6475,9 @@
       "registry_name": "chokolatte",
       "metadata": {
         "files": [
+          "src/main/java/net/saik/forgottenfairytales/item/ChokolatteItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/items/chokolatte.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/chokolatte.json",
-          "src/main/java/net/saik/forgottenfairytales/item/ChokolatteItem.java"
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/chokolatte.json"
         ]
       },
       "path": "~/food"
@@ -6533,9 +6522,9 @@
       "registry_name": "blood_soup",
       "metadata": {
         "files": [
-          "src/main/java/net/saik/forgottenfairytales/item/BloodSoupItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/blood_soup.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/blood_soup.json"
+          "src/main/resources/assets/forgotten_fairy_tales/items/blood_soup.json",
+          "src/main/java/net/saik/forgottenfairytales/item/BloodSoupItem.java"
         ]
       },
       "path": "~/food"
@@ -7528,13 +7517,13 @@
       "registry_name": "strausingoegg",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/items/strausingoegg.json",
-          "src/main/java/net/saik/forgottenfairytales/block/StrausingoeggBlock.java",
+          "src/main/resources/assets/forgotten_fairy_tales/blockstates/strausingoegg.json",
           "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/strausingoegg.json",
-          "src/main/java/net/saik/forgottenfairytales/block/entity/StrausingoeggBlockEntity.java",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/strausingoegg.json",
           "src/main/resources/assets/forgotten_fairy_tales/models/block/strausingoegg.json",
-          "src/main/resources/assets/forgotten_fairy_tales/blockstates/strausingoegg.json"
+          "src/main/java/net/saik/forgottenfairytales/block/StrausingoeggBlock.java",
+          "src/main/resources/assets/forgotten_fairy_tales/items/strausingoegg.json",
+          "src/main/java/net/saik/forgottenfairytales/block/entity/StrausingoeggBlockEntity.java",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/strausingoegg.json"
         ]
       },
       "path": "~/mobs/strausingo"
@@ -7708,9 +7697,9 @@
       "registry_name": "strausingofeather",
       "metadata": {
         "files": [
+          "src/main/java/net/saik/forgottenfairytales/item/StrausingofeatherItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/strausingofeather.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/strausingofeather.json",
-          "src/main/java/net/saik/forgottenfairytales/item/StrausingofeatherItem.java"
+          "src/main/resources/assets/forgotten_fairy_tales/items/strausingofeather.json"
         ]
       },
       "path": "~/mobs/strausingo"
@@ -7757,8 +7746,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/forgotten_fairy_tales/items/egg_shard.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/egg_shard.json",
-          "src/main/java/net/saik/forgottenfairytales/item/EggShardItem.java"
+          "src/main/java/net/saik/forgottenfairytales/item/EggShardItem.java",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/egg_shard.json"
         ]
       },
       "path": "~/mobs/strausingo"
@@ -8028,11 +8017,11 @@
       "registry_name": "zgutik",
       "metadata": {
         "files": [
-          "src/main/resources/data/forgotten_fairy_tales/neoforge/biome_modifier/zgutik_biome_modifier.json",
-          "src/main/java/net/saik/forgottenfairytales/client/renderer/ZgutikRenderer.java",
           "src/main/resources/assets/forgotten_fairy_tales/items/zgutik_spawn_egg.json",
-          "src/main/java/net/saik/forgottenfairytales/entity/ZgutikEntity.java",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/zgutik_spawn_egg.json"
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/zgutik_spawn_egg.json",
+          "src/main/java/net/saik/forgottenfairytales/client/renderer/ZgutikRenderer.java",
+          "src/main/resources/data/forgotten_fairy_tales/neoforge/biome_modifier/zgutik_biome_modifier.json",
+          "src/main/java/net/saik/forgottenfairytales/entity/ZgutikEntity.java"
         ]
       },
       "path": "~/mobs/zgutik"
@@ -8156,12 +8145,12 @@
       "registry_name": "iron_plate_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/iron_plate_block.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/iron_plate_block.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/block/iron_plate_block.json",
           "src/main/java/net/saik/forgottenfairytales/block/IronPlateBlockBlock.java",
           "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/iron_plate_block.json",
-          "src/main/resources/assets/forgotten_fairy_tales/blockstates/iron_plate_block.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/iron_plate_block.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/block/iron_plate_block.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/iron_plate_block.json"
+          "src/main/resources/assets/forgotten_fairy_tales/blockstates/iron_plate_block.json"
         ]
       },
       "path": "~/klassmisc"
@@ -8294,9 +8283,9 @@
       "registry_name": "soldier_chocolate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/soldier_chocolate.json",
+          "src/main/java/net/saik/forgottenfairytales/item/SoldierChocolateItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/items/soldier_chocolate.json",
-          "src/main/java/net/saik/forgottenfairytales/item/SoldierChocolateItem.java"
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/soldier_chocolate.json"
         ]
       },
       "path": "~/food"
@@ -8309,8 +8298,8 @@
       "registry_name": "soldier_chocolate_opened",
       "metadata": {
         "files": [
-          "src/main/java/net/saik/forgottenfairytales/item/SoldierChocolateOpenedItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/soldier_chocolate_opened.json",
+          "src/main/java/net/saik/forgottenfairytales/item/SoldierChocolateOpenedItem.java",
           "src/main/resources/assets/forgotten_fairy_tales/items/soldier_chocolate_opened.json"
         ]
       },
@@ -9481,11 +9470,11 @@
       "registry_name": "char_coal_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/char_coal_block.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/char_coal_block.json",
           "src/main/resources/assets/forgotten_fairy_tales/models/item/char_coal_block.json",
+          "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/char_coal_block.json",
           "src/main/java/net/saik/forgottenfairytales/block/CharCoalBlockBlock.java",
           "src/main/resources/assets/forgotten_fairy_tales/blockstates/char_coal_block.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/char_coal_block.json",
           "src/main/resources/assets/forgotten_fairy_tales/models/block/char_coal_block.json"
         ]
       },
@@ -10293,13 +10282,13 @@
       "registry_name": "change_table",
       "metadata": {
         "files": [
-          "src/main/java/net/saik/forgottenfairytales/block/ChangeTableBlock.java",
-          "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/change_table.json",
-          "src/main/resources/assets/forgotten_fairy_tales/items/change_table.json",
           "src/main/resources/assets/forgotten_fairy_tales/blockstates/change_table.json",
+          "src/main/resources/assets/forgotten_fairy_tales/items/change_table.json",
+          "src/main/java/net/saik/forgottenfairytales/block/ChangeTableBlock.java",
           "src/main/java/net/saik/forgottenfairytales/block/entity/ChangeTableBlockEntity.java",
-          "src/main/resources/assets/forgotten_fairy_tales/models/block/change_table.json",
-          "src/main/resources/assets/forgotten_fairy_tales/models/item/change_table.json"
+          "src/main/resources/data/forgotten_fairy_tales/loot_table/blocks/change_table.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/item/change_table.json",
+          "src/main/resources/assets/forgotten_fairy_tales/models/block/change_table.json"
         ]
       },
       "path": "~/klassmisc"
@@ -11252,39 +11241,36 @@
       "gui.forgotten_fairy_tales.klassuieng.label_eng": "eng",
       "subtitles.dry": "",
       "subtitles.blocksw2": "",
-      "item.forgotten_fairy_tales.cheese": "Кусочек сыра",
+      "item.forgotten_fairy_tales.cheese": "Cheese",
       "key.forgotten_fairy_tales.reload": "Перезарядка",
       "subtitles.laser2": "",
       "gui.forgotten_fairy_tales.debugint.label_poghoda1": "погода",
-      "item.minecraft.tipped_arrow.effect.brokenarmor": "Стрела сломанной брони",
       "item.forgotten_fairy_tales.dfhg": "Dfhg",
       "gui.forgotten_fairy_tales.klassuimag.label_mag": "MAG",
       "gui.forgotten_fairy_tales.debugnaloz.label_empty": "",
-      "item.forgotten_fairy_tales.reinforced_rope": "Укреплённая верёвка",
+      "item.forgotten_fairy_tales.reinforced_rope": "Reinforced rope",
       "effect.forgotten_fairy_tales.sp": "Sp",
       "key.categories.fft": "Forgotten Fairy Tales",
-      "item.forgotten_fairy_tales.berrydelight": "Ягодный дессерт",
+      "item.forgotten_fairy_tales.berrydelight": "Berry delight",
       "item.forgotten_fairy_tales.book": "Книга первой помощи",
       "gui.forgotten_fairy_tales.debugint.button_reverse2": "rev",
       "gui.forgotten_fairy_tales.debugint.button_reverse3": "rev",
       "gui.forgotten_fairy_tales.debugint.label_klass": "klass",
-      "item.forgotten_fairy_tales.drop": "Оживленная материя",
+      "item.forgotten_fairy_tales.drop": "Living matter",
       "gui.forgotten_fairy_tales.debugint.button_reverse1": "rev",
       "gui.forgotten_fairy_tales.debugint.button_reverse4": "rev",
       "item.forgotten_fairy_tales.brokenteleport.description_0": "Вместо мгновенной телепортации помогает вам самим идти к нужному вам месту",
-      "item.forgotten_fairy_tales.prahvoin": "Прах Воина",
+      "item.forgotten_fairy_tales.prahvoin": "Warrior Ash",
       "effect.forgotten_fairy_tales.voinbaff": "Оживлённая сила",
-      "item.minecraft.lingering_potion.effect.brokenarmor": "Туманное зелье сломанной брони",
       "gui.forgotten_fairy_tales.debugnaloz.label_hp1": "HP",
       "block.forgotten_fairy_tales.cauldronwithfermentedmilk": "Cauldron with fermented milk",
       "item.forgotten_fairy_tales.coffe.description_0": "Кофе программиста непонятного состава (чрезвычайно крепкий)",
       "subtitles.load": "",
       "subtitles.book": "",
       "item.forgotten_fairy_tales.berrydelight.description_0": "Утоляет голод и даёт мотивацию",
-      "item.forgotten_fairy_tales.praheng": "Прах Инженера",
+      "item.forgotten_fairy_tales.praheng": "Engineer Ash",
       "key.forgotten_fairy_tales.hatkey": "Открыть интерфейс предмета",
       "block.forgotten_fairy_tales.vasa": "Ancient vase",
-      "item.minecraft.potion.effect.brokenarmor": "Зелье сломанной брони",
       "gui.forgotten_fairy_tales.debugnaloz.label_mag": "Mage",
       "gui.forgotten_fairy_tales.debugnaloz.label_voin": "Warrior",
       "item_group.forgotten_fairy_tales.fklass": "FFT:Классы",
@@ -11295,34 +11281,33 @@
       "gui.forgotten_fairy_tales.debugint.button_dozhd": "дождь",
       "item.forgotten_fairy_tales.bunch_of_arrows": "Связка стрел",
       "item_group.forgotten_fairy_tales.ffft": "Forgotten Fairy Tales items",
-      "item.forgotten_fairy_tales.nutrientblock": "Питательный батончик",
-      "item.minecraft.splash_potion.effect.brokenarmor": "Взрывное зелье сломанной брони",
+      "item.forgotten_fairy_tales.nutrientblock": "Nutritious bat",
       "gui.forgotten_fairy_tales.klassuivoin.label_voin": "voin",
       "gui.forgotten_fairy_tales.debugint.button_reverse": "rev",
       "gui.forgotten_fairy_tales.debugint.button_iasno": "ясно",
       "key.forgotten_fairy_tales.testsd": "Меню класса",
       "block.forgotten_fairy_tales.cauldronewithcheese": "Cauldron with cheese",
       "gui.forgotten_fairy_tales.debugnaloz.label_hp": "HP",
-      "entity.forgotten_fairy_tales.colomn": "Оживлённая колонна",
-      "item.forgotten_fairy_tales.coffe": "Кофе",
-      "item.forgotten_fairy_tales.milkwithenzymes": "Сгусток молока с грибными ферментами",
+      "entity.forgotten_fairy_tales.colomn": "Living column",
+      "item.forgotten_fairy_tales.coffe": "Coffee",
+      "item.forgotten_fairy_tales.milkwithenzymes": "Milk curd with fungal enzymes",
       "gui.forgotten_fairy_tales.debugint.label_drobovik": "дробовик",
       "block.forgotten_fairy_tales.livingstone": "Living block",
-      "item.forgotten_fairy_tales.prahmag": "Прах Мага",
+      "item.forgotten_fairy_tales.prahmag": "Mage Ash",
       "gui.forgotten_fairy_tales.debugint.button_zalochit": "залочить",
       "subtitles.shot2": "",
       "item.forgotten_fairy_tales.katana": "§6Странный клинок",
-      "item.forgotten_fairy_tales.tartar": "Тартар",
-      "item.forgotten_fairy_tales.agronomsglove": "Перчатка Агронома",
+      "item.forgotten_fairy_tales.tartar": "Tartar",
+      "item.forgotten_fairy_tales.agronomsglove": "Перчатка агронома",
       "item.forgotten_fairy_tales.trost": "Трость маджастика",
       "effect.forgotten_fairy_tales.armor": "Armor",
       "gui.forgotten_fairy_tales.debugint.label_poghoda": "время",
       "item.forgotten_fairy_tales.shotgun": "Shotgun",
-      "entity.forgotten_fairy_tales.livingbricks": "Ожившие кирпичи",
-      "item.forgotten_fairy_tales.julienne": "Жульен",
+      "entity.forgotten_fairy_tales.livingbricks": "Living bricks",
+      "item.forgotten_fairy_tales.julienne": "Julienne",
       "item.forgotten_fairy_tales.steel_bone_bow": "Лук металлической кости",
       "item.forgotten_fairy_tales.colomntr": "Colomntr",
-      "item.forgotten_fairy_tales.vasa": "Древняя ваза",
+      "item.forgotten_fairy_tales.vasa": "Ancient vase",
       "item.forgotten_fairy_tales.warriordrinkblock": "Оживительный отвар",
       "item.forgotten_fairy_tales.livingstone": "Живой блок",
       "item.forgotten_fairy_tales.cauldronwithfermentedmilk": "Котёл с молоком с грибными ферментами",
@@ -11336,33 +11321,33 @@
       "item.forgotten_fairy_tales.newageaxe": "Топор нового поколения",
       "item.forgotten_fairy_tales.newageshovel": "Лопата нового поколения",
       "effect.forgotten_fairy_tales.speedbust": "Speedboost",
-      "item.forgotten_fairy_tales.waffle": "Вафля",
+      "item.forgotten_fairy_tales.waffle": "waffle",
       "item.forgotten_fairy_tales.gagarinhammer": "Молоток \"Гагарин\"",
-      "item.forgotten_fairy_tales.ironrod": "Железный стержень",
-      "item.forgotten_fairy_tales.icecream": "Мороженое",
-      "item.forgotten_fairy_tales.roastedbone": "Жаренная кость",
-      "item.forgotten_fairy_tales.milkbottle": "Бутылочка молока",
-      "item.forgotten_fairy_tales.cacao": "Какао",
+      "item.forgotten_fairy_tales.ironrod": "Iron rod",
+      "item.forgotten_fairy_tales.icecream": "Ice cream",
+      "item.forgotten_fairy_tales.roastedbone": "Roasted bone",
+      "item.forgotten_fairy_tales.milkbottle": "Milk bottle",
+      "item.forgotten_fairy_tales.cacao": "Cacao",
       "item.forgotten_fairy_tales.bedrockwithkatana": "Бедрок с воткнутым мечем",
-      "item.forgotten_fairy_tales.barelik_spawn_egg": "Бочонок Spawn Egg",
-      "entity.forgotten_fairy_tales.barelik": "Бочонок",
-      "item.forgotten_fairy_tales.animatingmatterlife": "Animatingmatterlife",
+      "item.forgotten_fairy_tales.barelik_spawn_egg": "Barrel Spawn Egg",
+      "entity.forgotten_fairy_tales.barelik": "Barrel",
+      "item.forgotten_fairy_tales.animatingmatterlife": "Animating matter",
       "effect.forgotten_fairy_tales.effectanimatingmatterlife": "Effectanimatingmatterlife",
       "subtitles.wrench": "wrench",
-      "item.forgotten_fairy_tales.weldingmask_helmet": "Сварочная маска",
+      "item.forgotten_fairy_tales.weldingmask_helmet": "Welding Mask",
       "item.forgotten_fairy_tales.constructor_sworkbench": "Верстак конструктора",
       "item.forgotten_fairy_tales.iceswordbroken": "Осколок осколочного меча",
       "item.forgotten_fairy_tales.magetable": "Magetable",
-      "effect.forgotten_fairy_tales.stun": "Оглушение",
+      "effect.forgotten_fairy_tales.stun": "Stun",
       "item.forgotten_fairy_tales.glass_sword": "Осколочный меч",
       "effect.forgotten_fairy_tales.blockreachdecrease": "Blockreachdecrease",
-      "item.forgotten_fairy_tales.decanterofberrycompote": "Графин с ягодным компотом",
-      "item.forgotten_fairy_tales.decanterofapplejuice": "Графин с яблочным соком",
+      "item.forgotten_fairy_tales.decanterofberrycompote": "Decanter of berry compote",
+      "item.forgotten_fairy_tales.decanterofapplejuice": "Decanter of apple juice",
       "item.forgotten_fairy_tales.tourniquet": "Жгут",
       "item.forgotten_fairy_tales.warriors_forge": "Стол воина",
-      "item.forgotten_fairy_tales.picnic_basket": "Корзинка для пикника",
+      "item.forgotten_fairy_tales.picnic_basket": "Picnic basket",
       "item.forgotten_fairy_tales.picnic_basket_block": "Корзинка для пикника",
-      "item.forgotten_fairy_tales.iron_plate": "Железная пластина",
+      "item.forgotten_fairy_tales.iron_plate": "Iron plate",
       "item.forgotten_fairy_tales.undead_hunter_sword": "Меч охотника за нежитью",
       "item.forgotten_fairy_tales.cursed_magic_launcher": "Проклятая запускалка магии",
       "effect.forgotten_fairy_tales.magical_curse": "Магическое проклятие",
@@ -11371,10 +11356,10 @@
       "death.attack.curse.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.curse.player": "%1$s died whilst trying to escape %2$s",
       "effect.forgotten_fairy_tales.picnic_effect": "Picnic Effect",
-      "item.forgotten_fairy_tales.berry_bread": "Ягодный хлеб",
+      "item.forgotten_fairy_tales.berry_bread": "Berry bread",
       "item.forgotten_fairy_tales.cartridge_pouch": "Подсумок для патронов ",
-      "item.forgotten_fairy_tales.chokolatte": "Плитка шоколада",
-      "item.forgotten_fairy_tales.blood_soup": "Кровяная похлёбка",
+      "item.forgotten_fairy_tales.chokolatte": "Chocolate bar",
+      "item.forgotten_fairy_tales.blood_soup": "Blood soup",
       "key.forgotten_fairy_tales.z": "Z",
       "item.forgotten_fairy_tales.rune_of_protection": "Rune Of Protection",
       "item.forgotten_fairy_tales.l_iving_fragment": "Living Fragment",
@@ -11418,15 +11403,15 @@
       "subtitles.salt3": "",
       "item.forgotten_fairy_tales.lore_vase": "Lore Vase",
       "item.forgotten_fairy_tales.bream": "Bream",
-      "item.forgotten_fairy_tales.strausingoegg": "Яйцо страусинго",
+      "item.forgotten_fairy_tales.strausingoegg": "Strausingo\u0027s egg",
       "entity.forgotten_fairy_tales.strausingo": "Strausingo",
       "item.forgotten_fairy_tales.strausingo_spawn_egg": "Strausingo Spawn Egg",
-      "item.forgotten_fairy_tales.strausingofeather": "Перо страусинго",
+      "item.forgotten_fairy_tales.strausingofeather": "Strausingo\u0027s feather",
       "gui.forgotten_fairy_tales.weldingmaskoverlay.label_empty": "",
       "item_group.forgotten_fairy_tales.warrior": "Воин",
       "item_group.forgotten_fairy_tales.mage": "Маг",
       "item_group.forgotten_fairy_tales.engineer": "Инженер",
-      "item.forgotten_fairy_tales.egg_shard": "Осколок яйца страусинго",
+      "item.forgotten_fairy_tales.egg_shard": "Strausingo\u0027s egg shard",
       "item.forgotten_fairy_tales.bulletshotgun.description_0": "Патрон универсальный 1 штука",
       "item.forgotten_fairy_tales.bfs": "Шмаляло",
       "effect.forgotten_fairy_tales.broken_armor": "Сломанная броня",
@@ -11436,12 +11421,12 @@
       "EngTrak1": "Приветсвую вас, взможный получатель моего наследия Не пытайтесь обратиться ко мне — я не способен видеть ваши действия или слышать ваши слова. Всё, что оставлено здесь, является заранее подготовленным наставлением. В случае изъявления желания продолжить мое дело, вам необходимо получить и поглотить часть моего праха. Для получения дополнительной информации рекомендуется обратиться в ближайшую Академию Инженерных Специальностей или Логистическому центру. Подобные сооружения расположены во многих регионах и содержат необходимые материалы для дальнейшего вашего развития Настоятельно рекомендую сохранять полученные знания в письменном виде. Память несовершенна, а ошибки при работе с технологиями могут привести к необратимым последствиям.",
       "EngTrak2": "Приветсвую вас, получатель моего наследия. После поглощения моего праха вы получите малую долю моих способностей. Вместе с ней в вашем распоряжении окажется одно из созданных мною оружий.  Следует понимать, что полученная сила является лишь фрагментом, однако она уже может дать вам преимущество над остальными существами. Для достижения моего прогресса потребуется собрать множество материалов и чертежей. Данный процесс займёт значительное время и потребует соответствующих усилий. В качестве первого дара вам будет передано одно из нескольких базовых оружий. Оно может помочь в вашем выживании первое время, а так же даст вам понятие о азах инженерии.",
       "EngTrak3": "Обязательное предупреждение. В течение некоторого времени после поглощения праха возможны побочные эффекты различной степени тяжести. Наиболее вероятными считаются: ускоренное истощение организма; чувство дезориентации; временная слабость; изменение вкусовых предпочтений; возможность поглощать в пищу то, что ранее счиатлось оспасным или не съедобным.  Данные явления являются следствием интеграции части моей сущности в вашу. В большинстве случаев они не представляют угрозы для жизни и постепенно ослабевают по мере адаптации организма. Поглощение праха осуществляется Вами на его собственный страх и риск.  Мы отказывается от каких-либо гарантий, явных или подразумеваемых, и не несем ответственности за любые прямые, косвенные или случайные убытки, возникшие в связи с поглощением праха и последующими изменениями в организме и сознании",
-      "item.forgotten_fairy_tales.iron_plate_block": "Блок листового железа",
+      "item.forgotten_fairy_tales.iron_plate_block": "Iron plate block",
       "item.forgotten_fairy_tales.flagellants_chestplate_chestplate": "Нагрудник флагеллянта",
       "item.forgotten_fairy_tales.structure_void_cleaner": "Structure Void Cleaner",
       "effect.forgotten_fairy_tales.rune_of_protection_effect": "Магический барьер",
-      "item.forgotten_fairy_tales.soldier_chocolate": "Солдатская шоколадка",
-      "item.forgotten_fairy_tales.soldier_chocolate_opened": "Солдатская шоколадка",
+      "item.forgotten_fairy_tales.soldier_chocolate": "Soldier chocolate",
+      "item.forgotten_fairy_tales.soldier_chocolate_opened": "Soldier chocolate",
       "key.forgotten_fairy_tales.zoomkey": "Zoom",
       "gui.forgotten_fairy_tales.weldingmaskoverlay_2.label_empty": "",
       "item.forgotten_fairy_tales.salt_block_pressed": "Спрессованная соль",
@@ -11459,7 +11444,7 @@
       "gui.forgotten_fairy_tales.big_blast_furnace_gui.label_blasting": "blasting",
       "gui.forgotten_fairy_tales.big_blast_furnace_gui.label_fuel": "fuel",
       "item.forgotten_fairy_tales.sulfur": "Сера",
-      "item.forgotten_fairy_tales.char_coal_block": "Блок древесного угля",
+      "item.forgotten_fairy_tales.char_coal_block": "Charcoal block",
       "item.forgotten_fairy_tales.raw_pyrite_block": "Блок рудного пирита",
       "item.forgotten_fairy_tales.scabbard": "Scabbard",
       "item.forgotten_fairy_tales.ritual_knife": "Ritual Knife",
@@ -11467,7 +11452,7 @@
       "item.forgotten_fairy_tales.binoculars.description_0": "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их",
       "item.forgotten_fairy_tales.golden_saddle": "Золотое седло",
       "gui.forgotten_fairy_tales.change_table_gui.button_change": "",
-      "item.forgotten_fairy_tales.change_table": "Стол преобразований"
+      "item.forgotten_fairy_tales.change_table": "Convertion table"
     },
     "ru_ru": {
       "gui.forgotten_fairy_tales.debugnaloz.label_d3": "d3",
@@ -11506,7 +11491,6 @@
       "key.forgotten_fairy_tales.reload": "Перезарядка",
       "subtitles.laser2": "",
       "gui.forgotten_fairy_tales.debugint.label_poghoda1": "погода",
-      "item.minecraft.tipped_arrow.effect.brokenarmor": "Стрела сломанной брони",
       "item.forgotten_fairy_tales.dfhg": "Dfhg",
       "gui.forgotten_fairy_tales.klassuimag.label_mag": "MAG",
       "gui.forgotten_fairy_tales.debugnaloz.label_empty": "",
@@ -11524,7 +11508,6 @@
       "item.forgotten_fairy_tales.brokenteleport.description_0": "Вместо мгновенной телепортации помогает вам самим идти к нужному вам месту",
       "item.forgotten_fairy_tales.prahvoin": "Прах Воина",
       "effect.forgotten_fairy_tales.voinbaff": "Оживлённая сила",
-      "item.minecraft.lingering_potion.effect.brokenarmor": "Туманное зелье сломанной брони",
       "gui.forgotten_fairy_tales.debugnaloz.label_hp1": "HP",
       "block.forgotten_fairy_tales.cauldronwithfermentedmilk": "Котёл с молоком с грибными ферментами",
       "item.forgotten_fairy_tales.coffe.description_0": "Кофе непонятного состава (чрезвычайно крепкий)",
@@ -11534,7 +11517,6 @@
       "item.forgotten_fairy_tales.praheng": "Прах Инженера",
       "key.forgotten_fairy_tales.hatkey": "Открыть интерфейс шляпы",
       "block.forgotten_fairy_tales.vasa": "Древняя ваза",
-      "item.minecraft.potion.effect.brokenarmor": "Зелье сломанной брони",
       "gui.forgotten_fairy_tales.debugnaloz.label_mag": "mag",
       "gui.forgotten_fairy_tales.debugnaloz.label_voin": "voin",
       "item_group.forgotten_fairy_tales.fklass": "FFT:Классы",
@@ -11546,7 +11528,6 @@
       "item.forgotten_fairy_tales.bunch_of_arrows": "Связка стрел",
       "item_group.forgotten_fairy_tales.ffft": "Forgotten Fairy Tales items",
       "item.forgotten_fairy_tales.nutrientblock": "Питательный батончик",
-      "item.minecraft.splash_potion.effect.brokenarmor": "Взрывное зелье сломанной брони",
       "gui.forgotten_fairy_tales.klassuivoin.label_voin": "voin",
       "gui.forgotten_fairy_tales.debugint.button_reverse": "rev",
       "gui.forgotten_fairy_tales.debugint.button_iasno": "ясно",
@@ -11727,7 +11708,6 @@
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModRecipeTypes.java",
       "src/main/java/net/saik/forgottenfairytales/jei_recipes/EmptyIngredient.java",
       "src/main/resources/data/neoforge/loot_modifiers/global_loot_modifiers.json",
-      "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModPotions.java",
       "src/main/java/net/saik/forgottenfairytales/network/MenuStateUpdateMessage.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModScreens.java",
       "src/main/java/net/saik/forgottenfairytales/init/ForgottenFairyTalesModMenus.java",
