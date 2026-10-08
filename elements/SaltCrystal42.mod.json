@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Кристалл соли",
+    "name": "Salt crystal",
     "specialInformation": {
       "fixedValue": []
     },
@@ -54,12 +54,12 @@
     "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:Salt"
     },
-    "dropAmount": 0,
+    "dropAmount": 4,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
-    "useLootTableForDrops": true,
+    "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,

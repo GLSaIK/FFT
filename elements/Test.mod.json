@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Забытые сказки",
-    "achievementDescription": "Приветвуем вас",
+    "achievementName": "Forgotten fairy tales",
+    "achievementDescription": "Welcome",
     "achievementIcon": {
       "value": "CUSTOM:Prahzero"
     },

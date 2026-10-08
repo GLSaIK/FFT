@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Преклони колено",
-    "achievementDescription": "Станьте воином",
+    "achievementName": "Bend a knee",
+    "achievementDescription": "Become a warrior",
     "achievementIcon": {
       "value": "CUSTOM:Prahvoin"
     },

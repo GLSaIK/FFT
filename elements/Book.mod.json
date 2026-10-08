@@ -9,10 +9,10 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Книга первой помощи",
+    "name": "First Aid book",
     "specialInformation": {
       "fixedValue": [
-        "Простейший справочник, в котором описано 42 способа вправить левую пятку"
+        "A simple guide describing 42 ways to reset the left heel."
       ]
     },
     "creativeTabs": [

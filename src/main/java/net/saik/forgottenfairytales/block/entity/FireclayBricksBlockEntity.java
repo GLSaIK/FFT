@@ -86,7 +86,7 @@ public class FireclayBricksBlockEntity extends RandomizableContainerBlockEntity 
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Шамотные кирпичи");
+		return Component.literal("Fireclay bricks");
 	}
 
 	@Override

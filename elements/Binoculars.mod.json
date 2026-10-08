@@ -9,7 +9,7 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Бинокль",
+    "name": "Binoculars",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -33,7 +33,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Держите бинокль в главной руке, а сварочную маску во второй, чтобы объединить их"
+        "Hold the binoculars in your dominant hand and the welding mask in the other to combine them"
       ]
     },
     "glowCondition": {

@@ -33,7 +33,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Утоляет голод и даёт мотивацию"
+        "Satisfies hunger and provides motivation"
       ]
     },
     "glowCondition": {

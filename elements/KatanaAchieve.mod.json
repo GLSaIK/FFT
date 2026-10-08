@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Урвать недоступную силу",
-    "achievementDescription": "Это явно не пренадлежит вам",
+    "achievementName": "Seize an unattainable power",
+    "achievementDescription": "This clearly doesn't belong to you.",
     "achievementIcon": {
       "value": "CUSTOM:Katana"
     },

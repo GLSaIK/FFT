@@ -6,6 +6,7 @@ import net.saik.forgottenfairytales.procedures.FireclayBricksPriObnovlieniiTikaP
 import net.saik.forgottenfairytales.block.entity.FireclayBricksBlockEntity;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -22,11 +23,12 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 public class FireclayBricksBlock extends Block implements EntityBlock {
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 1);
-	private static final VoxelShape SHAPE_1 = box(1, 1, 1, 15, 15, 15);
+	private static final VoxelShape SHAPE_1 = box(0, 0, 0, 16, 16, 16);
 	private static final VoxelShape SHAPE = box(0, 0, 0, 16, 16, 16);
 
 	public FireclayBricksBlock(BlockBehaviour.Properties properties) {
@@ -36,12 +38,27 @@ public class FireclayBricksBlock extends Block implements EntityBlock {
 					return 0;
 				return 0;
 			}
-		}.getLightLevel())));
+		}.getLightLevel())).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+	}
+
+	@Override
+	public boolean skipRendering(BlockState state, BlockState adjacentBlockState, Direction side) {
+		return adjacentBlockState.getBlock() == this ? true : super.skipRendering(state, adjacentBlockState, side);
+	}
+
+	@Override
+	public boolean propagatesSkylightDown(BlockState state) {
+		return true;
 	}
 
 	@Override
 	public int getLightBlock(BlockState state) {
-		return 15;
+		return 0;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
 	}
 
 	@Override

@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Пальцы в рот не совать",
-    "achievementDescription": "Получите шляпу-мимик",
+    "achievementName": "Do not put fingers in it's mouth",
+    "achievementDescription": "get Mimic-hat",
     "achievementIcon": {
       "value": "CUSTOM:Hat.helmet"
     },

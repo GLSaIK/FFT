@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "potioneffect",
   "definition": {
-    "effectName": "Тяжелая травма",
+    "effectName": "Heavy injury",
     "icon": "bleeding",
     "color": {
       "value": -1,

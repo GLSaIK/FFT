@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "День за днём я пью",
-    "achievementDescription": "Выпейте целый стак оживляющих отваров",
+    "achievementName": "Day after day I drink",
+    "achievementDescription": "Drink a full stack of revitalizing decoctations",
     "achievementIcon": {
       "value": "Items.IRON_PICKAXE"
     },

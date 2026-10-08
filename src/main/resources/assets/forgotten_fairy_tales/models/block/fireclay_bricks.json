@@ -4,5 +4,5 @@
     "all": "forgotten_fairy_tales:block/fireclay_bricks",
     "particle": "forgotten_fairy_tales:block/fireclay_bricks"
   },
-  "render_type": "solid"
+  "render_type": "cutout_mipped"
 }

@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Наконец-то я собрал все 3",
-    "achievementDescription": "Соберите все начальные оружия из мода",
+    "achievementName": "Finally, I got all three...",
+    "achievementDescription": "Collect all basic weapons",
     "achievementIcon": {
       "value": "Items.WRITABLE_BOOK"
     },

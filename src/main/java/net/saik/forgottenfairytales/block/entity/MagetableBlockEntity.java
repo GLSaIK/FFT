@@ -89,7 +89,7 @@ public class MagetableBlockEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Magetable");
+		return Component.literal("Mage's table");
 	}
 
 	@Override

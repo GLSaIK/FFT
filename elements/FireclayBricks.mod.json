@@ -16,16 +16,16 @@
     "displayFluidOverlay": false,
     "animations": [],
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "fireclay_bricks",
     "blockSetType": "OAK",
     "pottedPlant": {
       "value": ""
     },
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
-    "connectedSides": false,
-    "transparencyType": "SOLID",
+    "hasTransparency": true,
+    "connectedSides": true,
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Шамотные кирпичи",
+    "name": "Fireclay bricks",
     "specialInformation": {
       "fixedValue": []
     },
@@ -68,7 +68,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "tickRate": 2,
     "tickRandomly": false,
     "isReplaceable": false,

@@ -3,7 +3,7 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "R",
-    "keyBindingName": "Перезарядка",
+    "keyBindingName": "Reload",
     "keyBindingCategoryKey": "fft",
     "onKeyPressed": {
       "name": "ReloadPriNazhatiiKlavishi"

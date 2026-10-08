@@ -81,7 +81,7 @@ public class SaltBlockPressedBlockEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Спрессованная соль");
+		return Component.literal("Pressed salt");
 	}
 
 	@Override

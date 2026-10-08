@@ -22,7 +22,7 @@ public class BFSItem extends Item {
 	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity, InteractionHand hand) {
 		boolean retval = super.onEntitySwing(itemstack, entity, hand);
 		BFSPriVzmakhieSushchnostiPriedmietomProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
-		return retval;
+		return true;
 	}
 
 	@Override

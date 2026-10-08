@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "potioneffect",
   "definition": {
-    "effectName": "Магический барьер",
+    "effectName": "Magic barrier",
     "icon": "second_chance_icon",
     "color": {
       "value": -256,

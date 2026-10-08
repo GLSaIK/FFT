@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Я умею решать проблемы",
-    "achievementDescription": "Станьте инженером",
+    "achievementName": "That means I solve problems",
+    "achievementDescription": "Become an engineer",
     "achievementIcon": {
       "value": "CUSTOM:Praheng"
     },

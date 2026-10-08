@@ -1,7 +1,6 @@
 package net.saik.forgottenfairytales.procedures;
 
 import net.saik.forgottenfairytales.CWRecipeInput;
-import net.saik.forgottenfairytales.CWRecipeTypes;
 import net.saik.forgottenfairytales.init.ForgottenFairyTalesModMenus;
 
 import net.minecraft.world.item.ItemStack;

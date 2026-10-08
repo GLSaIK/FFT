@@ -89,7 +89,7 @@ public class BigBlastFurnaceBlockEntity extends RandomizableContainerBlockEntity
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Большая плавильня");
+		return Component.literal("Big blast furnace");
 	}
 
 	@Override

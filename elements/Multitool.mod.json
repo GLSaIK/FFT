@@ -9,7 +9,7 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Мульти-инструмент",
+    "name": "MultiTool",
     "specialInformation": {
       "fixedValue": []
     },

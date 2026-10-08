@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Торопыга",
-    "achievementDescription": "Куда вы так торопитесь?",
+    "achievementName": "Bustler",
+    "achievementDescription": "What's the rush?",
     "achievementIcon": {
       "value": "CUSTOM:Warriordrink"
     },

@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Ты волшебник, волшебник....",
-    "achievementDescription": "Станьте магом",
+    "achievementName": "You are a wizard, Wizard",
+    "achievementDescription": "Become a mage",
     "achievementIcon": {
       "value": "CUSTOM:Prahmag"
     },

@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "О повезло — повезло",
-    "achievementDescription": "Найдите секретный напиток разрабов",
+    "achievementName": "Lucky you",
+    "achievementDescription": "Find developer's drink",
     "achievementIcon": {
       "value": "CUSTOM:Coffe"
     },

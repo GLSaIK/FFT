@@ -156,7 +156,7 @@ public class BigBlastFurnaceBlock extends Block implements EntityBlock {
 			player.openMenu(new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Большая плавильня");
+					return Component.literal("Big blast furnace");
 				}
 
 				@Override

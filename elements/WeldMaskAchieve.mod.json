@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Парень работящий",
-    "achievementDescription": "Получите сварочную маску(аппарат не выдали)",
+    "achievementName": "Hard worker",
+    "achievementDescription": "Get a welding mask (welding machine not included)",
     "achievementIcon": {
       "value": "CUSTOM:Weldingmask.helmet"
     },

@@ -89,7 +89,7 @@ public class ConstructorSworkbenchBlockEntity extends RandomizableContainerBlock
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Верстак конструктора");
+		return Component.literal("Constructor's workbench");
 	}
 
 	@Override

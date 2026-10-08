@@ -3,7 +3,7 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "TAB",
-    "keyBindingName": "Открыть интерфейс предмета",
+    "keyBindingName": "Open item interface",
     "keyBindingCategoryKey": "fft",
     "onKeyPressed": {
       "name": "HatkeyPriNazhatiiKlavishi"

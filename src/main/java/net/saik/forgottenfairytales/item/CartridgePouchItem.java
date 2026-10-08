@@ -35,7 +35,7 @@ public class CartridgePouchItem extends Item {
 			serverPlayer.openMenu(new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Подсумок для патронов ");
+					return Component.literal("Cartridge pouch");
 				}
 
 				@Override

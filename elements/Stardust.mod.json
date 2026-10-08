@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Стардаст",
-    "achievementDescription": "Убейте первого босса мода",
+    "achievementName": "Battle tendency",
+    "achievementDescription": "Defeat the first boss",
     "achievementIcon": {
       "value": "CUSTOM:RuneOfProtection"
     },
